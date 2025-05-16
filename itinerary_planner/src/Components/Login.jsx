@@ -1,12 +1,13 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom'
-import './style.css'
+import '../styles/style.css'
 
 function Login() {
   const navigate = useNavigate();
 
   return (
     <>
+    {/*fasdfasdf */}
       <h1>Login</h1>
       <div className="login">
         <input type="email" placeholder="Email" />
