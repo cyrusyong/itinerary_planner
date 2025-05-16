@@ -3,7 +3,6 @@ import { useNavigate } from 'react-router-dom'
 import './Login.css'
 
 function Login() {
-  const [count, setCount] = useState(0)
   const navigate = useNavigate()
 
   return (
