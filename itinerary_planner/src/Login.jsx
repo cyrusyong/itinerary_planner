@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom'
 import './style.css'
 
 function Login() {
-  const navigate = useNavigate()
+  const navigate = useNavigate();
 
   return (
     <>
@@ -12,6 +12,7 @@ function Login() {
         <input type="email" placeholder="Email" />
         <input type="password" placeholder="Password" />
         <button>Log In</button>
+      </div>
       <div className="card">
         <button onClick={() => {
           navigate("/")
