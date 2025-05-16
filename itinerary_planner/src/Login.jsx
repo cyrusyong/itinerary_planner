@@ -1,7 +1,9 @@
 import { useState } from 'react';
+import { useNavigate } from 'react-router-dom'
 import './style.css'
 
 function Login() {
+  const navigate = useNavigate()
 
   return (
     <>
@@ -10,6 +12,12 @@ function Login() {
         <input type="email" placeholder="Email" />
         <input type="password" placeholder="Password" />
         <button>Log In</button>
+      <div className="card">
+        <button onClick={() => {
+          navigate("/")
+        }}>
+          Go back to Home
+        </button>
       </div>
     </>
   )
