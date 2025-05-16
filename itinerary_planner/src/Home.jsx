@@ -1,8 +1,10 @@
 import { useState } from 'react'
 import './Home.css'
+import { useNavigate } from 'react-router-dom'
 
 function Home() {
   const [count, setCount] = useState(0)
+  const navigate = useNavigate()
 
   return (
     <>
@@ -10,6 +12,12 @@ function Home() {
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
+        </button>
+
+        <button onClick={() => {
+          navigate('/login')
+        }}>
+          Go to Login Page
         </button>
       </div>
     </>
