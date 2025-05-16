@@ -1,19 +1,18 @@
-import { useState } from 'react'
-import './Login.css'
+import { useState } from 'react';
+import './style.css'
 
 function Login() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
       <h1>Login</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
+      <div className="login">
+        <input type="email" placeholder="Email" />
+        <input type="password" placeholder="Password" />
+        <button>Log In</button>
       </div>
     </>
   )
 }
 
-export default Home
+export default Login
