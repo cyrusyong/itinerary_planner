@@ -10,6 +10,9 @@ function Login() {
   const [message, setMessage] = useState('');
 
   const handleLogin = async () => {
+    if (!email || !password) {
+      return;
+    }
     try {
       const response = await fetch('http://localhost:3000/api/login', {
         method: 'POST',
@@ -21,7 +24,9 @@ function Login() {
       console.log('Response data:', data); // to be removed
       if (data.success) {
         setMessage('Login successful!');
-        navigate('/app');
+        setTimeout(() => {
+          navigate('/app');
+        }, 1500);
       } else {
         setMessage(data.message || "Login error"); // to be fixed
       }
@@ -40,8 +45,14 @@ function Login() {
         <h1>Sign in to access lists</h1>
         {/* login box */}
         <div className="auth">
+        <form
+          onSubmit={(e) => {
+            e.preventDefault();
+            handleLogin;
+          }}
+        >
         <input
-          type="email"
+          type="text"
           placeholder="Email"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
@@ -53,6 +64,8 @@ function Login() {
           onChange={(e) => setPassword(e.target.value)}
         />
         <button onClick={handleLogin}>Log In</button>
+        </form>
+
       </div>
       {message && <p>{message}</p>}
       </div>

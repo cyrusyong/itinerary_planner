@@ -10,8 +10,8 @@ app.use(express.json());
 
 const users = [
   {
-    email: 'master@t.com',
-    password: 'pass'
+    email: 'seed',
+    password: 'seed'
   }
 ];
 
@@ -37,7 +37,7 @@ app.post('/api/login', async (req, res) => {
     return res.json({ success: false, message: "User not found"});
   }
 
-  const isMatch = await bcrypt.compare(password, user.passwordHash);
+  const isMatch = await bcrypt.compare(password, user.hashed);
   if (isMatch) {
     res.json({ success: true });
   } else {
@@ -45,7 +45,7 @@ app.post('/api/login', async (req, res) => {
   }
 });
 
-// Start server
+// start server
 app.listen(PORT, () => {
   console.log(`Server running at http://localhost:${PORT}`);
 });
