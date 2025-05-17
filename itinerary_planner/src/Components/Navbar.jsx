@@ -4,6 +4,7 @@ import '../Styles/index.css'
 function NavBar() {
     return (
         <nav className='navbar'>
+            <div className='logo'>LOGO</div>
             <div>
                 <Link to={"/login"}>
                     <button>Login</button>
