@@ -1,6 +1,7 @@
 import { useState } from 'react'
-import '../Styles/style.css'
+import '../Styles/index.css'
 import { useNavigate } from 'react-router-dom'
+import NavBar from './Navbar'
 
 function Home() {
   const [count, setCount] = useState(0)
@@ -8,7 +9,8 @@ function Home() {
 
   return (
     <>
-      <h1>Welcome</h1>
+      <NavBar/>
+      <h1>Welcome to the Planner</h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
