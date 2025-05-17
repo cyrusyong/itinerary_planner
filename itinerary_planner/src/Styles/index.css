@@ -1,0 +1,88 @@
+/* Color Palette
+   Primary: #B0C4B1 (green), #EDAFB8 (pink)
+   Secondary: #F7E1D7, #DEDBD2
+   Text: #4A5759
+*/
+
+* {
+  font-family: 'Fredoka', sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  /* background-color: #EDAFB8; */
+  background-image: url("../../public/city.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  margin: 0;
+  color: #4A5759;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #4A5759;
+}
+
+.navbar .logo {
+  color: #B0C4B1;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.navbar button {
+  background-color: #B0C4B1;
+  color: #4A5759;
+  border: none;
+  padding: 0.5rem 1rem;
+  margin-left: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.navbar button:hover {
+  background-color: #DEDBD2;
+}
+
+/* Welcome container */
+.welcome-container {
+  position: relative; /* default is fine, but relative helps if you add overlays */
+  z-index: 1; /* ensure it's above any overlays */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  background-color: rgba(255, 255, 255, 0.7); /* optional: white translucent background for readability */
+  padding: 2rem;
+  border-radius: 10px;
+  margin: 2rem auto;
+  max-width: 600px;
+  text-align: center;
+}
+
+.welcome-container h1 {
+  font-size: 2.5rem;
+  color: #4A5759;
+}
+
+/* Buttons */
+.welcome-container button {
+  background-color: #F7E1D7;
+  color: #4A5759;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.welcome-container button:hover {
+  background-color: #F7E1D7;
+}
