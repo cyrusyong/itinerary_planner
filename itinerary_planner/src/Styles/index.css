@@ -1,68 +1,88 @@
-:root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+/* Color Palette
+   Primary: #B0C4B1 (green), #EDAFB8 (pink)
+   Secondary: #F7E1D7, #DEDBD2
+   Text: #4A5759
+*/
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
+* {
+  font-family: 'Fredoka', sans-serif;
+  box-sizing: border-box;
 }
 
 body {
+  /* background-color: #EDAFB8; */
+  background-image: url("../../public/city.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
   margin: 0;
+  color: #4A5759;
+}
+
+/* Navbar */
+.navbar {
   display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #4A5759;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+.navbar .logo {
+  color: #B0C4B1;
+  font-weight: bold;
+  font-size: 1.2rem;
 }
 
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
+.navbar button {
+  background-color: #B0C4B1;
+  color: #4A5759;
+  border: none;
+  padding: 0.5rem 1rem;
+  margin-left: 1rem;
+  border-radius: 5px;
   cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+  transition: 0.3s;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+.navbar button:hover {
+  background-color: #DEDBD2;
+}
+
+/* Welcome container */
+.welcome-container {
+  position: relative; /* default is fine, but relative helps if you add overlays */
+  z-index: 1; /* ensure it's above any overlays */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  background-color: rgba(255, 255, 255, 0.7); /* optional: white translucent background for readability */
+  padding: 2rem;
+  border-radius: 10px;
+  margin: 2rem auto;
+  max-width: 600px;
+  text-align: center;
+}
+
+.welcome-container h1 {
+  font-size: 2.5rem;
+  color: #4A5759;
+}
+
+/* Buttons */
+.welcome-container button {
+  background-color: #F7E1D7;
+  color: #4A5759;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.welcome-container button:hover {
+  background-color: #F7E1D7;
 }
