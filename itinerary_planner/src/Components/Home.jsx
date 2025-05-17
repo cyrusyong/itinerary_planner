@@ -7,6 +7,7 @@ function Home() {
   return (
     <>
       <NavBar />
+
       <div className='welcome-container'>
         <h1>Welcome to the Planner</h1>
 
@@ -16,17 +17,6 @@ function Home() {
           </button>
         </Link>
 
-        <Link to={"./login"}>
-          <button>
-            Go to Login Page
-          </button>
-        </Link>
-
-        <Link to={"./signup"}>
-          <button>
-            Go to Signup Page
-          </button>
-        </Link>
       </div>
 
     </>
