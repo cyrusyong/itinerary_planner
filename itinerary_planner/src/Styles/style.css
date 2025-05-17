@@ -1,3 +1,36 @@
-.navbar {
-  flex: 0 auto;
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.card {
+  padding: 2em;
+}
+
+.login {
+  background-color: #000; /* to be changed */
+  padding: 1rem;
+  max-width: 200px;
+  margin: 20px auto;
+}
+
+.login input{
+  display: block;
+  width: 100%;
+  padding: 0.50rem;
+  margin-bottom: 0.75rem;
+  box-sizing: border-box;
+}
+
+.login button{
+  display: block;
+  background-color: #a9a9a9; /* change */
+  padding: 0.50rem;
+  margin: 0 auto;
+}
+
+.login button:hover{
+  background-color: #000; /* change */
 }
