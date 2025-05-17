@@ -1,13 +1,14 @@
 import { Link } from "react-router-dom";
+import NavBar from "./Navbar";
 
 function App() {
     return (
+      <>
+        <NavBar />
         <div>
             This is the app component
-            <Link to={"/"}>
-                <button>Go back Home</button>
-            </Link>
         </div>
+      </>
     )
 }
 

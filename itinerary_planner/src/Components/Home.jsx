@@ -8,7 +8,7 @@ function Home() {
     <>
       <NavBar />
 
-      <div className='welcome-container'>
+      <div className='container'>
         <h1>Welcome to the Planner</h1>
 
         <Link to={"./app"}>
