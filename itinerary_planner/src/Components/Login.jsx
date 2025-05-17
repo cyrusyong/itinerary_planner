@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom'
 import '../Styles/style.css'
+import NavBar from './Navbar';
 
 function Login() {
   const navigate = useNavigate();
@@ -17,11 +18,12 @@ function Login() {
       });
 
       const data = await response.json();
-      console.log('Response data:', data);
+      console.log('Response data:', data); // to be removed
       if (data.success) {
         setMessage('Login successful!');
+        navigate('/app');
       } else {
-        setMessage(data.message); // to be fixed
+        setMessage(data.message || "Login error"); // to be fixed
       }
     } catch (error) {
       console.error('Login error:', error);
@@ -31,10 +33,13 @@ function Login() {
 
   return (
     <>
-      <h1>Sign in to access lists</h1>
+      <NavBar />
 
-      {/* login box */}
-      <div className="login">
+      <div className='container'>
+
+        <h1>Sign in to access lists</h1>
+        {/* login box */}
+        <div className="auth">
         <input
           type="email"
           placeholder="Email"
@@ -50,16 +55,7 @@ function Login() {
         <button onClick={handleLogin}>Log In</button>
       </div>
       {message && <p>{message}</p>}
-
-      {/* return box */}
-      <div className="card">
-        <button onClick={() => {
-          navigate("/")
-        }}>
-          Go back to Home
-        </button>
       </div>
-
     </>
   )
 }

@@ -1,5 +1,6 @@
 import express from 'express';
 import cors from 'cors';
+import bcrypt from 'bcrypt';
 
 const app = express();
 const PORT = 3000;
@@ -7,25 +8,38 @@ const PORT = 3000;
 app.use(cors());
 app.use(express.json());
 
-// Fake user "database"
 const users = [
   {
-    email: 'test@gmail.com',
-    password: 'test' // 🔒 In production, passwords should be hashed!
+    email: 'master@t.com',
+    password: 'pass'
   }
 ];
+
+app.post('/api/register', async (req, res) => {
+  const { email, password } = req.body;
+
+  const exists = users.find(u => u.email === email);
+  if (exists) {
+    return res.json({ success: false, message: 'User already exists' });
+  }
+
+  const hashed = await bcrypt.hash(password, 10);
+  users.push({ email, hashed });
+
+  res.json({ success: true, message: 'User registered successfully!' });
+});
 
 app.post('/api/login', async (req, res) => {
   const { email, password } = req.body;
 
   const user = users.find(u => u.email === email);
   if(!user) {
-    return res.json({ message: "User not found", success: false});
+    return res.json({ success: false, message: "User not found"});
   }
 
   const isMatch = await bcrypt.compare(password, user.passwordHash);
   if (isMatch) {
-    res.json({ success: true, message: "Login successful!" });
+    res.json({ success: true });
   } else {
     res.json({ success: false, message: "Password incorrect"});
   }

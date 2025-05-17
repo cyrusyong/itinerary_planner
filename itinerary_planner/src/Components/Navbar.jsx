@@ -4,14 +4,16 @@ import '../Styles/index.css'
 function NavBar() {
     return (
         <nav className='navbar'>
-            <div className='logo'>LOGO</div>
+            <Link to={"/"}>
+              <div className='logo'>LOGO</div>
+            </Link>
             <div>
                 <Link to={"/login"}>
                     <button>Login</button>
                 </Link>
 
-                <Link to={"/signup"}>
-                    <button>Signup</button>
+                <Link to={"/register"}>
+                    <button>Register</button>
                 </Link>
             </div>
         </nav>
