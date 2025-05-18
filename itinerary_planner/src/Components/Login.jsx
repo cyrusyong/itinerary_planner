@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom'
 import '../Styles/style.css'
+import NavBar from './Navbar';
 
 function Login() {
   const navigate = useNavigate();
@@ -9,6 +10,9 @@ function Login() {
   const [message, setMessage] = useState('');
 
   const handleLogin = async () => {
+    if (!email || !password) {
+      return;
+    }
     try {
       const response = await fetch('http://localhost:3000/api/login', {
         method: 'POST',
@@ -17,11 +21,14 @@ function Login() {
       });
 
       const data = await response.json();
-      console.log('Response data:', data);
+      console.log('Response data:', data); // to be removed
       if (data.success) {
         setMessage('Login successful!');
+        setTimeout(() => {
+          navigate('/app');
+        }, 1500);
       } else {
-        setMessage(data.message); // to be fixed
+        setMessage(data.message || "Login error"); // to be fixed
       }
     } catch (error) {
       console.error('Login error:', error);
@@ -31,12 +38,21 @@ function Login() {
 
   return (
     <>
-      <h1>Sign in to access lists</h1>
+      <NavBar />
 
-      {/* login box */}
-      <div className="login">
+      <div className='container'>
+
+        <h1>Sign in to access lists</h1>
+        {/* login box */}
+        <div className="auth">
+        <form
+          onSubmit={(e) => {
+            e.preventDefault();
+            handleLogin;
+          }}
+        >
         <input
-          type="email"
+          type="text"
           placeholder="Email"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
@@ -48,18 +64,11 @@ function Login() {
           onChange={(e) => setPassword(e.target.value)}
         />
         <button onClick={handleLogin}>Log In</button>
+        </form>
+
       </div>
       {message && <p>{message}</p>}
-
-      {/* return box */}
-      <div className="card">
-        <button onClick={() => {
-          navigate("/")
-        }}>
-          Go back to Home
-        </button>
       </div>
-
     </>
   )
 }

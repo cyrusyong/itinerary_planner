@@ -9,14 +9,14 @@
   padding: 2em;
 }
 
-.login {
-  background-color: #000; /* to be changed */
+.auth {
+  background-color: rgba(255, 255, 255, 0.7); /* to be changed */
   padding: 1rem;
   max-width: 200px;
   margin: 20px auto;
 }
 
-.login input{
+.auth input{
   display: block;
   width: 100%;
   padding: 0.50rem;
@@ -24,13 +24,13 @@
   box-sizing: border-box;
 }
 
-.login button{
+.auth button{
   display: block;
-  background-color: #a9a9a9; /* change */
+  background-color: #EDAFB8; /* change */
   padding: 0.50rem;
   margin: 0 auto;
 }
 
-.login button:hover{
-  background-color: #000; /* change */
+.auth button:hover{
+  background-color: #F7E1D7; /* change */
 }
