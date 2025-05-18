@@ -9,7 +9,7 @@ function App() {
 
   useEffect(() => {
     const loader = new Loader({
-      apiKey: "AIzaSyCGJ6bRHMUhb0oYGrxFimZ5CPNRZd1qSoU",
+      apiKey: import.meta.env.VITE_GOOGLE_MAPS_API,
       version: "weekly"
     });
 
