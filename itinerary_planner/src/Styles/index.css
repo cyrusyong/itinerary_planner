@@ -86,3 +86,8 @@ body {
 .container button:hover {
   background-color: #F7E1D7;
 }
+
+#maps {
+  height: 75vh;
+  width: auto;
+}
