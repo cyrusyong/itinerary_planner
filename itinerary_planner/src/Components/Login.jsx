@@ -1,7 +1,8 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom'
 import '../Styles/style.css'
-import NavBar from './Navbar';
+import NavBar from "./Navbar";
+import Footer from "./Footer";
 
 function Login() {
   const navigate = useNavigate();
@@ -38,6 +39,8 @@ function Login() {
 
   return (
     <>
+      <title>Login</title>
+      
       <NavBar />
 
       <div className='container'>
@@ -69,6 +72,8 @@ function Login() {
       </div>
       {message && <p>{message}</p>}
       </div>
+
+      <Footer />
     </>
   )
 }

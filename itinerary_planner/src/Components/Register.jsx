@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import NavBar from "./Navbar"
+import NavBar from "./Navbar";
+import Footer from "./Footer";
 
 function Register() {
   const navigate = useNavigate();
@@ -12,7 +13,10 @@ function Register() {
   const handleRegistration = async () => {
     if (!email || !password) {
       return;
-    } else if (!(password === confirm)) {
+    } else if (!email.includes('@')) {
+      setMessage('Invalid email');
+      return;
+    } else if (password !== confirm) {
       setMessage('Passwords do not match');
       return;
     } // could add special char / number reqs to password
@@ -41,6 +45,7 @@ function Register() {
 
   return (
     <>
+      <title>Register</title>
       <NavBar />
       
       <div className='container'>
@@ -78,6 +83,8 @@ function Register() {
         </div>
         {message && <p>{message}</p>}
         </div>
+
+        <Footer />
       </>
   )
 }
