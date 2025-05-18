@@ -26,11 +26,12 @@
 
 .auth button{
   display: block;
-  background-color: #EDAFB8; /* change */
+  background-color: #588157; /* change */
+  color: #fff;
   padding: 0.50rem;
   margin: 0 auto;
 }
 
 .auth button:hover{
-  background-color: #F7E1D7; /* change */
+  background-color: #A3B18A; /* change */
 }

@@ -1,6 +1,7 @@
 import '../Styles/index.css'
 import { Link } from 'react-router-dom'
-import NavBar from './Navbar'
+import NavBar from "./Navbar";
+import Footer from "./Footer";
 
 function Home() {
 
@@ -9,7 +10,7 @@ function Home() {
       <NavBar />
 
       <div className='container'>
-        <h1>Welcome to the Planner</h1>
+        <h1>Welcome to Shepherd</h1>
 
         <Link to={"./app"}>
           <button>
@@ -19,6 +20,7 @@ function Home() {
 
       </div>
 
+      <Footer />
     </>
   )
 }
