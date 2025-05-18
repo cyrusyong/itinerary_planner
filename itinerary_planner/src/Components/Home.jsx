@@ -1,25 +1,24 @@
-import { useState } from 'react'
-import '../styles/style.css'
-import { useNavigate } from 'react-router-dom'
+import '../Styles/index.css'
+import { Link } from 'react-router-dom'
+import NavBar from './Navbar'
 
 function Home() {
-  const [count, setCount] = useState(0)
-  const navigate = useNavigate()
 
   return (
     <>
-      <h1>Welcome</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
+      <NavBar />
 
-        <button onClick={() => {
-          navigate('/login')
-        }}>
-          Go to Login Page
-        </button>
+      <div className='container'>
+        <h1>Welcome to the Planner</h1>
+
+        <Link to={"./app"}>
+          <button>
+            Launch app
+          </button>
+        </Link>
+
       </div>
+
     </>
   )
 }
