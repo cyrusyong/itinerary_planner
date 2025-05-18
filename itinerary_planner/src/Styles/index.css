@@ -34,7 +34,7 @@ body {
   font-size: 1.2rem;
 }
 
-.navbar button {
+button {
   background-color: #B0C4B1;
   color: #fff;
   border: none;
@@ -96,4 +96,10 @@ body {
 
 .container button:hover {
   background-color: #A3B18A;
+}
+
+#maps {
+  height: 75vh;
+  width: auto;
+  margin-top: 1rem;
 }
