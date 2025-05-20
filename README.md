@@ -1,6 +1,5 @@
 **Shepherd**: A Full-Stack Travel Optimization Web App
-<br><br>
-<br><br>
+
 A full-stack React application designed to help users efficiently plan and optimize travel routes for everyday commutes or vacation itineraries.
 <br><br>
 <br><br>
