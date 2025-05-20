@@ -1,9 +1,7 @@
 **Shepherd**: A Full-Stack Travel Optimization Web App
-
-
+<br><br>
 A full-stack React application designed to help users efficiently plan and optimize travel routes for everyday commutes or vacation itineraries.
-
-
+<br><br>
 **Features**:
 
 • Secure user authentication with JSON Web Tokens (JWT)
@@ -13,8 +11,7 @@ A full-stack React application designed to help users efficiently plan and optim
 • Route optimization calculated using Dijkstra’s algorithm
 
 • Project managed using a mock Agile workflow with Jira and GitHub
-
-
+<br><br>
 **Developed by**:
 
 Cyrus Yong (full-stack, product owner)
