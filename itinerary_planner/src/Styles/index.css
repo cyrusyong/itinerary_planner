@@ -58,7 +58,7 @@ body {
 .navbar .dropdown .content a {
   color: #3A5A40;
   display: block;
-  padding: 5px;
+  padding: 0.75rem;
   text-decoration: none;
 }
 
