@@ -1,13 +1,13 @@
 import '../Styles/index.css'
 import { Link } from 'react-router-dom'
-import NavBar from "./Navbar";
+import NavBar_LO from "./Navbar_LO";
 import Footer from "./Footer";
 
 function Home() {
 
   return (
     <>
-      <NavBar />
+      <NavBar_LO />
 
       <div className='container'>
         <h1>Welcome to Shepherd</h1>

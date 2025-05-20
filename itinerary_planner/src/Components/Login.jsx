@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom'
 import '../Styles/style.css'
-import NavBar from "./Navbar";
+import NavBar_LO from "./Navbar_LO";
 import Footer from "./Footer";
 
 function Login() {
@@ -39,9 +39,9 @@ function Login() {
 
   return (
     <>
-      <title>Login</title>
+      <title>Login | Shepherd</title>
       
-      <NavBar />
+      <NavBar_LO />
 
       <div className='container'>
 

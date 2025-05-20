@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import NavBar from "./Navbar";
+import NavBar_LO from "./Navbar_LO";
 import Footer from "./Footer";
 
 function Register() {
@@ -45,15 +45,15 @@ function Register() {
 
   return (
     <>
-      <title>Register</title>
-      <NavBar />
+      <title>Register | Shepherd</title>
+      <NavBar_LO />
       
       <div className='container'>
 
         <h1>Register to save plans</h1>
         {/* registration box */}
         <div className="auth">
-        <form
+          <form
           onSubmit={(e) => {
             e.preventDefault();
             handleLogin;

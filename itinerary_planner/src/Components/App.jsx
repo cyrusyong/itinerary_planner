@@ -1,5 +1,5 @@
 import { Loader } from "@googlemaps/js-api-loader"
-import NavBar from "./Navbar";
+import NavBar_LO from "./Navbar_LO";
 import Footer from "./Footer";
 import { useRef, useEffect } from 'react'
 
@@ -43,7 +43,9 @@ function App() {
 
   return (
     <>
-      <NavBar />
+      <title>App - Shepherd</title>
+
+      <NavBar_LO />
       <div id="maps" ref={mapElement}></div>
       <button id="current-location-button" onClick={handleGoToLocation}>Go to my location</button>
       <Footer/>
