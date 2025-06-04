@@ -45,7 +45,7 @@ function App() {
   }
 
   const handleSearch = async () => {
-    const { Place } = await google.maps.importLibrary("places");
+    const { Place, PlaceDetailsCompactElement } = await google.maps.importLibrary("places");
     const { AdvancedMarkerElement } = await google.maps.importLibrary("marker");
 
     const request = {
@@ -77,9 +77,16 @@ function App() {
       <NavBar />
       <div className="app-container">
         <div id="list">
-          <input type="text" id="place_search" value={query} onChange={(e) => setQuery(e.target.value)} />
+          <form action="" onSubmit={(e) => {
+            e.preventDefault()
+            handleSearch()
+          }}>
+            <input type="text" id="place_search" value={query} onChange={(e) => setQuery(e.target.value)} />
+          </form>
+
         </div>
-        <div id="maps" ref={mapElement}></div>
+        <div id="maps" ref={mapElement}>
+        </div>
       </div>
 
       <button id="current-location-button" onClick={handleGoToLocation}>Go to my location</button>
