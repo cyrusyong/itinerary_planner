@@ -1,6 +1,4 @@
 import { Loader } from "@googlemaps/js-api-loader"
-import NavBar from "./Navbar";
-import Footer from "./Footer";
 import { useRef, useEffect, useState } from 'react'
 
 function App() {
@@ -74,14 +72,13 @@ function App() {
 
   return (
     <>
-      <NavBar />
       <div className="app-container">
         <div id="list">
           <form action="" onSubmit={(e) => {
             e.preventDefault()
             handleSearch()
           }}>
-            <input type="text" id="place_search" value={query} onChange={(e) => setQuery(e.target.value)} />
+            <input type="text" id="place-search" value={query} onChange={(e) => setQuery(e.target.value)} />
           </form>
 
         </div>
@@ -94,8 +91,6 @@ function App() {
         console.log(query);
         handleSearch()
       }}>SEARCH</button>
-
-      <Footer />
     </>
   )
 }
