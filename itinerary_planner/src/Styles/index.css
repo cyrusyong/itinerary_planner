@@ -9,9 +9,14 @@
   box-sizing: border-box;
 }
 
+html {
+  height: 100vh;
+}
+
 #root {
   display: flex;
   flex-direction: column;
+  min-height: 100%;
   width: 100%;
 }
 
@@ -22,7 +27,7 @@ body {
   background-image: url("/japan.jpg");
   background-size: cover;
   background-position: center;
-  height: 100vh;
+  height: 100%;
   width: 100%;
   margin: 0;
   color: #fff;
@@ -66,25 +71,28 @@ button {
 
 .footer {
   background-color: #588157;
-  color: #fff;
   position: fixed;
-  bottom: 0;
-  inset-inline: 0;
+  color: #fff;
   width: 100%;
   padding: 1rem 0;
   font-size: 0.7rem;
+  text-align: center;
+  bottom: 0;
 }
 
 /* Container */
 .container {
-  position: relative; /* default is fine, but relative helps if you add overlays */
-  z-index: 1; /* ensure it's above any overlays */
+  position: relative;
+  /* default is fine, but relative helps if you add overlays */
+  z-index: 1;
+  /* ensure it's above any overlays */
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 1rem;
-  background-color: rgba(255, 255, 255, 0.7); /* optional: white translucent background for readability */
+  background-color: rgba(255, 255, 255, 0.7);
+  /* optional: white translucent background for readability */
   padding: 2rem;
   border-radius: 10px;
   margin: 2rem auto;
@@ -113,76 +121,3 @@ button {
   background-color: #A3B18A;
 }
 
-#maps {
-  height: auto;
-  min-height: 400px;
-  margin-top: 1rem;
-  border-radius: 1rem;
-  flex: 2;
-}
-
-div.app-container {
-  display: flex;
-  justify-content: space-between;
-  max-width: 80%;
-  min-height: 65vh;
-  align-items: stretch;
-  margin: auto;
-}
-
-#list {
-  background-color: #588157;
-  margin-top: 1rem;
-  margin-right: 1rem;
-  border-radius: 1rem;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  max-height: 85vh;
-  overflow-y: auto;
-}
-
-#list form {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
-
-#place-search, .place-card, .card-list {
-  max-width: 75%;
-}
-
-#place-search {
-  margin-top: 0.5rem;
-  margin-bottom: 1rem;
-  padding: 0.5rem;
-  height: 2rem;
-  width: 100%;
-  border-radius: 0.5rem;
-  font-family: 'Fredoka', sans-serif;
-  font-size: 1.5rem;
-  color: #4A5759;
-  font-weight: 555;
-}
-
-.place-card {
-  background-color: #DEDBD2;
-  color: #4A5759;
-  border-radius: 10px;
-  padding: 1rem;
-  margin: 0.5rem 0;
-  width: 100%;
-  text-align: left;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-}
-
-.card-list {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: auto;
-  justify-content: center;
-  width: 100%;
-  
-}

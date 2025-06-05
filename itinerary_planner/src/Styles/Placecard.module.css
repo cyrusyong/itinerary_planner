@@ -1,0 +1,31 @@
+.placeCard {
+    background-color: #DEDBD2;
+    color: #4A5759;
+    border-radius: 10px;
+    padding: 1rem;
+    margin: 0.5rem 0;
+    width: 100%;
+    text-align: left;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.placeButtonContainer {
+    max-width: 90%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+#placeRemoveButton,
+#placeAddButton {
+    flex: 1;
+    margin: auto;
+}
+
+#placeRemoveButton {
+    margin-right: 0.5rem;
+}
+
+#placeAddButton {
+    margin-left: 0.5rem;
+}
