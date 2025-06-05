@@ -10,6 +10,7 @@ function App() {
   const [query, setQuery] = useState("");
   const [list, setList] = useState({});
   const [places, setPlaces] = useState({});
+  const markerRef = useRef({})
 
   useEffect(() => {
     const loader = new Loader({
@@ -49,7 +50,7 @@ function App() {
 
   const handleSearch = async () => {
     const { Place, PlaceDetailsCompactElement } = await google.maps.importLibrary("places");
-    const { AdvancedMarkerElement } = await google.maps.importLibrary("marker");
+    const { AdvancedMarkerElement, PinElement } = await google.maps.importLibrary("marker");
 
     const request = {
       textQuery: query,
@@ -96,14 +97,19 @@ function App() {
       const bounds = new LatLngBounds()
 
       placesQuery.forEach((place) => {
-        const markerView = new AdvancedMarkerElement({
+        const marker = new AdvancedMarkerElement({
           map: mapRef.current,
           position: place.location,
           title: place.displayName,
           gmpClickable: true,
+          content: new PinElement({
+            background: "#FFE5B4",
+            borderColor: "#FF9800",
+            glyphColor: "#E65100"
+          }).element
         });
 
-        markerView.addEventListener("gmp-click", () => {
+        marker.addEventListener("gmp-click", () => {
           console.log(place.displayName)
           console.log(place.formattedAddress)
           console.log(place.rating)
@@ -117,16 +123,17 @@ function App() {
           id: place.id
         }
 
+        markerRef.current[place.id] = marker;
         bounds.extend(place.location)
       })
       setPlaces(formattedPlaces)
       mapRef.current.fitBounds(bounds)
-
     }
   }
 
-  const handleAdd = (placeId) => {
+  const handleAdd = async (placeId) => {
     const prevPlace = places[placeId];
+    const { PinElement } = await google.maps.importLibrary("marker")
     setPlaces(prev => {
       const updatedPlaces = { ...prev };
       delete updatedPlaces[placeId];
@@ -139,15 +146,35 @@ function App() {
       return updatedList;
     })
 
-
+    markerRef.current[placeId].content = new PinElement({
+      background: "#D1F5D3",
+      glyphColor: "#2E7D32",
+      borderColor: "#4CAF50"
+    }).element
+    console.log(markerRef.current[placeId])
   }
 
-  const handleRemove = (placeId) => {
+  const handleRemove = async (placeId) => {
+    const prevPlace = list[placeId];
+    const { PinElement } = await google.maps.importLibrary("marker")
+    
+    setPlaces(prev => {
+      const updatedPlaces = { ...prev };
+      updatedPlaces[placeId] = prevPlace;
+      return updatedPlaces;
+    })
+    
     setList(prev => {
       const updatedList = { ...prev };
       delete updatedList[placeId];
       return updatedList;
     })
+
+    markerRef.current[placeId].content = new PinElement({
+      background: "#FFE5B4",
+      borderColor: "#FF9800",
+      glyphColor: "#E65100"
+    }).element
   }
 
   const conditionalHeight = classNames({
