@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom'
-import '../Styles/style.css'
 import NavBar from "./Navbar";
 import Footer from "./Footer";
 
