@@ -7,7 +7,8 @@ function App() {
   const mapRef = useRef(null);
   const mapElement = useRef(null);
   const [query, setQuery] = useState("");
-  const [places, setPlaces] = useState([])
+  const [list, setList] = useState({});
+  const [places, setPlaces] = useState({});
 
   useEffect(() => {
     const loader = new Loader({
@@ -24,7 +25,7 @@ function App() {
         center: { lat: 35.6764, lng: 139.65 },
         zoom: 6,
         colorScheme: ColorScheme.DARK,
-        mapId: 'biggy'
+        mapId: 'biggy',
       });
 
       mapRef.current = map;
@@ -56,7 +57,7 @@ function App() {
     }
 
     // const { places } = await Place.searchByText(request);
-    const places = [
+    const placesQuery = [
       {
         "id": "ChIJq_fYt4iLGGARrOojmQ4IMyE",
         "displayName": "Starbucks Reserve Roastery Tokyo",
@@ -88,13 +89,12 @@ function App() {
         "rating": 4
       }
     ]
-    if (places.length) {
-      const formattedPlaces = []
-      console.log(places)
+    if (placesQuery.length) {
+      const formattedPlaces = {}
       const { LatLngBounds } = await google.maps.importLibrary("core");
       const bounds = new LatLngBounds()
 
-      places.forEach((place) => {
+      placesQuery.forEach((place) => {
         const markerView = new AdvancedMarkerElement({
           map: mapRef.current,
           position: place.location,
@@ -109,11 +109,12 @@ function App() {
           console.log(place.id)
         })
 
-        formattedPlaces.push({
+        formattedPlaces[place.id] = {
           name: place.displayName,
           address: place.formattedAddress,
-          rating: place.rating
-        })
+          rating: place.rating,
+          id: place.id
+        }
 
         bounds.extend(place.location)
         setPlaces(formattedPlaces)
@@ -123,33 +124,67 @@ function App() {
     }
   }
 
+  const handleAdd = (placeId) => {
+    const prevPlace = places[placeId];
+    setPlaces(prev => {
+      const updatedPlaces = { ...prev };
+      delete updatedPlaces[placeId];
+      return updatedPlaces;
+    })
+
+    setList(prev => {
+      const updatedList = { ...prev };
+      updatedList[placeId] = prevPlace
+      return updatedList;
+    })
+
+
+  }
+
+  const handleRemove = (placeId) => {
+    setList(prev => {
+      const updatedList = { ...prev };
+      delete updatedList[placeId];
+      return updatedList;
+    })
+  }
+
   return (
     <>
-      <div className={styles.appContainer}>
-        <div>
-          <div id={styles.list}>
-            {places.length == 0 && <h2>Where are we headed off to?</h2>}
-            <form action="" onSubmit={(e) => {
-              e.preventDefault()
-              handleSearch()
-            }}>
-              <input type="text" id={styles.placeSearch} value={query} onChange={(e) => setQuery(e.target.value)} />
-            </form>
+      <div className={styles.wrapper}>
+        <div className={styles.appContainer}>
+          <div className={styles.sidebar}>
+            <div className={styles.list}>
+              {Object.keys(list).length > 0 && (
+                <div className={styles.cardList}>
+                  {Object.keys(list).map((placeId, index) => (
+                    <PlaceCard key={index} place={list[placeId]} onRemove={handleRemove} isList={true}/>
+                  ))}
+                </div>
+              )}
+            </div>
+            <div className={styles.potentialList}>
+              {places.length == 0 && <h2>Where are we headed off to?</h2>}
+              <form className={styles.searchForm} action="" onSubmit={(e) => {
+                e.preventDefault()
+                handleSearch()
+              }}>
+                <input type="text" className={styles.placeSearch} value={query} onChange={(e) => setQuery(e.target.value)} />
+              </form>
 
-            {places.length > 0 && (
-              <div className={styles.cardList}>
-                {places.map((place, index) => (
-                  <PlaceCard key={index} place={place} />
-                ))}
-              </div>
-            )}
+              {Object.keys(places).length > 0 && (
+                <div className={styles.cardList}>
+                  {Object.keys(places).map((placeId, index) => (
+                    <PlaceCard key={index} place={places[placeId]} onAdd={handleAdd} isList={false}/>
+                  ))}
+                </div>
+              )}
+            </div>
           </div>
-          <div>
-            
-          </div>
+
+          <div className={styles.maps} ref={mapElement} />
         </div>
 
-        <div id={styles.maps} ref={mapElement} />
       </div>
 
       <button id="current-location-button" onClick={handleGoToLocation}>Go to my location</button>
