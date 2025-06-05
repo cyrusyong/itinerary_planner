@@ -8,11 +8,11 @@ function PlaceCard({ place, onAdd, onRemove, isList }) {
             <p>{place.rating} Stars</p>
             <div className={styles.placeButtonContainer}>
                 {isList ?
-                    <button id={styles.placeRemoveButton} onClick={() => {
+                    <button className={styles.placeRemoveButton} onClick={() => {
                         onRemove(place.id)
                     }}>-</button>
                     :
-                    <button id={styles.placeAddButton} onClick={() => {
+                    <button className={styles.placeAddButton} onClick={() => {
                         onAdd(place.id)
                     }}>+</button>}
             </div>

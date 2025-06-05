@@ -16,16 +16,16 @@
     margin: auto;
 }
 
-#placeRemoveButton,
-#placeAddButton {
+.placeRemoveButton,
+.placeAddButton {
     flex: 1;
     margin: auto;
 }
 
-#placeRemoveButton {
+.placeRemoveButton {
     margin-right: 0.5rem;
 }
 
-#placeAddButton {
+.placeAddButton {
     margin-left: 0.5rem;
 }
