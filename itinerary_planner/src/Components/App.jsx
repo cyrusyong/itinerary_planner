@@ -27,6 +27,10 @@ function App() {
         center: { lat: 35.6764, lng: 139.65 },
         zoom: 6,
         colorScheme: ColorScheme.DARK,
+        zoonControl: true,
+        mapTypeControl: false,
+        fullscreenControl: false,
+        streetViewControl: false,
         mapId: 'biggy',
       });
 
@@ -163,7 +167,7 @@ function App() {
       updatedPlaces[placeId] = prevPlace;
       return updatedPlaces;
     })
-    
+
     setList(prev => {
       const updatedList = { ...prev };
       delete updatedList[placeId];
