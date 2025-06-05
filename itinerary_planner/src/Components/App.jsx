@@ -164,7 +164,7 @@ function App() {
               )}
             </div>
             <div className={styles.potentialList}>
-              {places.length == 0 && <h2>Where are we headed off to?</h2>}
+              {Object.keys(places).length === 0 && <h2>Where are we headed off to?</h2>}
               <form className={styles.searchForm} action="" onSubmit={(e) => {
                 e.preventDefault()
                 handleSearch()
