@@ -1,5 +1,5 @@
 import { Loader } from "@googlemaps/js-api-loader"
-import { useRef, useEffect, useState } from 'react'
+import { useRef, useEffect, useState, useCallback } from 'react'
 import PlaceCard from './Placecard.jsx'
 import styles from '../Styles/App.module.css'
 import classNames from "classnames";
@@ -11,6 +11,8 @@ function App() {
   const [list, setList] = useState({});
   const [places, setPlaces] = useState({});
   const markerRef = useRef({})
+  const listRef = useRef({})
+  const placesRef = useRef({})
 
   useEffect(() => {
     const loader = new Loader({
@@ -37,6 +39,14 @@ function App() {
       mapRef.current = map;
     })
   }, [])
+
+  useEffect(() => {
+    listRef.current = list
+  }, [list])
+
+  useEffect(() => {
+    placesRef.current = places
+  }, [places])
 
   const handleGoToLocation = () => {
     if (navigator.geolocation) {
@@ -114,10 +124,7 @@ function App() {
         });
 
         marker.addEventListener("gmp-click", () => {
-          console.log(place.displayName)
-          console.log(place.formattedAddress)
-          console.log(place.rating)
-          console.log(place.id)
+          handleMarkerClick(place.id);
         })
 
         formattedPlaces[place.id] = {
@@ -136,7 +143,7 @@ function App() {
   }
 
   const handleAdd = async (placeId) => {
-    const prevPlace = places[placeId];
+    const prevPlace = placesRef.current[placeId];
     const { PinElement } = await google.maps.importLibrary("marker")
     setPlaces(prev => {
       const updatedPlaces = { ...prev };
@@ -159,9 +166,9 @@ function App() {
   }
 
   const handleRemove = async (placeId) => {
-    const prevPlace = list[placeId];
+    const prevPlace = listRef.current[placeId];
     const { PinElement } = await google.maps.importLibrary("marker")
-    
+
     setPlaces(prev => {
       const updatedPlaces = { ...prev };
       updatedPlaces[placeId] = prevPlace;
@@ -180,6 +187,14 @@ function App() {
       glyphColor: "#E65100"
     }).element
   }
+
+  const handleMarkerClick = useCallback((placeId) => {
+    if (placesRef.current[placeId] && !listRef.current[placeId]) {
+      handleAdd(placeId)
+    } else if (listRef.current[placeId] && !placesRef.current[placeId]) {
+      handleRemove(placeId)
+    }
+  }, [])
 
   const conditionalHeight = classNames({
     [styles.noList]: Object.keys(list).length === 0,
