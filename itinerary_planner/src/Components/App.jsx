@@ -157,8 +157,8 @@ function App() {
             <div className={styles.list}>
               {Object.keys(list).length > 0 && (
                 <div className={styles.cardList}>
-                  {Object.keys(list).map((placeId, index) => (
-                    <PlaceCard key={index} place={list[placeId]} onRemove={handleRemove} isList={true}/>
+                  {Object.keys(list).map((placeId) => (
+                    <PlaceCard key={placeId} place={list[placeId]} onRemove={handleRemove} isList={true}/>
                   ))}
                 </div>
               )}
