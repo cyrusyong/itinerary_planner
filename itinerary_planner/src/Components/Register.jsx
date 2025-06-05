@@ -1,7 +1,5 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import NavBar from "./Navbar";
-import Footer from "./Footer";
 
 function Register() {
   const navigate = useNavigate();
@@ -46,7 +44,6 @@ function Register() {
   return (
     <>
       <title>Register</title>
-      <NavBar />
       
       <div className='container'>
 
@@ -84,7 +81,6 @@ function Register() {
         {message && <p>{message}</p>}
         </div>
 
-        <Footer />
       </>
   )
 }
