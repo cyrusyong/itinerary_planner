@@ -2,6 +2,7 @@ import { Loader } from "@googlemaps/js-api-loader"
 import { useRef, useEffect, useState } from 'react'
 import PlaceCard from './Placecard.jsx'
 import styles from '../Styles/App.module.css'
+import classNames from "classnames";
 
 function App() {
   const mapRef = useRef(null);
@@ -149,22 +150,29 @@ function App() {
     })
   }
 
+  const conditionalHeight = classNames({
+    [styles.noList]: Object.keys(list).length === 0,
+    [styles.potentialList]: Object.keys(list).length !== 0
+  })
+
   return (
     <>
       <div className={styles.wrapper}>
         <div className={styles.appContainer}>
           <div className={styles.sidebar}>
-            <div className={styles.list}>
+            {Object.keys(list).length !== 0 && <div className={styles.list}>
               {Object.keys(list).length > 0 && (
                 <div className={styles.cardList}>
                   {Object.keys(list).map((placeId) => (
-                    <PlaceCard key={placeId} place={list[placeId]} onRemove={handleRemove} isList={true}/>
+                    <PlaceCard key={placeId} place={list[placeId]} onRemove={handleRemove} isList={true} />
                   ))}
                 </div>
               )}
-            </div>
-            <div className={styles.potentialList}>
-              {Object.keys(places).length === 0 && <h2>Where are we headed off to?</h2>}
+            </div>}
+
+            <div className={conditionalHeight}>
+              {(Object.keys(places).length === 0 && Object.keys(list).length === 0) && <h2>Where are we headed off to?</h2>}
+              {(Object.keys(list).length !== 0 && Object.keys(places).length === 0) && <h2>Where else?</h2>}
               <form className={styles.searchForm} action="" onSubmit={(e) => {
                 e.preventDefault()
                 handleSearch()
@@ -175,7 +183,7 @@ function App() {
               {Object.keys(places).length > 0 && (
                 <div className={styles.cardList}>
                   {Object.keys(places).map((placeId, index) => (
-                    <PlaceCard key={index} place={places[placeId]} onAdd={handleAdd} isList={false}/>
+                    <PlaceCard key={index} place={places[placeId]} onAdd={handleAdd} isList={false} />
                   ))}
                 </div>
               )}
