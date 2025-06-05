@@ -1,10 +1,12 @@
 import { Loader } from "@googlemaps/js-api-loader"
 import { useRef, useEffect, useState } from 'react'
+import PlaceCard  from './Placecard.jsx'
 
 function App() {
   const mapRef = useRef(null);
   const mapElement = useRef(null);
   const [query, setQuery] = useState("");
+  const [places, setPlaces] = useState([])
 
   useEffect(() => {
     const loader = new Loader({
@@ -48,12 +50,13 @@ function App() {
 
     const request = {
       textQuery: query,
-      fields: ['displayName', 'location'],
+      fields: ['displayName', 'location', 'formattedAddress', 'rating'],
       region: 'jp',
     }
 
     const { places } = await Place.searchByText(request);
     if (places.length) {
+      const formattedPlaces = []
       console.log(places)
       const { LatLngBounds } = await google.maps.importLibrary("core");
       const bounds = new LatLngBounds()
@@ -63,10 +66,27 @@ function App() {
           map: mapRef.current,
           position: place.location,
           title: place.displayName,
+          gmpClickable: true,
         });
+
+        markerView.addEventListener("gmp-click", () => {
+          console.log(place.displayName)
+          console.log(place.formattedAddress)
+          console.log(place.rating)
+          console.log(place.id)
+        })
+
+        formattedPlaces.push({
+          name: place.displayName,
+          address: place.formattedAddress,
+          rating: place.rating
+        })
+
         bounds.extend(place.location)
+        setPlaces(formattedPlaces)
       })
       mapRef.current.fitBounds(bounds)
+
     }
   }
 
@@ -74,6 +94,7 @@ function App() {
     <>
       <div className="app-container">
         <div id="list">
+          {places.length == 0 && <h2>Where are we headed off to?</h2>}
           <form action="" onSubmit={(e) => {
             e.preventDefault()
             handleSearch()
@@ -81,9 +102,15 @@ function App() {
             <input type="text" id="place-search" value={query} onChange={(e) => setQuery(e.target.value)} />
           </form>
 
+          {places.length > 0 && (
+            <div className="card-list">
+              {places.map((place, index) => (
+                <PlaceCard key={index} place={place} />
+              ))}
+            </div>
+          )}
         </div>
-        <div id="maps" ref={mapElement}>
-        </div>
+        <div id="maps" ref={mapElement} />
       </div>
 
       <button id="current-location-button" onClick={handleGoToLocation}>Go to my location</button>

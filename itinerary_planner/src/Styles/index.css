@@ -26,6 +26,7 @@ body {
   width: 100%;
   margin: 0;
   color: #fff;
+  padding-bottom: 3rem;
 
 }
 
@@ -113,15 +114,19 @@ button {
 }
 
 #maps {
-  height: 75vh;
-  width: 65%;
+  height: auto;
+  min-height: 400px;
   margin-top: 1rem;
+  border-radius: 1rem;
+  flex: 2;
 }
 
 div.app-container {
   display: flex;
   justify-content: space-between;
   max-width: 80%;
+  min-height: 65vh;
+  align-items: stretch;
   margin: auto;
 }
 
@@ -132,7 +137,10 @@ div.app-container {
   border-radius: 1rem;
   flex: 1;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-height: 85vh;
+  overflow-y: auto;
 }
 
 #list form {
@@ -141,9 +149,40 @@ div.app-container {
   justify-content: center;
 }
 
+#place-search, .place-card, .card-list {
+  max-width: 75%;
+}
+
 #place-search {
-  margin-top: 1rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
   height: 2rem;
-  width: 80%;
+  width: 100%;
   border-radius: 0.5rem;
+  font-family: 'Fredoka', sans-serif;
+  font-size: 1.5rem;
+  color: #4A5759;
+  font-weight: 555;
+}
+
+.place-card {
+  background-color: #DEDBD2;
+  color: #4A5759;
+  border-radius: 10px;
+  padding: 1rem;
+  margin: 0.5rem 0;
+  width: 100%;
+  text-align: left;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.card-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  justify-content: center;
+  width: 100%;
+  
 }
