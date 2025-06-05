@@ -9,14 +9,30 @@
   box-sizing: border-box;
 }
 
+html {
+  height: 100vh;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  width: 100%;
+}
+
 body {
   /* background-color: #EDAFB8; */
+  display: flex;
+  justify-content: center;
   background-image: url("/japan.jpg");
   background-size: cover;
   background-position: center;
-  height: 100vh;
+  height: 100%;
+  width: 100%;
   margin: 0;
   color: #fff;
+  padding-bottom: 3rem;
+
 }
 
 /* Navbar */
@@ -26,6 +42,11 @@ body {
   align-items: center;
   padding: 1rem 2rem;
   background-color: #588157;
+  position: static;
+  width: 100%;
+  inset-inline: 0;
+  top: 0;
+  margin-bottom: 2rem;
 }
 
 .navbar .logo {
@@ -51,29 +72,32 @@ button {
 
 .footer {
   background-color: #588157;
-  color: #fff;
   position: fixed;
-  bottom: 0;
-  inset-inline: 0;
+  color: #fff;
   width: 100%;
   padding: 1rem 0;
   font-size: 0.7rem;
+  text-align: center;
+  bottom: 0;
 }
 
 /* Container */
 .container {
-  position: relative; /* default is fine, but relative helps if you add overlays */
-  z-index: 1; /* ensure it's above any overlays */
+  position: relative;
+  /* default is fine, but relative helps if you add overlays */
+  z-index: 1;
+  /* ensure it's above any overlays */
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 1rem;
-  background-color: rgba(255, 255, 255, 0.7); /* optional: white translucent background for readability */
+  background-color: rgba(255, 255, 255, 0.7);
+  /* optional: white translucent background for readability */
   padding: 2rem;
   border-radius: 10px;
   margin: 2rem auto;
-  max-width: 600px;
+  max-width: 80%;
   text-align: center;
 }
 
@@ -98,21 +122,3 @@ button {
   background-color: #A3B18A;
 }
 
-#maps {
-  height: 75vh;
-  width: 65%;
-  margin-top: 1rem;
-}
-
-div.app-container {
-  display: flex;
-  justify-content: space-between;
-}
-
-#list {
-  background-color: #588157;
-  margin-top: 1rem;
-  margin-right: 1rem;
-  border-radius: 1rem;
-  flex: 1;
-}

@@ -1,0 +1,63 @@
+.maps {
+  height: auto;
+  min-height: 400px;
+  min-width: 400px;
+  border-radius: 0.5rem;
+  flex: 2;
+}
+
+.appContainer {
+  display: flex;
+  max-width: 90%;
+  min-height: 65vh;
+  margin: auto;
+  height: calc(100vh - 12rem);
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  background-color: #3A5A40;
+  border-radius: 0.5rem;
+  max-height: 90%;
+
+}
+
+.list, .potentialList{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 95%;
+  margin: auto;
+  background-color: #588157;
+  border-radius: 0.5rem;
+  height: 50%;
+  margin: 0.5rem 0.5rem;
+}
+
+.cardList {
+  overflow-y: auto;
+  max-width: 90%;
+  margin-bottom: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.searchForm {
+  width: 90%;
+  margin: 0.5rem;
+}
+
+.placeSearch {
+  border-radius: 0.5rem;
+  width: 100%;
+  padding: 0.25rem;
+  font-family: "Fredoka", sans-serif;
+  font-size: 1.5rem;
+  color: #4A5759;
+  font-weight: 555;
+}
+

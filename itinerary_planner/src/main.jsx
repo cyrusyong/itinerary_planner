@@ -6,23 +6,18 @@ import Home from './Components/Home.jsx'
 import Login from './Components/Login.jsx'
 import Register from './Components/Register.jsx'
 import App from './Components/App.jsx'
+import Layout from './Layout.jsx'
 
 const router = createBrowserRouter([
   {
-    path: "/",
-    element: <Home />
-  },
-  {
-    path: "/login",
-    element: <Login />
-  },
-  {
-    path: "/register",
-    element: <Register />
-  },
-  {
-    path: "/app",
-    element: <App />
+    path: '/',
+    element: <Layout />,
+    children: [
+      { index: true, element: <Home /> },
+      { path: 'login', element: <Login /> },
+      { path: 'register', element: <Register /> },
+      { path: 'app', element: <App /> }
+    ]
   }
 ])
 
