@@ -117,8 +117,8 @@ function App() {
         }
 
         bounds.extend(place.location)
-        setPlaces(formattedPlaces)
       })
+      setPlaces(formattedPlaces)
       mapRef.current.fitBounds(bounds)
 
     }
