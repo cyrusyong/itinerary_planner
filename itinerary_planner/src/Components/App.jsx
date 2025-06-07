@@ -160,7 +160,8 @@ function App() {
     markerRef.current[placeId].content = new PinElement({
       background: "#D1F5D3",
       glyphColor: "#2E7D32",
-      borderColor: "#4CAF50"
+      borderColor: "#4CAF50",
+      scale: 1.5,
     }).element
     console.log(markerRef.current[placeId])
   }
@@ -201,6 +202,29 @@ function App() {
     [styles.potentialList]: Object.keys(list).length !== 0
   })
 
+  const handleCalculateRoute = () => {
+    const directionsService = new google.maps.DirectionsService()
+    const directionsRenderer = new google.maps.DirectionsRenderer()
+    const waypointsPlaceObjects = Object.values(list)
+
+    const requestBody = {
+      origin: { placeId: waypointsPlaceObjects[0].id },
+      destination: { placeId: waypointsPlaceObjects[waypointsPlaceObjects.length - 1].id },
+      travelMode: 'DRIVING',
+      provideRouteAlternatives: true,
+    }
+
+    directionsService.route(requestBody, (res, status) => {
+      console.log(res)
+      if (status == "OK") {
+        directionsRenderer.setMap(mapRef.current)
+        directionsRenderer.setDirections(res);
+      }
+    })
+
+    console.log("calculating")
+  }
+
   return (
     <>
       <div className={styles.wrapper}>
@@ -216,7 +240,7 @@ function App() {
 
                 </div>
               )}
-              {Object.keys(list).length >= 2 && <button className={styles.calButton}><h2>Calculate Route</h2></button>}
+              {Object.keys(list).length >= 2 && <button className={styles.calButton} onClick={handleCalculateRoute}><h2>Calculate Route</h2></button>}
             </div>}
 
             <div className={conditionalHeight}>
