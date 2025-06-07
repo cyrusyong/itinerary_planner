@@ -209,11 +209,11 @@ function App() {
 
     //Temporary
     const originId = waypointsPlaceObjects[0].id
-    const destinationid = waypointsPlaceObjects[waypointsPlaceObjects.length - 1].id
+    const destinationId = waypointsPlaceObjects[waypointsPlaceObjects.length - 1].id
 
     const requestBody = {
       origin: { placeId: originId },
-      destination: { placeId: destinationid },
+      destination: { placeId: destinationId },
       travelMode: 'DRIVING',
       provideRouteAlternatives: true,
     }
@@ -233,7 +233,7 @@ function App() {
     const currentMarkerIds = Object.keys(currentMarkers)
 
     currentMarkerIds.forEach((id) => {
-      if (id !== originId && id !== destinationid) {
+      if (id !== originId && id !== destinationId) {
         currentMarkers[id].setMap(null)
         delete currentMarkers[id]
       }
