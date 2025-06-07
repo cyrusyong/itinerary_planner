@@ -23,27 +23,50 @@
   background-color: #3A5A40;
   border-radius: 0.5rem;
   max-height: 90%;
-
+  max-width: 555px;
 }
 
 .list, .potentialList{
+  flex: 1;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   max-width: 95%;
   margin: auto;
   background-color: #588157;
   border-radius: 0.5rem;
-  height: 50%;
   margin: 0.5rem 0.5rem;
 }
 
+.list {
+  padding: 1rem 0rem 1rem 0rem;
+}
+
+.potentialList {
+  max-height: 35%;
+}
+
+.calButton {
+  width: 83.5%;
+  margin: 0;
+}
+
+.calButton:hover {
+  background-color: #A3B18A;
+}
+
+.calButton h2 {
+  margin: 0;
+}
+
 .cardList {
+  text-align: center;
   overflow-y: auto;
-  max-width: 90%;
+  width: 90%;
   margin-bottom: 0.5rem;
   border-radius: 0.5rem;
+  height: 100%;
 }
 
 .searchForm {
@@ -59,5 +82,19 @@
   font-size: 1.5rem;
   color: #4A5759;
   font-weight: 555;
+}
+
+.noList {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 95%;
+  margin: auto;
+  background-color: #588157;
+  border-radius: 0.5rem;
+  margin: 0.5rem 0.5rem;
+  height: 100%;
 }
 
