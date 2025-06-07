@@ -207,9 +207,13 @@ function App() {
     const directionsRenderer = new google.maps.DirectionsRenderer()
     const waypointsPlaceObjects = Object.values(list)
 
+    //Temporary
+    const originId = waypointsPlaceObjects[0].id
+    const destinationid = waypointsPlaceObjects[waypointsPlaceObjects.length - 1].id
+
     const requestBody = {
-      origin: { placeId: waypointsPlaceObjects[0].id },
-      destination: { placeId: waypointsPlaceObjects[waypointsPlaceObjects.length - 1].id },
+      origin: { placeId: originId },
+      destination: { placeId: destinationid },
       travelMode: 'DRIVING',
       provideRouteAlternatives: true,
     }
@@ -224,6 +228,19 @@ function App() {
 
     setPlaces({})
     setQuery("")
+
+    const currentMarkers = markerRef.current
+    const currentMarkerIds = Object.keys(currentMarkers)
+
+    currentMarkerIds.forEach((id) => {
+      if (id !== originId && id !== destinationid) {
+        currentMarkers[id].setMap(null)
+        delete currentMarkers[id]
+      }
+    })
+
+    markerRef.current = currentMarkers
+
   }
 
   return (
