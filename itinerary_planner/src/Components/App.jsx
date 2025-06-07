@@ -212,8 +212,11 @@ function App() {
                   {Object.keys(list).map((placeId) => (
                     <PlaceCard key={placeId} place={list[placeId]} onRemove={handleRemove} isList={true} />
                   ))}
+
+
                 </div>
               )}
+              <button className={styles.calButton}><h2>Calculate Route</h2></button>
             </div>}
 
             <div className={conditionalHeight}>
