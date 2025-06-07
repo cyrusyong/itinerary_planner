@@ -222,7 +222,8 @@ function App() {
       }
     })
 
-    console.log("calculating")
+    setPlaces({})
+    setQuery("")
   }
 
   return (
