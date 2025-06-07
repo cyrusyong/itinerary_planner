@@ -72,45 +72,45 @@ function App() {
       region: 'jp',
     }
 
-    // const { places } = await Place.searchByText(request);
-    const placesQuery = [
-      {
-        "id": "ChIJq_fYt4iLGGARrOojmQ4IMyE",
-        "displayName": "Starbucks Reserve Roastery Tokyo",
-        "location": {
-          "lat": 35.6492642,
-          "lng": 139.69259069999998
-        },
-        "formattedAddress": "2-chōme-19-23 Aobadai, Meguro City, Tokyo 153-0042",
-        "rating": 4.5
-      },
-      {
-        "id": "ChIJL0MSsuaLGGARFMGsCD4gT_0",
-        "displayName": "Starbucks Reserve® Store - Ginza Marronnier-dori Street",
-        "location": {
-          "lat": 35.6722648,
-          "lng": 139.7675641
-        },
-        "formattedAddress": "〒104-0061 Tokyo, Chuo City, Ginza, 3-chōme−7−３ Ginza Omi Bldg., 1F",
-        "rating": 4
-      },
-      {
-        "id": "ChIJ30G_l3iLGGARYNilOEO6xVI",
-        "displayName": "Starbucks Reserve - Tokyo Midtown",
-        "location": {
-          "lat": 35.6650037,
-          "lng": 139.7307146
-        },
-        "formattedAddress": "〒107-0052 Tokyo, Minato City, Akasaka, 9-chōme−7−２ 東京ミッドタウンB0103",
-        "rating": 4
-      }
-    ]
-    if (placesQuery.length) {
+    const { places } = await Place.searchByText(request);
+    // const placesQuery = [
+    //   {
+    //     "id": "ChIJq_fYt4iLGGARrOojmQ4IMyE",
+    //     "displayName": "Starbucks Reserve Roastery Tokyo",
+    //     "location": {
+    //       "lat": 35.6492642,
+    //       "lng": 139.69259069999998
+    //     },
+    //     "formattedAddress": "2-chōme-19-23 Aobadai, Meguro City, Tokyo 153-0042",
+    //     "rating": 4.5
+    //   },
+    //   {
+    //     "id": "ChIJL0MSsuaLGGARFMGsCD4gT_0",
+    //     "displayName": "Starbucks Reserve® Store - Ginza Marronnier-dori Street",
+    //     "location": {
+    //       "lat": 35.6722648,
+    //       "lng": 139.7675641
+    //     },
+    //     "formattedAddress": "〒104-0061 Tokyo, Chuo City, Ginza, 3-chōme−7−３ Ginza Omi Bldg., 1F",
+    //     "rating": 4
+    //   },
+    //   {
+    //     "id": "ChIJ30G_l3iLGGARYNilOEO6xVI",
+    //     "displayName": "Starbucks Reserve - Tokyo Midtown",
+    //     "location": {
+    //       "lat": 35.6650037,
+    //       "lng": 139.7307146
+    //     },
+    //     "formattedAddress": "〒107-0052 Tokyo, Minato City, Akasaka, 9-chōme−7−２ 東京ミッドタウンB0103",
+    //     "rating": 4
+    //   }
+    // ]
+    if (places.length) {
       const formattedPlaces = {}
       const { LatLngBounds } = await google.maps.importLibrary("core");
       const bounds = new LatLngBounds()
 
-      placesQuery.forEach((place) => {
+      places.forEach((place) => {
         const marker = new AdvancedMarkerElement({
           map: mapRef.current,
           position: place.location,
