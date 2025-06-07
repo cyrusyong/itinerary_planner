@@ -216,7 +216,7 @@ function App() {
 
                 </div>
               )}
-              <button className={styles.calButton}><h2>Calculate Route</h2></button>
+              {Object.keys(list).length >= 2 && <button className={styles.calButton}><h2>Calculate Route</h2></button>}
             </div>}
 
             <div className={conditionalHeight}>
