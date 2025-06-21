@@ -1,0 +1,21 @@
+.spotlightCard {
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem 0.5rem 1rem
+}
+
+.spotlightButton {
+    padding: 0;
+    margin: 0;
+    border-radius: 0.55rem;
+}
+
+.spotlightText {
+    padding: 0;
+    margin: 0;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: space-around;
+    width: 10%;
+}
