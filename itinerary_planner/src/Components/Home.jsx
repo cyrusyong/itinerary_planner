@@ -57,15 +57,15 @@ function Home() {
             height={"65vh"}
           >
             <Card>
-              <img src="../public/shrine.jpg" alt="shrine" className={styles.cardImage} />
+              <img src="/shrine.jpg" alt="shrine" className={styles.cardImage} />
             </Card>
 
             <Card>
-              <img src="../public/NC.jpg" className={styles.cardImage} />
+              <img src="/NC.jpg" className={styles.cardImage} />
             </Card>
 
             <Card>
-              <img src="../public/timesquare.jpg" alt="times Square" className={styles.cardImage} />
+              <img src="/timesquare.jpg" alt="times Square" className={styles.cardImage} />
             </Card>
 
           </CardSwap>
