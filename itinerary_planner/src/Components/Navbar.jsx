@@ -6,11 +6,11 @@ import styles from "../Styles/Navbar.module.css"
 function NavBar() {
   return (
     <nav className='navbar'>
-      <Link to={"/"}>
+      <Link to={"/"} viewTransition>
         <img src="/baby.svg" alt="Logo" className="logo" />
       </Link>
       <div className={styles.buttonContainer}>
-        <Link to={"/login"}>
+        <Link to={"/login"} viewTransition>
           <button className={styles.spotlightButton}>
             <SpotlightCard className={styles.spotlightCard}>
               <h4 className={styles.spotlightText}>Login</h4>
@@ -18,7 +18,7 @@ function NavBar() {
           </button>
         </Link>
 
-        <Link to={"/register"}>
+        <Link to={"/register"} viewTransition>
           <button className={styles.spotlightButton}>
             <SpotlightCard className={styles.spotlightCard}>
               <h4 className={styles.spotlightText}>Register</h4>
