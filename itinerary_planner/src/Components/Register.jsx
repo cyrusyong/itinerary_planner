@@ -1,5 +1,7 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import styles from "../Styles/Register.module.css";
+import SpotlightCard from "./SpotlightCard/SpotlightCard";
 
 function Register() {
   const navigate = useNavigate();
@@ -7,6 +9,10 @@ function Register() {
   const [password, setPassword] = useState('');
   const [confirm, setConfirm] = useState('');
   const [message, setMessage] = useState('');
+
+  const [emailFocus, setEmailFocus] = useState(false)
+  const [passwordFocus, setPasswordFocus] = useState(false)
+  const [confirmPasswordFocus, setConfirmPasswordFocus] = useState(false)
 
   const handleRegistration = async () => {
     if (!email || !password) {
@@ -44,44 +50,75 @@ function Register() {
   return (
     <>
       <title>Register</title>
-      
-      <div className='container'>
 
-        <h1>Register to save plans</h1>
+      <div className={styles.container}>
+        <div className={styles.textContainer}>
+          <h1 className={styles.mainText}>Begin Your Guided Journey</h1>
+          <h1 className={styles.mainText}><span className={styles.highlight}>Register Now</span></h1>
+        </div>
         {/* registration box */}
-        <div className="auth">
-        <form
-          onSubmit={(e) => {
-            e.preventDefault();
-            handleLogin;
-          }}
+        <div className={styles.auth}>
+          <form
+            className={styles.form}
+            onSubmit={(e) => {
+              e.preventDefault();
+              handleLogin;
+            }}
           >
-          <input
-            type="text"
-            placeholder="Email"
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
-          />
-          <input
-            type="password"
-            placeholder="Password"
-            value={password}
-            onChange={(e) => setPassword(e.target.value)}
-          />
-          <input
-            type="password"
-            placeholder="Confirm password"
-            value={confirm}
-            onChange={(e) => setConfirm(e.target.value)}
-          />
-          <button onClick={handleRegistration}>Register</button>
+            <label className={emailFocus ? [styles.inputContainer, styles.highlight].join(" ") : styles.inputContainer}>
+              Email
+              <input
+                className={styles.input}
+                type="text"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+                onFocus={() => {
+                  setEmailFocus(true)
+                }}
+                onBlur={() => {
+                  setEmailFocus(false)
+                }}
+              />
+            </label>
+
+            <label className={passwordFocus ? [styles.inputContainer, styles.highlight].join(" ") : styles.inputContainer}>
+              Password
+              <input
+                className={styles.input}
+                type="password"
+                value={password}
+                onChange={(e) => setPassword(e.target.value)}
+                onFocus={() => {
+                  setPasswordFocus(true)
+                }}
+                onBlur={() => setPasswordFocus(false)}
+              />
+            </label>
+
+            <label className={confirmPasswordFocus ? [styles.inputContainer, styles.highlight].join(" ") : styles.inputContainer}>
+              Confirm Password
+              <input
+                className={styles.input}
+                type="password"
+                value={confirm}
+                onChange={(e) => setConfirm(e.target.value)}
+                onFocus={() => setConfirmPasswordFocus(true)}
+                onBlur={() => setConfirmPasswordFocus(false)}
+              />
+            </label>
+
+            <button onClick={handleRegistration} className={styles.registerButton}>
+              <SpotlightCard spotlightColor="rgb(229, 229, 229)" className={styles.spotlightCard}>
+                <h3 className={styles.registerText}>Register</h3>
+              </SpotlightCard>
+            </button>
           </form>
 
         </div>
         {message && <p>{message}</p>}
-        </div>
+      </div>
 
-      </>
+    </>
   )
 }
 
