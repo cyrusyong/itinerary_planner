@@ -36,7 +36,7 @@ function Home() {
             ease="power3.out"
           />
 
-          <Link to={"/app"}>
+          <Link to={"/app"} viewTransition>
           <button className={styles.spotlightButton}>
             <SpotlightCard spotlightColor='rgb(229, 229, 229)' className={styles.spotlightCard}>
             <h3 className={styles.launchText}>Launch App</h3>

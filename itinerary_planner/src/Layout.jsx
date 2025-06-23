@@ -6,7 +6,7 @@ function Layout() {
     return (
         <>
             <NavBar />
-            <main>
+            <main style={{height: "100%"}}> {/* Height Bug */}
                 <Outlet />
             </main>
             <Footer />
