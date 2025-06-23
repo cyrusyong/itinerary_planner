@@ -1,0 +1,39 @@
+.spotlightCard {
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem 0.5rem 1rem
+}
+
+.spotlightButton {
+    padding: 0;
+    margin: 0;
+    border-radius: 0.55rem;
+}
+
+.spotlightText {
+    padding: 0;
+    margin: 0;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 10rem;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #FCA311;
+  position: static;
+  width: 100%;
+  inset-inline: 0;
+  top: 0;
+}
+
+.navbar .logo {
+  color: #B0C4B1;
+  font-weight: bold;
+  font-size: 1.2rem;
+}

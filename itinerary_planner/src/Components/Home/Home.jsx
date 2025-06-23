@@ -1,10 +1,9 @@
-import '../Styles/index.css'
 import { Link } from 'react-router-dom'
-import SpotlightCard from './SpotlightCard/SpotlightCard.jsx'
-import SplitText from "./SplitText/SplitText.jsx"
-import styles from '../Styles/Home.module.css'
-import CardSwap, { Card } from "./CardSwap/CardSwap.jsx"
-import RotatingText from "./RotatingText/RotatingText.jsx"
+import SpotlightCard from '../SpotlightCard/SpotlightCard.jsx'
+import SplitText from "../SplitText/SplitText.jsx"
+import styles from './Home.module.css'
+import CardSwap, { Card } from "../CardSwap/CardSwap.jsx"
+import RotatingText from "../RotatingText/RotatingText.jsx"
 
 function Home() {
 

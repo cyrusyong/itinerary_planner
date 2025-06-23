@@ -1,7 +1,7 @@
 import { Loader } from "@googlemaps/js-api-loader"
 import { useRef, useEffect, useState, useCallback } from 'react'
-import PlaceCard from './Placecard.jsx'
-import styles from '../Styles/App.module.css'
+import PlaceCard from '../Placecard/Placecard.jsx'
+import styles from './App.module.css'
 import classNames from "classnames";
 
 function App() {

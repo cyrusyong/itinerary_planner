@@ -1,13 +1,12 @@
 import { Link } from 'react-router-dom'
-import '../Styles/index.css'
-import SpotlightCard from './SpotlightCard/SpotlightCard'
-import styles from "../Styles/Navbar.module.css"
+import SpotlightCard from '../SpotlightCard/SpotlightCard'
+import styles from "./Navbar.module.css"
 
 function NavBar() {
   return (
-    <nav className='navbar'>
+    <nav className={styles.navbar}>
       <Link to={"/"} viewTransition>
-        <img src="/baby.svg" alt="Logo" className="logo" />
+        <img src="/baby.svg" alt="Logo" className={styles.logo} />
       </Link>
       <div className={styles.buttonContainer}>
         <Link to={"/login"} viewTransition>

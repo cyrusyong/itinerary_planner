@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import styles from "../Styles/Login.module.css";
-import SpotlightCard from "./SpotlightCard/SpotlightCard";
+import styles from "./Login.module.css";
+import SpotlightCard from "../SpotlightCard/SpotlightCard";
 
 function Login() {
   const navigate = useNavigate();
