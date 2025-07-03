@@ -7,6 +7,7 @@ import Login from './Components/Login/Login.jsx'
 import Register from './Components/Register/Register.jsx'
 import App from './Components/App/App.jsx'
 import Layout from './Layout.jsx'
+import CoreInput from './Components/CoreInput/CoreInput.jsx'
 
 const router = createBrowserRouter([
   {
@@ -16,7 +17,8 @@ const router = createBrowserRouter([
       { index: true, element: <Home /> },
       { path: 'login', element: <Login /> },
       { path: 'register', element: <Register /> },
-      { path: 'app', element: <App /> }
+      { path: 'app', element: <App /> },
+      { path: 'init', element: <CoreInput />}
     ]
   }
 ])
