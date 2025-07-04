@@ -5,12 +5,15 @@ function CoreInput() {
 
     const sendRequest = async () => {
         console.log("sending")
-        await fetch("http://localhost:3000/get-tags", {
-            method: "POST",
-            body: query,
+        const response = await fetch(`http://localhost:3000/places?location=${query}`, {
+            method: "GET",
             headers: {"Content-Type": "text/plain"}
-        }).then(async (res) => {
+        })
 
+        const tags = await response.json()
+
+        Object.keys(tags).forEach(key => {
+            console.log(key + " Popularity: " + tags[key])
         })
     }
 
