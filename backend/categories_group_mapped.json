@@ -1,27 +1,27 @@
 {
   "4d4b7104d754a06370d81259": {
     "label": "Arts and Entertainment",
-    "tag": "Other"
+    "tag": "Entertainment"
   },
   "4bf58dd8d48988d182941735": {
     "label": "Amusement Parks",
-    "tag": "Wildlife & Nature"
+    "tag": "Nature"
   },
   "5109983191d435c0d71c2bb1": {
     "label": "Attractions",
-    "tag": "Other"
+    "tag": "Entertainment"
   },
   "4fceea171983d5d06c3e9823": {
     "label": "Aquariums",
-    "tag": "Wildlife & Nature"
+    "tag": "Nature"
   },
   "4bf58dd8d48988d1e1931735": {
     "label": "Arcades",
-    "tag": "Family Fun & Attractions"
+    "tag": "Entertainment"
   },
   "4bf58dd8d48988d1e2931735": {
     "label": "Art Galleries",
-    "tag": "Other"
+    "tag": "Cultural & History"
   },
   "63be6904847c3692a84b9b20": {
     "label": "Bingo Centers",
@@ -29,7 +29,7 @@
   },
   "4bf58dd8d48988d1e4931735": {
     "label": "Bowling Alleys",
-    "tag": "Fitness & Sports"
+    "tag": "Entertainment"
   },
   "63be6904847c3692a84b9b21": {
     "label": "Carnivals",
@@ -45,43 +45,43 @@
   },
   "4bf58dd8d48988d18e941735": {
     "label": "Comedy Clubs",
-    "tag": "Nightclubs & Live Music"
+    "tag": "Other"
   },
   "63be6904847c3692a84b9b22": {
     "label": "Country Clubs",
-    "tag": "Nightclubs & Live Music"
+    "tag": "Other"
   },
   "52e81612bcbc57f1066b79ef": {
     "label": "Country Dance Clubs",
-    "tag": "Arts & Performances"
+    "tag": "Other"
   },
   "63be6904847c3692a84b9b23": {
     "label": "Dance Halls",
-    "tag": "Arts & Performances"
+    "tag": "Other"
   },
   "63be6904847c3692a84b9c03": {
     "label": "Disc Golf Courses",
-    "tag": "Fitness & Sports"
+    "tag": "Sports & Fitness"
   },
   "52e81612bcbc57f1066b79e8": {
     "label": "Disc Golfs",
-    "tag": "Fitness & Sports"
+    "tag": "Sports & Fitness"
   },
   "5f2c2834b6d05514c704451e": {
     "label": "Escape Rooms",
-    "tag": "Family Fun & Attractions"
+    "tag": "Adventure"
   },
   "56aa371be4b08b9a8d573532": {
     "label": "Exhibits",
-    "tag": "Museums & Galleries"
+    "tag": "Other"
   },
   "4eb1daf44b900d56c88a4600": {
     "label": "Fairs",
-    "tag": "Local Festivals & Events"
+    "tag": "Other"
   },
   "4bf58dd8d48988d18d941735": {
     "label": "Gaming Cafes",
-    "tag": "Café Culture"
+    "tag": "Cafe"
   },
   "52e81612bcbc57f1066b79ea": {
     "label": "Go Kart Tracks",
@@ -89,11 +89,11 @@
   },
   "4bf58dd8d48988d1f0941735": {
     "label": "Internet Cafes",
-    "tag": "Café Culture"
+    "tag": "Cafe"
   },
   "5744ccdfe4b0c0459246b4bb": {
     "label": "Karaoke Boxes",
-    "tag": "Nightclubs & Live Music"
+    "tag": "Nightlife"
   },
   "52e81612bcbc57f1066b79e6": {
     "label": "Laser Tag Centers",
@@ -101,43 +101,43 @@
   },
   "52e81612bcbc57f1066b79eb": {
     "label": "Mini Golf Courses",
-    "tag": "Fitness & Sports"
+    "tag": "Family"
   },
   "4bf58dd8d48988d17f941735": {
     "label": "Movie Theaters",
-    "tag": "Arts & Performances"
+    "tag": "Entertainment"
   },
   "56aa371be4b08b9a8d5734de": {
     "label": "Drive-in Theaters",
-    "tag": "Arts & Performances"
+    "tag": "Entertainment"
   },
   "4bf58dd8d48988d17e941735": {
     "label": "Indie Movie Theaters",
-    "tag": "Arts & Performances"
+    "tag": "Entertainment"
   },
   "4bf58dd8d48988d181941735": {
     "label": "Museums",
-    "tag": "Museums & Galleries"
+    "tag": "Cultural & History"
   },
   "4bf58dd8d48988d18f941735": {
     "label": "Art Museums",
-    "tag": "Museums & Galleries"
+    "tag": "Cultural & History"
   },
   "559acbe0498e472f1a53fa23": {
     "label": "Erotic Museums",
-    "tag": "Museums & Galleries"
+    "tag": "Cultural & History"
   },
   "4bf58dd8d48988d190941735": {
     "label": "History Museums",
-    "tag": "Museums & Galleries"
+    "tag": "Cultural & History"
   },
   "4bf58dd8d48988d191941735": {
     "label": "Science Museums",
-    "tag": "Museums & Galleries"
+    "tag": "Cultural & History"
   },
   "4bf58dd8d48988d11f941735": {
     "label": "Night Clubs",
-    "tag": "Nightclubs & Live Music"
+    "tag": "Nightlife"
   },
   "5744ccdfe4b0c0459246b4b8": {
     "label": "Pachinko Parlors",
@@ -149,47 +149,47 @@
   },
   "4bf58dd8d48988d1f2931735": {
     "label": "Performing Arts Venues",
-    "tag": "Other"
+    "tag": "Entertainment"
   },
   "56aa371be4b08b9a8d5734db": {
     "label": "Amphitheaters",
-    "tag": "Arts & Performances"
+    "tag": "Entertainment"
   },
   "5032792091d4c4b30a586d5c": {
     "label": "Concert Halls",
-    "tag": "Arts & Performances"
+    "tag": "Entertainment"
   },
   "4bf58dd8d48988d135941735": {
     "label": "Indie Theaters",
-    "tag": "Arts & Performances"
+    "tag": "Entertainment"
   },
   "4bf58dd8d48988d1e5931735": {
     "label": "Music Venues",
-    "tag": "Arts & Performances"
+    "tag": "Entertainment"
   },
   "4bf58dd8d48988d1e7931735": {
     "label": "Jazz and Blues Venues",
-    "tag": "Other"
+    "tag": "Entertainment"
   },
   "4bf58dd8d48988d1e9931735": {
     "label": "Rock Clubs",
-    "tag": "Nightclubs & Live Music"
+    "tag": "Entertainment"
   },
   "4bf58dd8d48988d136941735": {
     "label": "Opera Houses",
-    "tag": "Arts & Performances"
+    "tag": "Entertainment"
   },
   "4bf58dd8d48988d137941735": {
     "label": "Theaters",
-    "tag": "Arts & Performances"
+    "tag": "Entertainment"
   },
   "4bf58dd8d48988d192941735": {
     "label": "Planetariums",
-    "tag": "Museums & Galleries"
+    "tag": "Other"
   },
   "4bf58dd8d48988d1e3931735": {
     "label": "Pool Halls",
-    "tag": "Fitness & Sports"
+    "tag": "Other"
   },
   "52f2ab2ebcbc57f1066b8b43": {
     "label": "Psychics and Astrologers",
@@ -197,15 +197,15 @@
   },
   "507c8c4091d498d9fc8c67a9": {
     "label": "Public Art",
-    "tag": "Bars & Pubs"
+    "tag": "Nightlife"
   },
   "52e81612bcbc57f1066b79ed": {
     "label": "Outdoor Sculptures",
-    "tag": "Other"
+    "tag": "Photo-Ops"
   },
   "52e81612bcbc57f1066b79ee": {
     "label": "Street Arts",
-    "tag": "Photo-Ops & Instagrammable"
+    "tag": "Photo-Ops"
   },
   "52e81612bcbc57f1066b79e9": {
     "label": "Roller Rinks",
@@ -213,7 +213,7 @@
   },
   "52e81612bcbc57f1066b79ec": {
     "label": "Salsa Clubs",
-    "tag": "Nightclubs & Live Music"
+    "tag": "Other"
   },
   "56aa371be4b08b9a8d5734f9": {
     "label": "Samba Schools",
@@ -221,43 +221,43 @@
   },
   "4bf58dd8d48988d184941735": {
     "label": "Stadiums",
-    "tag": "Fitness & Sports"
+    "tag": "Sports & Fitness"
   },
   "4bf58dd8d48988d18c941735": {
     "label": "Baseball Stadiums",
-    "tag": "Fitness & Sports"
+    "tag": "Sports & Fitness"
   },
   "4bf58dd8d48988d18b941735": {
     "label": "Basketball Stadiums",
-    "tag": "Fitness & Sports"
+    "tag": "Sports & Fitness"
   },
   "4bf58dd8d48988d189941735": {
     "label": "Football Stadiums",
-    "tag": "Fitness & Sports"
+    "tag": "Sports & Fitness"
   },
   "4bf58dd8d48988d185941735": {
     "label": "Hockey Stadiums",
-    "tag": "Fitness & Sports"
+    "tag": "Sports & Fitness"
   },
   "56aa371be4b08b9a8d573556": {
     "label": "Rugby Stadiums",
-    "tag": "Fitness & Sports"
+    "tag": "Sports & Fitness"
   },
   "4bf58dd8d48988d188941735": {
     "label": "Soccer Stadiums",
-    "tag": "Fitness & Sports"
+    "tag": "Sports & Fitness"
   },
   "4e39a891bd410d7aed40cbc2": {
     "label": "Tennis Stadiums",
-    "tag": "Fitness & Sports"
+    "tag": "Sports & Fitness"
   },
   "4bf58dd8d48988d187941735": {
     "label": "Track Stadiums",
-    "tag": "Fitness & Sports"
+    "tag": "Sports & Fitness"
   },
   "4bf58dd8d48988d1d6941735": {
     "label": "Strip Clubs",
-    "tag": "Nightclubs & Live Music"
+    "tag": "Other"
   },
   "63be6904847c3692a84b9b25": {
     "label": "Ticket Sellers",
@@ -265,23 +265,23 @@
   },
   "5f2c14a5b6d05514c7042eb7": {
     "label": "VR Cafes",
-    "tag": "Café Culture"
+    "tag": "Cafe"
   },
   "4bf58dd8d48988d193941735": {
     "label": "Water Parks",
-    "tag": "Wildlife & Nature"
+    "tag": "Nature"
   },
   "4bf58dd8d48988d17b941735": {
     "label": "Zoos",
-    "tag": "Wildlife & Nature"
+    "tag": "Nature"
   },
   "58daa1558bbb0b01f18ec1fd": {
     "label": "Zoo Exhibits",
-    "tag": "Museums & Galleries"
+    "tag": "Nature"
   },
   "4d4b7105d754a06375d81259": {
     "label": "Business and Professional Services",
-    "tag": "Transport & Getting Around"
+    "tag": "Other"
   },
   "52e81612bcbc57f1066b7a3d": {
     "label": "Advertising Agencies",
@@ -289,7 +289,7 @@
   },
   "63be6904847c3692a84b9b26": {
     "label": "Agriculture and Forestry Services",
-    "tag": "Wildlife & Nature"
+    "tag": "Nature"
   },
   "63be6904847c3692a84b9b27": {
     "label": "Appraisers",
@@ -325,7 +325,7 @@
   },
   "52f2ab2ebcbc57f1066b8b44": {
     "label": "Automotive Repair Shops",
-    "tag": "Other"
+    "tag": "Shopping"
   },
   "4f04ae1f2fb6e1c99f3db0ba": {
     "label": "Car Washes and Details",
@@ -333,7 +333,7 @@
   },
   "63be6904847c3692a84b9b2c": {
     "label": "Motorcycle Repair Shops",
-    "tag": "Other"
+    "tag": "Shopping"
   },
   "63be6904847c3692a84b9b2d": {
     "label": "Oil Change Services",
@@ -341,11 +341,11 @@
   },
   "63be6904847c3692a84b9b2e": {
     "label": "Smog Check Shops",
-    "tag": "Other"
+    "tag": "Shopping"
   },
   "63be6904847c3692a84b9b2f": {
     "label": "Tire Repair Shops",
-    "tag": "Other"
+    "tag": "Shopping"
   },
   "63be6904847c3692a84b9b30": {
     "label": "Towing Services",
@@ -353,11 +353,11 @@
   },
   "63be6904847c3692a84b9b31": {
     "label": "Transmissions Shops",
-    "tag": "Other"
+    "tag": "Shopping"
   },
   "5f2c1e0db6d05514c70436d4": {
     "label": "Vehicle Inspection Stations",
-    "tag": "Transport & Getting Around"
+    "tag": "Other"
   },
   "56aa371be4b08b9a8d5734cf": {
     "label": "Ballrooms",
@@ -365,11 +365,11 @@
   },
   "56aa371be4b08b9a8d573517": {
     "label": "Business Centers",
-    "tag": "Transport & Getting Around"
+    "tag": "Other"
   },
   "5453de49498eade8af355881": {
     "label": "Business Services",
-    "tag": "Transport & Getting Around"
+    "tag": "Other"
   },
   "63be6904847c3692a84b9b33": {
     "label": "Career Counselors",
@@ -401,7 +401,7 @@
   },
   "4bf58dd8d48988d100941735": {
     "label": "Conference Rooms",
-    "tag": "Local Festivals & Events"
+    "tag": "Other"
   },
   "63be6904847c3692a84b9b37": {
     "label": "Creative Services",
@@ -413,7 +413,7 @@
   },
   "63be6904847c3692a84b9b38": {
     "label": "Direct Mail and Email Marketing Services",
-    "tag": "Street Food & Markets"
+    "tag": "Shopping"
   },
   "52e81612bcbc57f1066b7a37": {
     "label": "Distribution Centers",
@@ -445,11 +445,11 @@
   },
   "5454152e498ef71e2b9132c6": {
     "label": "Event Services",
-    "tag": "Local Festivals & Events"
+    "tag": "Other"
   },
   "4bf58dd8d48988d171941735": {
     "label": "Event Spaces",
-    "tag": "Local Festivals & Events"
+    "tag": "Wellness"
   },
   "4eb1bea83b7b6f98df247e06": {
     "label": "Factories",
@@ -485,7 +485,7 @@
   },
   "63be6904847c3692a84b9b40": {
     "label": "Business Brokers",
-    "tag": "Transport & Getting Around"
+    "tag": "Other"
   },
   "52f2ab2ebcbc57f1066b8b2d": {
     "label": "Check Cashing Services",
@@ -517,7 +517,7 @@
   },
   "56aa371be4b08b9a8d573550": {
     "label": "Food and Beverage Services",
-    "tag": "Other"
+    "tag": "Foodie"
   },
   "63be6904847c3692a84b9b46": {
     "label": "Caterers",
@@ -525,7 +525,7 @@
   },
   "63be6904847c3692a84b9b47": {
     "label": "Food Distribution Centers",
-    "tag": "Other"
+    "tag": "Foodie"
   },
   "4f4534884b9074f6e4fb0174": {
     "label": "Funeral Homes",
@@ -541,7 +541,7 @@
   },
   "63be6904847c3692a84b9b49": {
     "label": "Barbershops",
-    "tag": "Bars & Pubs"
+    "tag": "Shopping"
   },
   "52e81612bcbc57f1066b7a27": {
     "label": "Bath Houses",
@@ -549,7 +549,7 @@
   },
   "52f2ab2ebcbc57f1066b8b20": {
     "label": "Body Piercing Shops",
-    "tag": "Other"
+    "tag": "Shopping"
   },
   "52f2ab2ebcbc57f1066b8b1d": {
     "label": "Dry Cleaners",
@@ -565,7 +565,7 @@
   },
   "52f2ab2ebcbc57f1066b8b3c": {
     "label": "Massage Clinics",
-    "tag": "Spa & Wellness"
+    "tag": "Wellness"
   },
   "4f04aa0c2fb6e1c99f3db0b8": {
     "label": "Nail Salons",
@@ -577,7 +577,7 @@
   },
   "4bf58dd8d48988d1ed941735": {
     "label": "Spas",
-    "tag": "Spa & Wellness"
+    "tag": "Wellness"
   },
   "4d1cf8421a97d635ce361c31": {
     "label": "Tanning Salons",
@@ -589,7 +589,7 @@
   },
   "63be6904847c3692a84b9b58": {
     "label": "Home Improvement Services",
-    "tag": "Comedy & Theater"
+    "tag": "Other"
   },
   "63be6904847c3692a84b9b4c": {
     "label": "Bathroom Contractors",
@@ -601,7 +601,7 @@
   },
   "63be6904847c3692a84b9b4e": {
     "label": "Carpet and Flooring Contractors",
-    "tag": "Pet-Friendly"
+    "tag": "Other"
   },
   "63be6904847c3692a84b9b4f": {
     "label": "Chimney Sweeps",
@@ -653,7 +653,7 @@
   },
   "63be6904847c3692a84b9b5b": {
     "label": "Landscaper and Gardeners",
-    "tag": "Wildlife & Nature"
+    "tag": "Other"
   },
   "63be6904847c3692a84b9b5c": {
     "label": "Movers",
@@ -685,7 +685,7 @@
   },
   "63be6904847c3692a84b9b63": {
     "label": "Swimming Pool Maintenance and Services",
-    "tag": "Fitness & Sports"
+    "tag": "Other"
   },
   "63be6904847c3692a84b9b64": {
     "label": "Tree Services",
@@ -761,7 +761,7 @@
   },
   "63be6904847c3692a84b9b6e": {
     "label": "Machine Shops",
-    "tag": "Other"
+    "tag": "Shopping"
   },
   "63be6904847c3692a84b9b6f": {
     "label": "Management Consultants",
@@ -773,7 +773,7 @@
   },
   "63be6904847c3692a84b9b71": {
     "label": "Market Research and Consulting",
-    "tag": "Street Food & Markets"
+    "tag": "Shopping"
   },
   "63be6904847c3692a84b9b72": {
     "label": "Media Agencies",
@@ -793,7 +793,7 @@
   },
   "63be6904847c3692a84b9b32": {
     "label": "Business and Strategy Consulting Offices",
-    "tag": "Transport & Getting Around"
+    "tag": "Other"
   },
   "5032764e91d4c4b30a586d5a": {
     "label": "Campaign Offices",
@@ -805,11 +805,11 @@
   },
   "54f4ba06498e2cf5561da814": {
     "label": "Corporate Cafeterias",
-    "tag": "Café Culture"
+    "tag": "Cafe"
   },
   "5665c7b9498e7d8a4f2c0f06": {
     "label": "Corporate Coffee Shops",
-    "tag": "Café Culture"
+    "tag": "Cafe"
   },
   "63be6904847c3692a84b9b75": {
     "label": "Corporate Housing Agencies",
@@ -817,7 +817,7 @@
   },
   "4bf58dd8d48988d174941735": {
     "label": "Coworking Spaces",
-    "tag": "Spa & Wellness"
+    "tag": "Wellness"
   },
   "4bf58dd8d48988d127941735": {
     "label": "Meeting Rooms",
@@ -837,7 +837,7 @@
   },
   "56aa371be4b08b9a8d57356a": {
     "label": "Outdoor Event Spaces",
-    "tag": "Local Festivals & Events"
+    "tag": "Wellness"
   },
   "63be6904847c3692a84b9b78": {
     "label": "Paper Suppliers",
@@ -845,35 +845,35 @@
   },
   "5032897c91d4c4b30a586d69": {
     "label": "Pet Services",
-    "tag": "Pet-Friendly"
+    "tag": "Other"
   },
   "63be6904847c3692a84b9b79": {
     "label": "Pet Grooming Services",
-    "tag": "Pet-Friendly"
+    "tag": "Other"
   },
   "63be6904847c3692a84b9b7a": {
     "label": "Pet Sitting and Boarding Services",
-    "tag": "Pet-Friendly"
+    "tag": "Other"
   },
   "63be6904847c3692a84b9b7b": {
     "label": "Petroleum Suppliers",
-    "tag": "Pet-Friendly"
+    "tag": "Other"
   },
   "63be6904847c3692a84b9b7d": {
     "label": "Photography Services",
-    "tag": "Photo-Ops & Instagrammable"
+    "tag": "Photo-Ops"
   },
   "63be6904847c3692a84b9b7c": {
     "label": "Photographers",
-    "tag": "Photo-Ops & Instagrammable"
+    "tag": "Photo-Ops"
   },
   "4eb1bdde3b7b55596b4a7490": {
     "label": "Photography Labs",
-    "tag": "Photo-Ops & Instagrammable"
+    "tag": "Photo-Ops"
   },
   "554a5e17498efabeda6cc559": {
     "label": "Photography Studios",
-    "tag": "Photo-Ops & Instagrammable"
+    "tag": "Photo-Ops"
   },
   "63be6904847c3692a84b9b7e": {
     "label": "Plastics Suppliers",
@@ -893,15 +893,15 @@
   },
   "63be6904847c3692a84b9b81": {
     "label": "Public Relations Firms",
-    "tag": "Bars & Pubs"
+    "tag": "Nightlife"
   },
   "63be6904847c3692a84b9b82": {
     "label": "Publishers",
-    "tag": "Bars & Pubs"
+    "tag": "Nightlife"
   },
   "5032856091d4c4b30a586d63": {
     "label": "Radio Stations",
-    "tag": "Transport & Getting Around"
+    "tag": "Other"
   },
   "63be6904847c3692a84b9b83": {
     "label": "Real Estate Services",
@@ -933,7 +933,7 @@
   },
   "52f2ab2ebcbc57f1066b8b37": {
     "label": "Recording Studios",
-    "tag": "Eco & Sustainable"
+    "tag": "Eco-Friendly"
   },
   "4f4531084b9074f6e4fb0101": {
     "label": "Recycling Facilities",
@@ -961,7 +961,7 @@
   },
   "58daa1558bbb0b01f18ec1b2": {
     "label": "Research Stations",
-    "tag": "Transport & Getting Around"
+    "tag": "Other"
   },
   "63be6904847c3692a84b9b8b": {
     "label": "Rubber Suppliers",
@@ -977,7 +977,7 @@
   },
   "63be6904847c3692a84b9b8e": {
     "label": "Search Engine Marketing and Optimization",
-    "tag": "Street Food & Markets"
+    "tag": "Shopping"
   },
   "63be6904847c3692a84b9b8f": {
     "label": "Security and Safety",
@@ -985,7 +985,7 @@
   },
   "52f2ab2ebcbc57f1066b8b1f": {
     "label": "Shipping, Freight, and Material Transportation Services",
-    "tag": "Transport & Getting Around"
+    "tag": "Other"
   },
   "52f2ab2ebcbc57f1066b8b39": {
     "label": "Shoe Repair Services",
@@ -1001,7 +1001,7 @@
   },
   "63be6904847c3692a84b9b90": {
     "label": "Technology Business",
-    "tag": "Transport & Getting Around"
+    "tag": "Other"
   },
   "52f2ab2ebcbc57f1066b8b36": {
     "label": "IT Services",
@@ -1017,7 +1017,7 @@
   },
   "63be6904847c3692a84b9b93": {
     "label": "Telecommunication Services",
-    "tag": "Eco & Sustainable"
+    "tag": "Eco-Friendly"
   },
   "63be6904847c3692a84b9b94": {
     "label": "Translation Services",
@@ -1029,7 +1029,7 @@
   },
   "52e81612bcbc57f1066b7a31": {
     "label": "TV Stations",
-    "tag": "Transport & Getting Around"
+    "tag": "Other"
   },
   "52e81612bcbc57f1066b7a36": {
     "label": "Warehouses",
@@ -1085,7 +1085,7 @@
   },
   "52e81612bcbc57f1066b7a32": {
     "label": "Cultural Centers",
-    "tag": "Other"
+    "tag": "Cultural & History"
   },
   "63be6904847c3692a84b9b9c": {
     "label": "Disabled Persons Services",
@@ -1093,7 +1093,7 @@
   },
   "63be6904847c3692a84b9b9d": {
     "label": "Domestic Abuse Treatment Centers",
-    "tag": "Transport & Getting Around"
+    "tag": "Other"
   },
   "63be6904847c3692a84b9b9e": {
     "label": "Dumps",
@@ -1145,11 +1145,11 @@
   },
   "4bf58dd8d48988d1b1941735": {
     "label": "College Bookstores",
-    "tag": "Other"
+    "tag": "Shopping"
   },
   "4bf58dd8d48988d1a1941735": {
     "label": "College Cafeterias",
-    "tag": "Café Culture"
+    "tag": "Cafe"
   },
   "4bf58dd8d48988d1a0941735": {
     "label": "College Classrooms",
@@ -1169,15 +1169,15 @@
   },
   "4bf58dd8d48988d1b8941735": {
     "label": "College Football Fields",
-    "tag": "Fitness & Sports"
+    "tag": "Other"
   },
   "4bf58dd8d48988d1b2941735": {
     "label": "College Gyms",
-    "tag": "Fitness & Sports"
+    "tag": "Sports & Fitness"
   },
   "4bf58dd8d48988d19d941735": {
     "label": "College History Buildings",
-    "tag": "Other"
+    "tag": "Cultural & History"
   },
   "4bf58dd8d48988d1b5941735": {
     "label": "College Hockey Rinks",
@@ -1213,11 +1213,11 @@
   },
   "4bf58dd8d48988d1b7941735": {
     "label": "College Soccer Fields",
-    "tag": "Fitness & Sports"
+    "tag": "Other"
   },
   "4bf58dd8d48988d1b4941735": {
     "label": "College Stadiums",
-    "tag": "Fitness & Sports"
+    "tag": "Sports & Fitness"
   },
   "4bf58dd8d48988d19f941735": {
     "label": "College Technology Buildings",
@@ -1225,11 +1225,11 @@
   },
   "4e39a9cebd410d7aed40cbc4": {
     "label": "College Tennis Courts",
-    "tag": "Fitness & Sports"
+    "tag": "Sports & Fitness"
   },
   "4bf58dd8d48988d1ac941735": {
     "label": "College Theaters",
-    "tag": "Arts & Performances"
+    "tag": "Entertainment"
   },
   "4bf58dd8d48988d1b6941735": {
     "label": "College Tracks",
@@ -1265,7 +1265,7 @@
   },
   "63be6904847c3692a84b9ba0": {
     "label": "Computer Training Schools",
-    "tag": "Transport & Getting Around"
+    "tag": "Other"
   },
   "58daa1558bbb0b01f18ec200": {
     "label": "Culinary Schools",
@@ -1285,7 +1285,7 @@
   },
   "4f04b10d2fb6e1c99f3db0be": {
     "label": "Music Schools",
-    "tag": "Arts & Performances"
+    "tag": "Other"
   },
   "4f4533814b9074f6e4fb0107": {
     "label": "Nursery Schools",
@@ -1297,7 +1297,7 @@
   },
   "63be6904847c3692a84b9ba1": {
     "label": "Primary and Secondary Schools",
-    "tag": "Eco & Sustainable"
+    "tag": "Eco-Friendly"
   },
   "4f4533804b9074f6e4fb0105": {
     "label": "Elementary Schools",
@@ -1349,15 +1349,15 @@
   },
   "63be6904847c3692a84b9ba3": {
     "label": "Law Enforcement and Public Safety",
-    "tag": "Bars & Pubs"
+    "tag": "Nightlife"
   },
   "4bf58dd8d48988d12c941735": {
     "label": "Fire Stations",
-    "tag": "Transport & Getting Around"
+    "tag": "Other"
   },
   "4bf58dd8d48988d12e941735": {
     "label": "Police Stations",
-    "tag": "Transport & Getting Around"
+    "tag": "Other"
   },
   "63be6904847c3692a84b9ba4": {
     "label": "Probation Offices",
@@ -1413,7 +1413,7 @@
   },
   "52e81612bcbc57f1066b7a35": {
     "label": "Club Houses",
-    "tag": "Nightclubs & Live Music"
+    "tag": "Other"
   },
   "63be6904847c3692a84b9bac": {
     "label": "Environmental Organizations",
@@ -1453,11 +1453,11 @@
   },
   "63be6904847c3692a84b9bb1": {
     "label": "Public and Social Services",
-    "tag": "Bars & Pubs"
+    "tag": "Nightlife"
   },
   "5744ccdfe4b0c0459246b4c4": {
     "label": "Public Bathrooms",
-    "tag": "Bars & Pubs"
+    "tag": "Nightlife"
   },
   "56aa371be4b08b9a8d57351d": {
     "label": "Rehabilitation Centers",
@@ -1485,7 +1485,7 @@
   },
   "52e81612bcbc57f1066b7a33": {
     "label": "Social Clubs",
-    "tag": "Nightclubs & Live Music"
+    "tag": "Other"
   },
   "4bf58dd8d48988d131941735": {
     "label": "Spiritual Centers",
@@ -1493,7 +1493,7 @@
   },
   "52e81612bcbc57f1066b7a3e": {
     "label": "Buddhist Temples",
-    "tag": "Other"
+    "tag": "Cultural & History"
   },
   "58daa1558bbb0b01f18ec1eb": {
     "label": "Cemevis",
@@ -1501,15 +1501,15 @@
   },
   "4bf58dd8d48988d132941735": {
     "label": "Churches",
-    "tag": "Other"
+    "tag": "Cultural & History"
   },
   "56aa371be4b08b9a8d5734fc": {
     "label": "Confucian Temples",
-    "tag": "Other"
+    "tag": "Cultural & History"
   },
   "52e81612bcbc57f1066b7a3f": {
     "label": "Hindu Temples",
-    "tag": "Other"
+    "tag": "Cultural & History"
   },
   "5744ccdfe4b0c0459246b4ac": {
     "label": "Kingdom Halls",
@@ -1529,11 +1529,11 @@
   },
   "4eb1d80a4b900d56c88a45ff": {
     "label": "Shrines",
-    "tag": "Other"
+    "tag": "Cultural & History"
   },
   "5bae9231bedf3950379f89c9": {
     "label": "Sikh Temples",
-    "tag": "Other"
+    "tag": "Cultural & History"
   },
   "4bf58dd8d48988d139941735": {
     "label": "Synagogues",
@@ -1541,7 +1541,7 @@
   },
   "4bf58dd8d48988d13a941735": {
     "label": "Temples",
-    "tag": "Other"
+    "tag": "Cultural & History"
   },
   "56aa371be4b08b9a8d5734f6": {
     "label": "Terreiros",
@@ -1557,7 +1557,7 @@
   },
   "52f2ab2ebcbc57f1066b8b55": {
     "label": "Trailer Parks",
-    "tag": "Hiking & Trails"
+    "tag": "Nature"
   },
   "63be6904847c3692a84b9bb4": {
     "label": "Utility Companies",
@@ -1569,143 +1569,143 @@
   },
   "4bf58dd8d48988d179941735": {
     "label": "Bagel Shops",
-    "tag": "Other"
+    "tag": "Shopping"
   },
   "4bf58dd8d48988d16a941735": {
     "label": "Bakeries",
-    "tag": "Other"
+    "tag": "Cafe"
   },
   "4bf58dd8d48988d116941735": {
     "label": "Bars",
-    "tag": "Bars & Pubs"
+    "tag": "Nightlife"
   },
   "4bf58dd8d48988d1ea941735": {
     "label": "Apres Ski Bars",
-    "tag": "Bars & Pubs"
+    "tag": "Nightlife"
   },
   "52e81612bcbc57f1066b7a0d": {
     "label": "Beach Bars",
-    "tag": "Beaches & Waterfront"
+    "tag": "Nature"
   },
   "56aa371ce4b08b9a8d57356c": {
     "label": "Beer Bars",
-    "tag": "Bars & Pubs"
+    "tag": "Nightlife"
   },
   "4bf58dd8d48988d117941735": {
     "label": "Beer Gardens",
-    "tag": "Wildlife & Nature"
+    "tag": "Other"
   },
   "52e81612bcbc57f1066b7a0e": {
     "label": "Champagne Bars",
-    "tag": "Bars & Pubs"
+    "tag": "Nightlife"
   },
   "4bf58dd8d48988d11e941735": {
     "label": "Cocktail Bars",
-    "tag": "Bars & Pubs"
+    "tag": "Nightlife"
   },
   "4bf58dd8d48988d118941735": {
     "label": "Dive Bars",
-    "tag": "Bars & Pubs"
+    "tag": "Nightlife"
   },
   "4bf58dd8d48988d1d8941735": {
     "label": "Gay Bars",
-    "tag": "Bars & Pubs"
+    "tag": "Nightlife"
   },
   "4bf58dd8d48988d119941735": {
     "label": "Hookah Bars",
-    "tag": "Bars & Pubs"
+    "tag": "Nightlife"
   },
   "4bf58dd8d48988d1d5941735": {
     "label": "Hotel Bars",
-    "tag": "Accommodation"
+    "tag": "Nightlife"
   },
   "5f2c40f15b4c177b9a6dc684": {
     "label": "Ice Bars",
-    "tag": "Bars & Pubs"
+    "tag": "Nightlife"
   },
   "52e81612bcbc57f1066b7a06": {
     "label": "Irish Pubs",
-    "tag": "Bars & Pubs"
+    "tag": "Nightlife"
   },
   "4bf58dd8d48988d120941735": {
     "label": "Karaoke Bars",
-    "tag": "Bars & Pubs"
+    "tag": "Nightlife"
   },
   "4bf58dd8d48988d121941735": {
     "label": "Lounges",
-    "tag": "Bars & Pubs"
+    "tag": "Nightlife"
   },
   "4bf58dd8d48988d1e8931735": {
     "label": "Piano Bars",
-    "tag": "Bars & Pubs"
+    "tag": "Nightlife"
   },
   "4bf58dd8d48988d11b941735": {
     "label": "Pubs",
-    "tag": "Bars & Pubs"
+    "tag": "Nightlife"
   },
   "5f2c224bb6d05514c70440a3": {
     "label": "Rooftop Bars",
-    "tag": "Bars & Pubs"
+    "tag": "Nightlife"
   },
   "4bf58dd8d48988d11c941735": {
     "label": "Sake Bars",
-    "tag": "Bars & Pubs"
+    "tag": "Nightlife"
   },
   "4bf58dd8d48988d1d4941735": {
     "label": "Speakeasies",
-    "tag": "Mountains & Scenic Views"
+    "tag": "Nightlife"
   },
   "4bf58dd8d48988d11d941735": {
     "label": "Sports Bars",
-    "tag": "Bars & Pubs"
+    "tag": "Nightlife"
   },
   "56aa371be4b08b9a8d57354d": {
     "label": "Tiki Bars",
-    "tag": "Bars & Pubs"
+    "tag": "Nightlife"
   },
   "4bf58dd8d48988d122941735": {
     "label": "Whisky Bars",
-    "tag": "Bars & Pubs"
+    "tag": "Nightlife"
   },
   "4bf58dd8d48988d123941735": {
     "label": "Wine Bars",
-    "tag": "Bars & Pubs"
+    "tag": "Nightlife"
   },
   "4bf58dd8d48988d143941735": {
     "label": "Breakfast Spots",
-    "tag": "Other"
+    "tag": "Foodie"
   },
   "50327c8591d4c4b30a586d5d": {
     "label": "Breweries",
-    "tag": "Other"
+    "tag": "Foodie"
   },
   "63be6904847c3692a84b9bb6": {
     "label": "Cafes, Coffee, and Tea Houses",
-    "tag": "Café Culture"
+    "tag": "Cafe"
   },
   "52e81612bcbc57f1066b7a0c": {
     "label": "Bubble Tea Shops",
-    "tag": "Café Culture"
+    "tag": "Cafe"
   },
   "4bf58dd8d48988d16d941735": {
     "label": "Cafés",
-    "tag": "Other"
+    "tag": "Cafe"
   },
   "4bf58dd8d48988d1e0931735": {
     "label": "Coffee Shops",
-    "tag": "Café Culture"
+    "tag": "Cafe"
   },
   "56aa371be4b08b9a8d573508": {
     "label": "Pet Cafés",
-    "tag": "Pet-Friendly"
+    "tag": "Other"
   },
   "4bf58dd8d48988d1dc931735": {
     "label": "Tea Rooms",
-    "tag": "Café Culture"
+    "tag": "Cafe"
   },
   "4bf58dd8d48988d128941735": {
     "label": "Cafeterias",
-    "tag": "Café Culture"
+    "tag": "Cafe"
   },
   "5e189fd6eee47d000759bbfd": {
     "label": "Cideries",
@@ -1717,19 +1717,19 @@
   },
   "4bf58dd8d48988d1d0941735": {
     "label": "Dessert Shops",
-    "tag": "Other"
+    "tag": "Shopping"
   },
   "4bf58dd8d48988d1bc941735": {
     "label": "Cupcake Shops",
-    "tag": "Other"
+    "tag": "Shopping"
   },
   "512e7cae91d4cbb4e5efe0af": {
     "label": "Frozen Yogurt Shops",
-    "tag": "Other"
+    "tag": "Shopping"
   },
   "5f2c407c5b4c177b9a6dc536": {
     "label": "Gelato Shops",
-    "tag": "Other"
+    "tag": "Shopping"
   },
   "4bf58dd8d48988d1c9941735": {
     "label": "Ice Cream Parlors",
@@ -1737,39 +1737,39 @@
   },
   "5744ccdfe4b0c0459246b4e2": {
     "label": "Pastry Shops",
-    "tag": "Other"
+    "tag": "Shopping"
   },
   "52e81612bcbc57f1066b7a0a": {
     "label": "Pie Shops",
-    "tag": "Other"
+    "tag": "Shopping"
   },
   "62d5af45da6648532de303ee": {
     "label": "Waffle Shops",
-    "tag": "Other"
+    "tag": "Shopping"
   },
   "4e0e22f5a56208c4ea9a85a0": {
     "label": "Distilleries",
-    "tag": "Other"
+    "tag": "Foodie"
   },
   "4bf58dd8d48988d148941735": {
     "label": "Donut Shops",
-    "tag": "Other"
+    "tag": "Foodie"
   },
   "4bf58dd8d48988d120951735": {
     "label": "Food Courts",
-    "tag": "Other"
+    "tag": "Foodie"
   },
   "56aa371be4b08b9a8d57350b": {
     "label": "Food Stands",
-    "tag": "Other"
+    "tag": "Foodie"
   },
   "4bf58dd8d48988d1cb941735": {
     "label": "Food Trucks",
-    "tag": "Other"
+    "tag": "Foodie"
   },
   "4bf58dd8d48988d112941735": {
     "label": "Juice Bars",
-    "tag": "Bars & Pubs"
+    "tag": "Nightlife"
   },
   "5e189d71eee47d000759b7e2": {
     "label": "Meaderies",
@@ -1777,67 +1777,67 @@
   },
   "53e510b7498ebcb1801b55d4": {
     "label": "Night Markets",
-    "tag": "Street Food & Markets"
+    "tag": "Shopping"
   },
   "4d4b7105d754a06374d81259": {
     "label": "Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "503288ae91d4c4b30a586d67": {
     "label": "Afghan Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "4bf58dd8d48988d1c8941735": {
     "label": "African Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "4bf58dd8d48988d10a941735": {
     "label": "Ethiopian Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "5f2c344a5b4c177b9a6dc011": {
     "label": "Mauritian Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "4bf58dd8d48988d14e941735": {
     "label": "American Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "4bf58dd8d48988d157941735": {
     "label": "New American Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "5f2c2b7db6d05514c7044837": {
     "label": "Armenian Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "4bf58dd8d48988d142941735": {
     "label": "Asian Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "56aa371be4b08b9a8d573568": {
     "label": "Burmese Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "52e81612bcbc57f1066b7a03": {
     "label": "Cambodian Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "4bf58dd8d48988d145941735": {
     "label": "Chinese Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "52af3a5e3cf9994f4e043bea": {
     "label": "Anhui Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "52af3a723cf9994f4e043bec": {
     "label": "Beijing Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "52af3a7c3cf9994f4e043bed": {
     "label": "Cantonese Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "58daa1558bbb0b01f18ec1d3": {
     "label": "Cha Chaan Tengs",
@@ -1845,223 +1845,223 @@
   },
   "52af3a673cf9994f4e043beb": {
     "label": "Chinese Aristocrat Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "52af3a903cf9994f4e043bee": {
     "label": "Chinese Breakfast Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "4bf58dd8d48988d1f5931735": {
     "label": "Dim Sum Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "52af3a9f3cf9994f4e043bef": {
     "label": "Dongbei Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "52af3aaa3cf9994f4e043bf0": {
     "label": "Fujian Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "52af3ab53cf9994f4e043bf1": {
     "label": "Guizhou Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "52af3abe3cf9994f4e043bf2": {
     "label": "Hainan Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "52af3ac83cf9994f4e043bf3": {
     "label": "Hakka Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "52af3ad23cf9994f4e043bf4": {
     "label": "Henan Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "52af3add3cf9994f4e043bf5": {
     "label": "Hong Kong Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "52af3af23cf9994f4e043bf7": {
     "label": "Huaiyang Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "52af3ae63cf9994f4e043bf6": {
     "label": "Hubei Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "52af3afc3cf9994f4e043bf8": {
     "label": "Hunan Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "52af3b053cf9994f4e043bf9": {
     "label": "Imperial Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "52af3b213cf9994f4e043bfa": {
     "label": "Jiangsu Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "52af3b293cf9994f4e043bfb": {
     "label": "Jiangxi Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "52af3b343cf9994f4e043bfc": {
     "label": "Macanese Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "52af3b3b3cf9994f4e043bfd": {
     "label": "Manchu Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "52af3b463cf9994f4e043bfe": {
     "label": "Peking Duck Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "52af3b633cf9994f4e043c01": {
     "label": "Shaanxi Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "52af3b513cf9994f4e043bff": {
     "label": "Shandong Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "52af3b593cf9994f4e043c00": {
     "label": "Shanghai Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "52af3b6e3cf9994f4e043c02": {
     "label": "Shanxi Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "52af3b773cf9994f4e043c03": {
     "label": "Szechuan Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "52af3b813cf9994f4e043c04": {
     "label": "Taiwanese Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "52af3b893cf9994f4e043c05": {
     "label": "Tianjin Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "52af3b913cf9994f4e043c06": {
     "label": "Xinjiang Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "52af3b9a3cf9994f4e043c07": {
     "label": "Yunnan Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "52af3ba23cf9994f4e043c08": {
     "label": "Zhejiang Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "4eb1bd1c3b7b55596b4a748f": {
     "label": "Filipino Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "52e81612bcbc57f1066b79fb": {
     "label": "Himalayan Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "52af0bd33cf9994f4e043bdd": {
     "label": "Hotpot Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "4deefc054765f83613cdba6f": {
     "label": "Indonesian Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "52960eda3cf9994f4e043ac9": {
     "label": "Acehnese Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "52960eda3cf9994f4e043acb": {
     "label": "Balinese Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "52960eda3cf9994f4e043aca": {
     "label": "Betawinese Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "52960eda3cf9994f4e043acc": {
     "label": "Indonesian Meatball Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "52960eda3cf9994f4e043ac7": {
     "label": "Javanese Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "52960eda3cf9994f4e043ac8": {
     "label": "Manadonese Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "52960eda3cf9994f4e043ac5": {
     "label": "Padangnese Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "52960eda3cf9994f4e043ac6": {
     "label": "Sundanese Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "4bf58dd8d48988d111941735": {
     "label": "Japanese Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "55a59bace4b013909087cb0c": {
     "label": "Donburi Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "55a59bace4b013909087cb30": {
     "label": "Japanese Curry Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "5f2c2436b6d05514c704433e": {
     "label": "Japanese Family Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "55a59bace4b013909087cb21": {
     "label": "Kaiseki Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "55a59bace4b013909087cb06": {
     "label": "Kushikatsu Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "55a59bace4b013909087cb1b": {
     "label": "Monjayaki Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "55a59bace4b013909087cb1e": {
     "label": "Nabe Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "55a59bace4b013909087cb18": {
     "label": "Okonomiyaki Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "55a59bace4b013909087cb24": {
     "label": "Ramen Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "55a59bace4b013909087cb15": {
     "label": "Shabu-Shabu Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "55a59bace4b013909087cb27": {
     "label": "Soba Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "55a59bace4b013909087cb12": {
     "label": "Sukiyaki Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "4bf58dd8d48988d1d2941735": {
     "label": "Sushi Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "55a59bace4b013909087cb2d": {
     "label": "Takoyaki Places",
@@ -2069,239 +2069,239 @@
   },
   "5f2c239eb6d05514c70441ee": {
     "label": "Teishoku Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "55a59a31e4b013909087cb00": {
     "label": "Tempura Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "55a59af1e4b013909087cb03": {
     "label": "Tonkatsu Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "55a59bace4b013909087cb2a": {
     "label": "Udon Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "55a59bace4b013909087cb0f": {
     "label": "Unagi Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "55a59bace4b013909087cb33": {
     "label": "Wagashi Places",
-    "tag": "Other"
+    "tag": "Foodie"
   },
   "55a59bace4b013909087cb09": {
     "label": "Yakitori Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "55a59bace4b013909087cb36": {
     "label": "Yoshoku Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "4bf58dd8d48988d113941735": {
     "label": "Korean Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "56aa371be4b08b9a8d5734e4": {
     "label": "Bossam/Jokbal Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "56aa371be4b08b9a8d5734f0": {
     "label": "Bunsik Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "56aa371be4b08b9a8d5734e7": {
     "label": "Gukbap Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "56aa371be4b08b9a8d5734ed": {
     "label": "Janguh Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "5f2c3f6b5b4c177b9a6dc388": {
     "label": "Korean BBQ Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "56aa371be4b08b9a8d5734ea": {
     "label": "Samgyetang Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "4bf58dd8d48988d156941735": {
     "label": "Malay Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "5ae9595eb77c77002c2f9f26": {
     "label": "Mamak Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "4eb1d5724b900d56c88a45fe": {
     "label": "Mongolian Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "4bf58dd8d48988d1d1941735": {
     "label": "Noodle Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "56aa371be4b08b9a8d57350e": {
     "label": "Satay Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "5f2c430e5b4c177b9a6dcabd": {
     "label": "Singaporean Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "4bf58dd8d48988d149941735": {
     "label": "Thai Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "56aa371be4b08b9a8d573502": {
     "label": "Som Tum Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "52af39fb3cf9994f4e043be9": {
     "label": "Tibetan Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "4bf58dd8d48988d14a941735": {
     "label": "Vietnamese Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "4bf58dd8d48988d169941735": {
     "label": "Australian Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "52e81612bcbc57f1066b7a01": {
     "label": "Austrian Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "5e179ee74ae8e90006e9a746": {
     "label": "Bangladeshi Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "4bf58dd8d48988d1df931735": {
     "label": "BBQ Joints",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "52e81612bcbc57f1066b7a02": {
     "label": "Belgian Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "52e81612bcbc57f1066b79f1": {
     "label": "Bistros",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "52e81612bcbc57f1066b79f4": {
     "label": "Buffets",
-    "tag": "Other"
+    "tag": "Foodie"
   },
   "4bf58dd8d48988d16c941735": {
     "label": "Burger Joints",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "4bf58dd8d48988d17a941735": {
     "label": "Cajun and Creole Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "4bf58dd8d48988d144941735": {
     "label": "Caribbean Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "4bf58dd8d48988d154941735": {
     "label": "Cuban Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "5f2c2abab6d05514c70446e4": {
     "label": "Puerto Rican Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "5293a7d53cf9994f4e043a45": {
     "label": "Caucasian Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "52e81612bcbc57f1066b7a00": {
     "label": "Comfort Food Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "52f2ae52bcbc57f1066b8b81": {
     "label": "Czech Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "4bf58dd8d48988d146941735": {
     "label": "Delis",
-    "tag": "Other"
+    "tag": "Foodie"
   },
   "4bf58dd8d48988d147941735": {
     "label": "Diners",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "4bf58dd8d48988d108941735": {
     "label": "Dumpling Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "5744ccdfe4b0c0459246b4d0": {
     "label": "Dutch Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "4bf58dd8d48988d109941735": {
     "label": "Eastern European Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "52e928d0bcbc57f1066b7e97": {
     "label": "Belarusian Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "58daa1558bbb0b01f18ec1ee": {
     "label": "Bosnian Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "56aa371be4b08b9a8d5734f3": {
     "label": "Bulgarian Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "52960bac3cf9994f4e043ac4": {
     "label": "Romanian Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "52e928d0bcbc57f1066b7e98": {
     "label": "Tatar Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "52e81612bcbc57f1066b7a05": {
     "label": "English Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "4bf58dd8d48988d10b941735": {
     "label": "Falafel Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "4bf58dd8d48988d16e941735": {
     "label": "Fast Food Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "4edd64a0c7ddd24ca188df1a": {
     "label": "Fish and Chips Shops",
-    "tag": "Other"
+    "tag": "Shopping"
   },
   "52e81612bcbc57f1066b7a09": {
     "label": "Fondue Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "4bf58dd8d48988d10c941735": {
     "label": "French Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "57558b36e4b065ecebd306b6": {
     "label": "Alsatian Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "57558b36e4b065ecebd306b8": {
     "label": "Auvergne Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "57558b36e4b065ecebd306bc": {
     "label": "Basque Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "57558b36e4b065ecebd306b0": {
     "label": "Brasseries",
@@ -2309,23 +2309,23 @@
   },
   "57558b36e4b065ecebd306c5": {
     "label": "Breton Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "57558b36e4b065ecebd306c0": {
     "label": "Burgundian Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "57558b36e4b065ecebd306cb": {
     "label": "Catalan Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "57558b36e4b065ecebd306ce": {
     "label": "Ch'ti Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "57558b36e4b065ecebd306d1": {
     "label": "Corsican Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "57558b36e4b065ecebd306b4": {
     "label": "Estaminets",
@@ -2341,19 +2341,19 @@
   },
   "57558b36e4b065ecebd306d4": {
     "label": "Norman Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "57558b36e4b065ecebd306d7": {
     "label": "Provençal Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "57558b36e4b065ecebd306da": {
     "label": "Savoyard Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "57558b36e4b065ecebd306ba": {
     "label": "Southwestern French Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "4d4ae6fc7a7b7dea34424761": {
     "label": "Fried Chicken Joints",
@@ -2365,19 +2365,19 @@
   },
   "4bf58dd8d48988d155941735": {
     "label": "Gastropubs",
-    "tag": "Bars & Pubs"
+    "tag": "Nightlife"
   },
   "4bf58dd8d48988d10d941735": {
     "label": "German Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "56aa371ce4b08b9a8d573583": {
     "label": "Apple Wine Pubs",
-    "tag": "Bars & Pubs"
+    "tag": "Nightlife"
   },
   "56aa371ce4b08b9a8d573572": {
     "label": "Bavarian Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "56aa371ce4b08b9a8d57358e": {
     "label": "Bratwurst Joints",
@@ -2389,47 +2389,47 @@
   },
   "56aa371ce4b08b9a8d573574": {
     "label": "Franconian Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "56aa371ce4b08b9a8d573592": {
     "label": "German Pop-Up Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "56aa371ce4b08b9a8d573578": {
     "label": "Palatine Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "56aa371ce4b08b9a8d57357b": {
     "label": "Rhenisch Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "56aa371ce4b08b9a8d573587": {
     "label": "Schnitzel Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "56aa371ce4b08b9a8d57357f": {
     "label": "Silesian Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "56aa371ce4b08b9a8d573576": {
     "label": "Swabian Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "4c2cd86ed066bed06c3c5209": {
     "label": "Gluten-Free Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "4bf58dd8d48988d10e941735": {
     "label": "Greek Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "53d6c1b0e4b02351e88a83e8": {
     "label": "Bougatsa Shops",
-    "tag": "Other"
+    "tag": "Shopping"
   },
   "53d6c1b0e4b02351e88a83e2": {
     "label": "Cretan Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "53d6c1b0e4b02351e88a83d8": {
     "label": "Fish Tavernas",
@@ -2437,7 +2437,7 @@
   },
   "53d6c1b0e4b02351e88a83d6": {
     "label": "Grilled Meat Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "53d6c1b0e4b02351e88a83e6": {
     "label": "Kafenios",
@@ -2449,11 +2449,11 @@
   },
   "53d6c1b0e4b02351e88a83da": {
     "label": "Meze Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "53d6c1b0e4b02351e88a83d4": {
     "label": "Modern Greek Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "53d6c1b0e4b02351e88a83dc": {
     "label": "Ouzeries",
@@ -2461,11 +2461,11 @@
   },
   "53d6c1b0e4b02351e88a83e0": {
     "label": "Patsa Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "52e81612bcbc57f1066b79f3": {
     "label": "Souvlaki Shops",
-    "tag": "Other"
+    "tag": "Shopping"
   },
   "53d6c1b0e4b02351e88a83d2": {
     "label": "Tavernas",
@@ -2473,19 +2473,19 @@
   },
   "53d6c1b0e4b02351e88a83de": {
     "label": "Tsipouro Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "52e81612bcbc57f1066b79ff": {
     "label": "Halal Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "52e81612bcbc57f1066b79fe": {
     "label": "Hawaiian Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "5bae9231bedf3950379f89d4": {
     "label": "Poke Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "4bf58dd8d48988d16f941735": {
     "label": "Hot Dog Joints",
@@ -2493,27 +2493,27 @@
   },
   "52e81612bcbc57f1066b79fa": {
     "label": "Hungarian Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "54135bf5e4b08f3d2429dfdf": {
     "label": "Indian Chinese Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "4bf58dd8d48988d10f941735": {
     "label": "Indian Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "54135bf5e4b08f3d2429dfe5": {
     "label": "Andhra Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "54135bf5e4b08f3d2429dff3": {
     "label": "Awadhi Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "54135bf5e4b08f3d2429dff5": {
     "label": "Bengali Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "54135bf5e4b08f3d2429dfe2": {
     "label": "Chaat Places",
@@ -2521,7 +2521,7 @@
   },
   "54135bf5e4b08f3d2429dff2": {
     "label": "Chettinad Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "54135bf5e4b08f3d2429dfe1": {
     "label": "Dhabas",
@@ -2533,83 +2533,83 @@
   },
   "54135bf5e4b08f3d2429dfe8": {
     "label": "Goan Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "54135bf5e4b08f3d2429dfe9": {
     "label": "Gujarati Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "54135bf5e4b08f3d2429dfe6": {
     "label": "Hyderabadi Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "54135bf5e4b08f3d2429dfe4": {
     "label": "Indian Sweet Shops",
-    "tag": "Other"
+    "tag": "Shopping"
   },
   "54135bf5e4b08f3d2429dfe7": {
     "label": "Irani Cafes",
-    "tag": "Café Culture"
+    "tag": "Cafe"
   },
   "54135bf5e4b08f3d2429dfea": {
     "label": "Jain Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "54135bf5e4b08f3d2429dfeb": {
     "label": "Karnataka Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "54135bf5e4b08f3d2429dfed": {
     "label": "Kerala Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "54135bf5e4b08f3d2429dfee": {
     "label": "Maharashtrian Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "54135bf5e4b08f3d2429dff4": {
     "label": "Mughlai Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "54135bf5e4b08f3d2429dfe0": {
     "label": "Multicuisine Indian Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "54135bf5e4b08f3d2429dfdd": {
     "label": "North Indian Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "54135bf5e4b08f3d2429dff6": {
     "label": "Northeast Indian Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "54135bf5e4b08f3d2429dfef": {
     "label": "Parsi Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "54135bf5e4b08f3d2429dff0": {
     "label": "Punjabi Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "54135bf5e4b08f3d2429dff1": {
     "label": "Rajasthani Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "54135bf5e4b08f3d2429dfde": {
     "label": "South Indian Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "54135bf5e4b08f3d2429dfec": {
     "label": "Udupi Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "4bf58dd8d48988d110941735": {
     "label": "Italian Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "55a5a1ebe4b013909087cbb6": {
     "label": "Abruzzo Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "55a5a1ebe4b013909087cb7c": {
     "label": "Agriturismos",
@@ -2617,35 +2617,35 @@
   },
   "55a5a1ebe4b013909087cba7": {
     "label": "Aosta Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "55a5a1ebe4b013909087cba1": {
     "label": "Basilicata Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "55a5a1ebe4b013909087cba4": {
     "label": "Calabria Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "55a5a1ebe4b013909087cb95": {
     "label": "Campanian Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "55a5a1ebe4b013909087cb89": {
     "label": "Emilia Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "55a5a1ebe4b013909087cb9b": {
     "label": "Friuli Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "55a5a1ebe4b013909087cb98": {
     "label": "Ligurian Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "55a5a1ebe4b013909087cbbf": {
     "label": "Lombard Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "55a5a1ebe4b013909087cb79": {
     "label": "Malgas",
@@ -2653,43 +2653,43 @@
   },
   "55a5a1ebe4b013909087cbb0": {
     "label": "Marche Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "55a5a1ebe4b013909087cbb3": {
     "label": "Molise Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "55a5a1ebe4b013909087cb74": {
     "label": "Piadinerias",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "55a5a1ebe4b013909087cbaa": {
     "label": "Piedmontese Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "55a5a1ebe4b013909087cb83": {
     "label": "Puglia Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "55a5a1ebe4b013909087cb8c": {
     "label": "Romagna Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "55a5a1ebe4b013909087cb92": {
     "label": "Roman Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "55a5a1ebe4b013909087cb8f": {
     "label": "Sardinian Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "55a5a1ebe4b013909087cb86": {
     "label": "Sicilian Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "55a5a1ebe4b013909087cbb9": {
     "label": "South Tyrolean Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "55a5a1ebe4b013909087cb7f": {
     "label": "Trattorias",
@@ -2697,63 +2697,63 @@
   },
   "55a5a1ebe4b013909087cbbc": {
     "label": "Trentino Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "55a5a1ebe4b013909087cb9e": {
     "label": "Tuscan Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "55a5a1ebe4b013909087cbc2": {
     "label": "Umbrian Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "55a5a1ebe4b013909087cbad": {
     "label": "Veneto Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "52e81612bcbc57f1066b79fd": {
     "label": "Jewish Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "52e81612bcbc57f1066b79fc": {
     "label": "Kosher Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "5283c7b4e4b094cb91ec88d7": {
     "label": "Kebab Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "4bf58dd8d48988d1be941735": {
     "label": "Latin American Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "4bf58dd8d48988d152941735": {
     "label": "Arepa Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "52939a8c3cf9994f4e043a35": {
     "label": "Empanada Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "5f2c32587ff30c0d7ac09638": {
     "label": "Honduran Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "5745c7ac498e5d0483112fdb": {
     "label": "Salvadoran Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "4bf58dd8d48988d1cd941735": {
     "label": "South American Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "4bf58dd8d48988d107941735": {
     "label": "Argentinian Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "4bf58dd8d48988d16b941735": {
     "label": "Brazilian Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "5294c7523cf9994f4e043a62": {
     "label": "Acai Houses",
@@ -2761,11 +2761,11 @@
   },
   "52939ae13cf9994f4e043a3b": {
     "label": "Baiano Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "52939a9e3cf9994f4e043a36": {
     "label": "Central Brazilian Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "52939a643cf9994f4e043a33": {
     "label": "Churrascarias",
@@ -2777,19 +2777,19 @@
   },
   "52939af83cf9994f4e043a3d": {
     "label": "Goiano Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "52939aed3cf9994f4e043a3c": {
     "label": "Mineiro Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "52939aae3cf9994f4e043a37": {
     "label": "Northeastern Brazilian Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "52939ab93cf9994f4e043a38": {
     "label": "Northern Brazilian Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "5294cbda3cf9994f4e043a63": {
     "label": "Pastelarias",
@@ -2797,11 +2797,11 @@
   },
   "52939ac53cf9994f4e043a39": {
     "label": "Southeastern Brazilian Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "52939ad03cf9994f4e043a3a": {
     "label": "Southern Brazilian Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "52939a7d3cf9994f4e043a34": {
     "label": "Tapiocarias",
@@ -2809,11 +2809,11 @@
   },
   "58daa1558bbb0b01f18ec1f4": {
     "label": "Colombian Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "4eb1bfa43b7b52c0e1adc2e8": {
     "label": "Peruvian Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "5f2c1c31b6d05514c704334c": {
     "label": "Peruvian Roast Chicken Joints",
@@ -2821,7 +2821,7 @@
   },
   "56aa371be4b08b9a8d573558": {
     "label": "Venezuelan Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "4bf58dd8d48988d1bf941735": {
     "label": "Mac and Cheese Joints",
@@ -2829,11 +2829,11 @@
   },
   "4bf58dd8d48988d1c0941735": {
     "label": "Mediterranean Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "4bf58dd8d48988d1c1941735": {
     "label": "Mexican Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "58daa1558bbb0b01f18ec1d9": {
     "label": "Botaneros",
@@ -2841,47 +2841,47 @@
   },
   "4bf58dd8d48988d153941735": {
     "label": "Burrito Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "4bf58dd8d48988d151941735": {
     "label": "Taco Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "56aa371ae4b08b9a8d5734ba": {
     "label": "Tex-Mex Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "5744ccdfe4b0c0459246b4d3": {
     "label": "Yucatecan Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "4bf58dd8d48988d115941735": {
     "label": "Middle Eastern Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "5bae9231bedf3950379f89e1": {
     "label": "Egyptian Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "5bae9231bedf3950379f89e7": {
     "label": "Iraqi Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "56aa371be4b08b9a8d573529": {
     "label": "Israeli Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "5744ccdfe4b0c0459246b4ca": {
     "label": "Kurdish Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "58daa1558bbb0b01f18ec1cd": {
     "label": "Lebanese Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "52e81612bcbc57f1066b79f7": {
     "label": "Persian Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "58daa1558bbb0b01f18ec1bc": {
     "label": "Ash and Haleem Places",
@@ -2893,7 +2893,7 @@
   },
   "58daa1558bbb0b01f18ec1c4": {
     "label": "Gilaki Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "58daa1558bbb0b01f18ec1c7": {
     "label": "Jegarakis",
@@ -2905,51 +2905,51 @@
   },
   "5bae9231bedf3950379f89e4": {
     "label": "Shawarma Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "5bae9231bedf3950379f89da": {
     "label": "Syrian Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "5bae9231bedf3950379f89ea": {
     "label": "Yemeni Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "52e81612bcbc57f1066b79f9": {
     "label": "Modern European Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "4bf58dd8d48988d1c2941735": {
     "label": "Molecular Gastronomy Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "4bf58dd8d48988d1c3941735": {
     "label": "Moroccan Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "52e81612bcbc57f1066b79f8": {
     "label": "Pakistani Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "4bf58dd8d48988d1ca941735": {
     "label": "Pizzerias",
-    "tag": "Other"
+    "tag": "Foodie"
   },
   "52e81612bcbc57f1066b7a04": {
     "label": "Polish Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "4def73e84765ae376e57713a": {
     "label": "Portuguese Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "56aa371be4b08b9a8d5734c7": {
     "label": "Poutine Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "5293a7563cf9994f4e043a44": {
     "label": "Russian Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "52e928d0bcbc57f1066b7e9d": {
     "label": "Blini Houses",
@@ -2961,7 +2961,7 @@
   },
   "4bf58dd8d48988d1bd941735": {
     "label": "Salad Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "4bf58dd8d48988d1c5941735": {
     "label": "Sandwich Spots",
@@ -2969,19 +2969,19 @@
   },
   "4bf58dd8d48988d1c6941735": {
     "label": "Scandinavian Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "5744ccdde4b0c0459246b4a3": {
     "label": "Scottish Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "4bf58dd8d48988d1ce941735": {
     "label": "Seafood Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "56aa371be4b08b9a8d57355a": {
     "label": "Slovak Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "4bf58dd8d48988d1dd931735": {
     "label": "Soup Spots",
@@ -2989,39 +2989,39 @@
   },
   "4bf58dd8d48988d14f941735": {
     "label": "Southern Food Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "4bf58dd8d48988d150941735": {
     "label": "Spanish Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "4bf58dd8d48988d14d941735": {
     "label": "Paella Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "4bf58dd8d48988d1db931735": {
     "label": "Tapas Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "5413605de4b0ae91d18581a9": {
     "label": "Sri Lankan Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "4bf58dd8d48988d1cc941735": {
     "label": "Steakhouses",
-    "tag": "Café Culture"
+    "tag": "Foodie"
   },
   "4bf58dd8d48988d158941735": {
     "label": "Swiss Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "56aa371be4b08b9a8d573538": {
     "label": "Theme Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "4f04af1f2fb6e1c99f3db0bb": {
     "label": "Turkish Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "530faca9bcbc57f1066bc2f3": {
     "label": "Borek Places",
@@ -3037,7 +3037,7 @@
   },
   "5283c7b4e4b094cb91ec88d8": {
     "label": "Doner Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "5283c7b4e4b094cb91ec88d9": {
     "label": "Gozleme Places",
@@ -3049,15 +3049,15 @@
   },
   "5283c7b4e4b094cb91ec88d6": {
     "label": "Kokoreç Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "56aa371be4b08b9a8d573535": {
     "label": "Kumpir Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "56aa371be4b08b9a8d5734bd": {
     "label": "Kumru Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "5283c7b4e4b094cb91ec88d5": {
     "label": "Manti Places",
@@ -3081,31 +3081,31 @@
   },
   "56aa371be4b08b9a8d5734bf": {
     "label": "Tantuni Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "56aa371be4b08b9a8d5734c1": {
     "label": "Turkish Coffeehouses",
-    "tag": "Café Culture"
+    "tag": "Cafe"
   },
   "5283c7b4e4b094cb91ec88d4": {
     "label": "Turkish Home Cooking Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "52e928d0bcbc57f1066b7e96": {
     "label": "Ukrainian Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "52e928d0bcbc57f1066b7e9a": {
     "label": "Varenyky Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "52e928d0bcbc57f1066b7e9b": {
     "label": "West-Ukrainian Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "4bf58dd8d48988d1d3941735": {
     "label": "Vegan and Vegetarian Restaurants",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "4bf58dd8d48988d14c941735": {
     "label": "Wings Joints",
@@ -3113,27 +3113,27 @@
   },
   "52f2ab2ebcbc57f1066b8b41": {
     "label": "Smoothie Shops",
-    "tag": "Other"
+    "tag": "Shopping"
   },
   "4bf58dd8d48988d1c7941735": {
     "label": "Snack Places",
-    "tag": "Other"
+    "tag": "Foodie"
   },
   "4bf58dd8d48988d1de941735": {
     "label": "Vineyards",
-    "tag": "Other"
+    "tag": "Foodie"
   },
   "4bf58dd8d48988d14b941735": {
     "label": "Wineries",
-    "tag": "Other"
+    "tag": "Foodie"
   },
   "4d4b7105d754a06373d81259": {
     "label": "Events",
-    "tag": "Local Festivals & Events"
+    "tag": "Other"
   },
   "5267e4d9e4b0ec79466e48c6": {
     "label": "Conferences",
-    "tag": "Local Festivals & Events"
+    "tag": "Other"
   },
   "5267e4d9e4b0ec79466e48c9": {
     "label": "Conventions",
@@ -3141,19 +3141,19 @@
   },
   "63be6904847c3692a84b9bb7": {
     "label": "Entertainment Events",
-    "tag": "Local Festivals & Events"
+    "tag": "Entertainment"
   },
   "5267e4d9e4b0ec79466e48c7": {
     "label": "Festivals",
-    "tag": "Local Festivals & Events"
+    "tag": "Entertainment"
   },
   "62d587aeda6648532de2b88c": {
     "label": "Beer Festivals",
-    "tag": "Local Festivals & Events"
+    "tag": "Foodie"
   },
   "5267e4d9e4b0ec79466e48d1": {
     "label": "Music Festivals",
-    "tag": "Arts & Performances"
+    "tag": "Entertainment"
   },
   "52741d85e4b0d5d1e3c6a6d9": {
     "label": "Parades",
@@ -3161,7 +3161,7 @@
   },
   "5bae9231bedf3950379f89c5": {
     "label": "Sporting Events",
-    "tag": "Local Festivals & Events"
+    "tag": "Other"
   },
   "58daa1558bbb0b01f18ec1fa": {
     "label": "Lines",
@@ -3169,11 +3169,11 @@
   },
   "63be6904847c3692a84b9bb8": {
     "label": "Marketplaces",
-    "tag": "Street Food & Markets"
+    "tag": "Shopping"
   },
   "52f2ab2ebcbc57f1066b8b3b": {
     "label": "Christmas Markets",
-    "tag": "Street Food & Markets"
+    "tag": "Shopping"
   },
   "52f2ab2ebcbc57f1066b8b54": {
     "label": "Stoop Sales",
@@ -3181,19 +3181,19 @@
   },
   "5267e4d8e4b0ec79466e48c5": {
     "label": "Street Fairs",
-    "tag": "Local Festivals & Events"
+    "tag": "Other"
   },
   "53e0feef498e5aac066fd8a9": {
     "label": "Street Food Gatherings",
-    "tag": "Other"
+    "tag": "Foodie"
   },
   "5bae9231bedf3950379f89c3": {
     "label": "Trade Fairs",
-    "tag": "Local Festivals & Events"
+    "tag": "Other"
   },
   "5267e4d9e4b0ec79466e48c8": {
     "label": "Other Events",
-    "tag": "Local Festivals & Events"
+    "tag": "Other"
   },
   "63be6904847c3692a84b9bb9": {
     "label": "Health and Medicine",
@@ -3309,7 +3309,7 @@
   },
   "5744ccdfe4b0c0459246b4af": {
     "label": "Physical Therapy Clinics",
-    "tag": "Spa & Wellness"
+    "tag": "Other"
   },
   "63be6904847c3692a84b9bc6": {
     "label": "Physicians",
@@ -3337,7 +3337,7 @@
   },
   "63be6904847c3692a84b9bcb": {
     "label": "Family Medicine Doctors",
-    "tag": "Family-Friendly"
+    "tag": "Family"
   },
   "63be6904847c3692a84b9bcc": {
     "label": "Gastroenterologists",
@@ -3361,7 +3361,7 @@
   },
   "63be6904847c3692a84b9bd1": {
     "label": "Obstetrician Gynecologists (Ob-gyn)",
-    "tag": "Eco & Sustainable"
+    "tag": "Eco-Friendly"
   },
   "63be6904847c3692a84b9bd2": {
     "label": "Oncologists",
@@ -3413,7 +3413,7 @@
   },
   "63be6904847c3692a84b9bde": {
     "label": "Sports Medicine Clinics",
-    "tag": "Other"
+    "tag": "Sports & Fitness"
   },
   "56aa371be4b08b9a8d573526": {
     "label": "Urgent Care Centers",
@@ -3433,7 +3433,7 @@
   },
   "4d4b7105d754a06377d81259": {
     "label": "Landmarks and Outdoors",
-    "tag": "Historical & Landmarks"
+    "tag": "Other"
   },
   "52e81612bcbc57f1066b7a28": {
     "label": "Bathing Areas",
@@ -3445,11 +3445,11 @@
   },
   "4bf58dd8d48988d1e2941735": {
     "label": "Beaches",
-    "tag": "Beaches & Waterfront"
+    "tag": "Nature"
   },
   "56aa371be4b08b9a8d57355e": {
     "label": "Bike Trails",
-    "tag": "Hiking & Trails"
+    "tag": "Adventure"
   },
   "5fabfc8099ce226e27fe6b0d": {
     "label": "Boat Launches",
@@ -3457,7 +3457,7 @@
   },
   "52e81612bcbc57f1066b7a22": {
     "label": "Botanical Gardens",
-    "tag": "Wildlife & Nature"
+    "tag": "Nature"
   },
   "4bf58dd8d48988d1df941735": {
     "label": "Bridges",
@@ -3465,7 +3465,7 @@
   },
   "4bf58dd8d48988d1e4941735": {
     "label": "Campgrounds",
-    "tag": "Accommodation"
+    "tag": "Other"
   },
   "56aa371be4b08b9a8d57353b": {
     "label": "Canal Locks",
@@ -3477,11 +3477,11 @@
   },
   "50aaa49e4b90af0d42d5de11": {
     "label": "Castles",
-    "tag": "Other"
+    "tag": "Cultural & History"
   },
   "56aa371be4b08b9a8d573511": {
     "label": "Caves",
-    "tag": "Other"
+    "tag": "Nature"
   },
   "5fac018b99ce226e27fe7573": {
     "label": "Dams",
@@ -3489,7 +3489,7 @@
   },
   "52e81612bcbc57f1066b7a12": {
     "label": "Dive Spots",
-    "tag": "Other"
+    "tag": "Adventure"
   },
   "4bf58dd8d48988d15b941735": {
     "label": "Farms",
@@ -3497,11 +3497,11 @@
   },
   "4bf58dd8d48988d15f941735": {
     "label": "Fields",
-    "tag": "Fitness & Sports"
+    "tag": "Nature"
   },
   "52e81612bcbc57f1066b7a23": {
     "label": "Forests",
-    "tag": "Wildlife & Nature"
+    "tag": "Nature"
   },
   "56aa371be4b08b9a8d573547": {
     "label": "Fountains",
@@ -3509,15 +3509,15 @@
   },
   "4bf58dd8d48988d15a941735": {
     "label": "Gardens",
-    "tag": "Wildlife & Nature"
+    "tag": "Nature"
   },
   "4bf58dd8d48988d1e0941735": {
     "label": "Harbors or Marinas",
-    "tag": "Beaches & Waterfront"
+    "tag": "Other"
   },
   "4bf58dd8d48988d159941735": {
     "label": "Hiking Trails",
-    "tag": "Hiking & Trails"
+    "tag": "Adventure"
   },
   "5bae9231bedf3950379f89cd": {
     "label": "Hills",
@@ -3525,7 +3525,7 @@
   },
   "4deefb944765f83613cdba6e": {
     "label": "Historic and Protected Sites",
-    "tag": "Other"
+    "tag": "Cultural & History"
   },
   "4bf58dd8d48988d160941735": {
     "label": "Hot Springs",
@@ -3537,11 +3537,11 @@
   },
   "4bf58dd8d48988d161941735": {
     "label": "Lakes",
-    "tag": "Beaches & Waterfront"
+    "tag": "Nature"
   },
   "4bf58dd8d48988d15d941735": {
     "label": "Lighthouses",
-    "tag": "Other"
+    "tag": "Photo-Ops"
   },
   "5642206c498e4bfca532186c": {
     "label": "Memorial Sites",
@@ -3549,23 +3549,23 @@
   },
   "4bf58dd8d48988d12d941735": {
     "label": "Monuments",
-    "tag": "Historical & Landmarks"
+    "tag": "Cultural & History"
   },
   "55a5a1ebe4b013909087cb77": {
     "label": "Mountain Huts",
-    "tag": "Mountains & Scenic Views"
+    "tag": "Other"
   },
   "4eb1d4d54b900d56c88a45fc": {
     "label": "Mountains",
-    "tag": "Mountains & Scenic Views"
+    "tag": "Nature"
   },
   "52e81612bcbc57f1066b7a13": {
     "label": "Nature Preserves",
-    "tag": "Wildlife & Nature"
+    "tag": "Nature"
   },
   "52e81612bcbc57f1066b7a30": {
     "label": "Nudist Beaches",
-    "tag": "Beaches & Waterfront"
+    "tag": "Nature"
   },
   "4bf58dd8d48988d162941735": {
     "label": "Other Great Outdoors",
@@ -3573,23 +3573,23 @@
   },
   "52e81612bcbc57f1066b7a14": {
     "label": "Palaces",
-    "tag": "Other"
+    "tag": "Cultural & History"
   },
   "4bf58dd8d48988d163941735": {
     "label": "Parks",
-    "tag": "Wildlife & Nature"
+    "tag": "Nature"
   },
   "4bf58dd8d48988d1e5941735": {
     "label": "Dog Parks",
-    "tag": "Wildlife & Nature"
+    "tag": "Nature"
   },
   "52e81612bcbc57f1066b7a21": {
     "label": "National Parks",
-    "tag": "Wildlife & Nature"
+    "tag": "Nature"
   },
   "63be6904847c3692a84b9be0": {
     "label": "Natural Parks",
-    "tag": "Wildlife & Nature"
+    "tag": "Nature"
   },
   "5fabfe3599ce226e27fe709a": {
     "label": "Picnic Areas",
@@ -3597,15 +3597,15 @@
   },
   "4bf58dd8d48988d1e7941735": {
     "label": "Playgrounds",
-    "tag": "Family Fun & Attractions"
+    "tag": "Family"
   },
   "5bae9231bedf3950379f89d0": {
     "label": "State or Provincial Parks",
-    "tag": "Wildlife & Nature"
+    "tag": "Nature"
   },
   "63be6904847c3692a84b9be1": {
     "label": "Urban Parks",
-    "tag": "Wildlife & Nature"
+    "tag": "Nature"
   },
   "52e81612bcbc57f1066b7a25": {
     "label": "Pedestrian Plazas",
@@ -3625,11 +3625,11 @@
   },
   "4eb1d4dd4b900d56c88a45fd": {
     "label": "Rivers",
-    "tag": "Beaches & Waterfront"
+    "tag": "Nature"
   },
   "50328a4b91d4c4b30a586d6b": {
     "label": "Rock Climbing Spots",
-    "tag": "Other"
+    "tag": "Adventure"
   },
   "4bf58dd8d48988d133951735": {
     "label": "Roof Decks",
@@ -3637,11 +3637,11 @@
   },
   "4bf58dd8d48988d165941735": {
     "label": "Scenic Lookouts",
-    "tag": "Mountains & Scenic Views"
+    "tag": "Photo-Ops"
   },
   "4bf58dd8d48988d166941735": {
     "label": "Sculpture Gardens",
-    "tag": "Wildlife & Nature"
+    "tag": "Photo-Ops"
   },
   "4eb1baf03b7b2c5b1d4306ca": {
     "label": "Stables",
@@ -3681,15 +3681,15 @@
   },
   "4bf58dd8d48988d130941735": {
     "label": "Structures",
-    "tag": "Other"
+    "tag": "Photo-Ops"
   },
   "4bf58dd8d48988d1e3941735": {
     "label": "Surf Spots",
-    "tag": "Other"
+    "tag": "Adventure"
   },
   "52e81612bcbc57f1066b7a24": {
     "label": "Trees",
-    "tag": "Other"
+    "tag": "Nature"
   },
   "52f2ab2ebcbc57f1066b8b4a": {
     "label": "Tunnels",
@@ -3697,15 +3697,15 @@
   },
   "5032848691d4c4b30a586d61": {
     "label": "Volcanoes",
-    "tag": "Other"
+    "tag": "Nature"
   },
   "56aa371be4b08b9a8d573560": {
     "label": "Waterfalls",
-    "tag": "Other"
+    "tag": "Nature"
   },
   "56aa371be4b08b9a8d5734c3": {
     "label": "Waterfronts",
-    "tag": "Beaches & Waterfront"
+    "tag": "Nature"
   },
   "4fbc1be21983fc883593e321": {
     "label": "Wells",
@@ -3717,19 +3717,19 @@
   },
   "4d4b7105d754a06378d81259": {
     "label": "Retail",
-    "tag": "Other"
+    "tag": "Shopping"
   },
   "5267e446e4b0ec79466e48c4": {
     "label": "Adult Stores",
-    "tag": "Other"
+    "tag": "Shopping"
   },
   "4bf58dd8d48988d116951735": {
     "label": "Antique Stores",
-    "tag": "Other"
+    "tag": "Shopping"
   },
   "4bf58dd8d48988d127951735": {
     "label": "Arts and Crafts Stores",
-    "tag": "Other"
+    "tag": "Shopping"
   },
   "63be6904847c3692a84b9be2": {
     "label": "Auction Houses",
@@ -3777,43 +3777,43 @@
   },
   "59d79d6b2e268052fa2a3332": {
     "label": "Motorsports Stores",
-    "tag": "Other"
+    "tag": "Shopping"
   },
   "52f2ab2ebcbc57f1066b8b32": {
     "label": "Baby Stores",
-    "tag": "Other"
+    "tag": "Shopping"
   },
   "52f2ab2ebcbc57f1066b8b40": {
     "label": "Betting Shops",
-    "tag": "Other"
+    "tag": "Shopping"
   },
   "52f2ab2ebcbc57f1066b8b42": {
     "label": "Big Box Stores",
-    "tag": "Other"
+    "tag": "Shopping"
   },
   "4bf58dd8d48988d1f1941735": {
     "label": "Board Stores",
-    "tag": "Other"
+    "tag": "Shopping"
   },
   "4bf58dd8d48988d114951735": {
     "label": "Bookstores",
-    "tag": "Other"
+    "tag": "Shopping"
   },
   "52f2ab2ebcbc57f1066b8b30": {
     "label": "Used Bookstores",
-    "tag": "Other"
+    "tag": "Shopping"
   },
   "4bf58dd8d48988d104951735": {
     "label": "Boutiques",
-    "tag": "Other"
+    "tag": "Shopping"
   },
   "63be6904847c3692a84b9be9": {
     "label": "Cannabis Stores",
-    "tag": "Other"
+    "tag": "Shopping"
   },
   "52f2ab2ebcbc57f1066b8b18": {
     "label": "Comic Book Stores",
-    "tag": "Other"
+    "tag": "Shopping"
   },
   "63be6904847c3692a84b9bea": {
     "label": "Computers and Electronics Retail",
@@ -3821,59 +3821,59 @@
   },
   "4eb1bdf03b7b55596b4a7491": {
     "label": "Camera Stores",
-    "tag": "Other"
+    "tag": "Shopping"
   },
   "4bf58dd8d48988d122951735": {
     "label": "Electronics Stores",
-    "tag": "Other"
+    "tag": "Shopping"
   },
   "4f04afc02fb6e1c99f3db0bc": {
     "label": "Mobile Phone Stores",
-    "tag": "Other"
+    "tag": "Shopping"
   },
   "4bf58dd8d48988d10b951735": {
     "label": "Video Game Stores",
-    "tag": "Other"
+    "tag": "Shopping"
   },
   "5454144b498ec1f095bff2f2": {
     "label": "Construction Supplies Stores",
-    "tag": "Other"
+    "tag": "Shopping"
   },
   "4d954b0ea243a5684a65b473": {
     "label": "Convenience Stores",
-    "tag": "Other"
+    "tag": "Shopping"
   },
   "4bf58dd8d48988d10c951735": {
     "label": "Cosmetics Stores",
-    "tag": "Other"
+    "tag": "Shopping"
   },
   "52f2ab2ebcbc57f1066b8b17": {
     "label": "Costume Stores",
-    "tag": "Other"
+    "tag": "Shopping"
   },
   "63be6904847c3692a84b9beb": {
     "label": "Dance Stores",
-    "tag": "Arts & Performances"
+    "tag": "Shopping"
   },
   "4bf58dd8d48988d1f6941735": {
     "label": "Department Stores",
-    "tag": "Other"
+    "tag": "Shopping"
   },
   "52dea92d3cf9994f4e043dbb": {
     "label": "Discount Stores",
-    "tag": "Nightclubs & Live Music"
+    "tag": "Shopping"
   },
   "5745c2e4498e11e7bccabdbd": {
     "label": "Drugstores",
-    "tag": "Other"
+    "tag": "Shopping"
   },
   "589ddde98ae3635c072819ee": {
     "label": "Duty-free Stores",
-    "tag": "Other"
+    "tag": "Shopping"
   },
   "4d954afda243a5684865b473": {
     "label": "Eyecare Stores",
-    "tag": "Other"
+    "tag": "Shopping"
   },
   "63be6904847c3692a84b9bec": {
     "label": "Fashion Retail",
@@ -3881,79 +3881,79 @@
   },
   "56aa371be4b08b9a8d5734cb": {
     "label": "Batik Stores",
-    "tag": "Other"
+    "tag": "Shopping"
   },
   "4bf58dd8d48988d11a951735": {
     "label": "Bridal Stores",
-    "tag": "Other"
+    "tag": "Shopping"
   },
   "4bf58dd8d48988d105951735": {
     "label": "Children's Clothing Stores",
-    "tag": "Other"
+    "tag": "Shopping"
   },
   "4bf58dd8d48988d103951735": {
     "label": "Clothing Stores",
-    "tag": "Other"
+    "tag": "Shopping"
   },
   "4bf58dd8d48988d102951735": {
     "label": "Fashion Accessories Stores",
-    "tag": "Other"
+    "tag": "Shopping"
   },
   "4bf58dd8d48988d111951735": {
     "label": "Jewelry Stores",
-    "tag": "Other"
+    "tag": "Shopping"
   },
   "4bf58dd8d48988d109951735": {
     "label": "Lingerie Stores",
-    "tag": "Other"
+    "tag": "Shopping"
   },
   "4bf58dd8d48988d106951735": {
     "label": "Men's Stores",
-    "tag": "Other"
+    "tag": "Shopping"
   },
   "4bf58dd8d48988d107951735": {
     "label": "Shoe Stores",
-    "tag": "Other"
+    "tag": "Shopping"
   },
   "63be6904847c3692a84b9bed": {
     "label": "Sunglasses Stores",
-    "tag": "Other"
+    "tag": "Shopping"
   },
   "63be6904847c3692a84b9bee": {
     "label": "Swimwear Stores",
-    "tag": "Other"
+    "tag": "Shopping"
   },
   "52f2ab2ebcbc57f1066b8b2e": {
     "label": "Watch Stores",
-    "tag": "Other"
+    "tag": "Shopping"
   },
   "4bf58dd8d48988d108951735": {
     "label": "Women's Stores",
-    "tag": "Other"
+    "tag": "Shopping"
   },
   "52f2ab2ebcbc57f1066b8b3a": {
     "label": "Fireworks Stores",
-    "tag": "Other"
+    "tag": "Shopping"
   },
   "4bf58dd8d48988d1f7941735": {
     "label": "Flea Markets",
-    "tag": "Street Food & Markets"
+    "tag": "Shopping"
   },
   "56aa371be4b08b9a8d573505": {
     "label": "Floating Markets",
-    "tag": "Street Food & Markets"
+    "tag": "Shopping"
   },
   "4bf58dd8d48988d11b951735": {
     "label": "Flower Stores",
-    "tag": "Other"
+    "tag": "Shopping"
   },
   "4bf58dd8d48988d1f9941735": {
     "label": "Food and Beverage Retail",
-    "tag": "Other"
+    "tag": "Foodie"
   },
   "5370f356bcbc57f1066c94c2": {
     "label": "Beer Stores",
-    "tag": "Other"
+    "tag": "Shopping"
   },
   "4bf58dd8d48988d11d951735": {
     "label": "Butchers",
@@ -3961,43 +3961,43 @@
   },
   "4bf58dd8d48988d117951735": {
     "label": "Candy Stores",
-    "tag": "Other"
+    "tag": "Foodie"
   },
   "4bf58dd8d48988d11e951735": {
     "label": "Cheese Stores",
-    "tag": "Other"
+    "tag": "Foodie"
   },
   "52f2ab2ebcbc57f1066b8b31": {
     "label": "Chocolate Stores",
-    "tag": "Other"
+    "tag": "Foodie"
   },
   "5e18993feee47d000759b256": {
     "label": "Coffee Roasters",
-    "tag": "Café Culture"
+    "tag": "Cafe"
   },
   "58daa1558bbb0b01f18ec1ca": {
     "label": "Dairy Stores",
-    "tag": "Other"
+    "tag": "Shopping"
   },
   "4bf58dd8d48988d1fa941735": {
     "label": "Farmers Markets",
-    "tag": "Street Food & Markets"
+    "tag": "Shopping"
   },
   "4bf58dd8d48988d10e951735": {
     "label": "Fish Markets",
-    "tag": "Street Food & Markets"
+    "tag": "Shopping"
   },
   "52f2ab2ebcbc57f1066b8b1c": {
     "label": "Fruit and Vegetable Stores",
-    "tag": "Other"
+    "tag": "Shopping"
   },
   "4bf58dd8d48988d1f5941735": {
     "label": "Gourmet Stores",
-    "tag": "Other"
+    "tag": "Shopping"
   },
   "4bf58dd8d48988d118951735": {
     "label": "Grocery Stores",
-    "tag": "Other"
+    "tag": "Shopping"
   },
   "52f2ab2ebcbc57f1066b8b45": {
     "label": "Organic Groceries",
@@ -4005,83 +4005,83 @@
   },
   "50aa9e744b90af0d42d5de0e": {
     "label": "Health Food Stores",
-    "tag": "Other"
+    "tag": "Foodie"
   },
   "52f2ab2ebcbc57f1066b8b2c": {
     "label": "Herbs and Spices Stores",
-    "tag": "Other"
+    "tag": "Shopping"
   },
   "5f2c41945b4c177b9a6dc7d6": {
     "label": "Imported Food Stores",
-    "tag": "Other"
+    "tag": "Foodie"
   },
   "63be6904847c3692a84b9bef": {
     "label": "Kosher Stores",
-    "tag": "Other"
+    "tag": "Shopping"
   },
   "58daa1558bbb0b01f18ec1e8": {
     "label": "Kuruyemişçi Shops",
-    "tag": "Other"
+    "tag": "Shopping"
   },
   "4bf58dd8d48988d186941735": {
     "label": "Liquor Stores",
-    "tag": "Other"
+    "tag": "Shopping"
   },
   "63be6904847c3692a84b9bf0": {
     "label": "Meat and Seafood Stores",
-    "tag": "Dining & Gastronomy"
+    "tag": "Foodie"
   },
   "56aa371be4b08b9a8d573564": {
     "label": "Sausage Stores",
-    "tag": "Other"
+    "tag": "Shopping"
   },
   "52f2ab2ebcbc57f1066b8b46": {
     "label": "Supermarkets",
-    "tag": "Street Food & Markets"
+    "tag": "Shopping"
   },
   "58daa1558bbb0b01f18ec1e5": {
     "label": "Turşucu Shops",
-    "tag": "Other"
+    "tag": "Shopping"
   },
   "4bf58dd8d48988d119951735": {
     "label": "Wine Stores",
-    "tag": "Other"
+    "tag": "Shopping"
   },
   "52f2ab2ebcbc57f1066b8b24": {
     "label": "Framing Stores",
-    "tag": "Other"
+    "tag": "Shopping"
   },
   "4bf58dd8d48988d1f8941735": {
     "label": "Furniture and Home Stores",
-    "tag": "Other"
+    "tag": "Shopping"
   },
   "52f2ab2ebcbc57f1066b8b2a": {
     "label": "Carpet Stores",
-    "tag": "Pet-Friendly"
+    "tag": "Shopping"
   },
   "63be6904847c3692a84b9bf1": {
     "label": "Home Appliance Stores",
-    "tag": "Other"
+    "tag": "Shopping"
   },
   "63be6904847c3692a84b9bf2": {
     "label": "Housewares Stores",
-    "tag": "Other"
+    "tag": "Shopping"
   },
   "58daa1558bbb0b01f18ec1b4": {
     "label": "Kitchen Supply Stores",
-    "tag": "Other"
+    "tag": "Shopping"
   },
   "55888a5a498e782e3303b43a": {
     "label": "Lighting Stores",
-    "tag": "Other"
+    "tag": "Shopping"
   },
   "52f2ab2ebcbc57f1066b8b27": {
     "label": "Mattress Stores",
-    "tag": "Other"
+    "tag": "Shopping"
   },
   "4eb1c0253b7b52c0e1adc2e9": {
     "label": "Garden Centers",
-    "tag": "Wildlife & Nature"
+    "tag": "Other"
   },
   "4bf58dd8d48988d128951735": {
     "label": "Gift Stores",
@@ -4089,23 +4089,23 @@
   },
   "4bf58dd8d48988d112951735": {
     "label": "Hardware Stores",
-    "tag": "Other"
+    "tag": "Shopping"
   },
   "4bf58dd8d48988d1fb941735": {
     "label": "Hobby Stores",
-    "tag": "Other"
+    "tag": "Shopping"
   },
   "52f2ab2ebcbc57f1066b8b25": {
     "label": "Knitting Stores",
-    "tag": "Other"
+    "tag": "Shopping"
   },
   "52f2ab2ebcbc57f1066b8b2b": {
     "label": "Leather Goods Stores",
-    "tag": "Other"
+    "tag": "Shopping"
   },
   "52f2ab2ebcbc57f1066b8b29": {
     "label": "Luggage Stores",
-    "tag": "Other"
+    "tag": "Shopping"
   },
   "52c71aaf3cf9994f4e043d17": {
     "label": "Marijuana Dispensaries",
@@ -4113,23 +4113,23 @@
   },
   "50be8ee891d4fa8dcc7199a7": {
     "label": "Markets",
-    "tag": "Street Food & Markets"
+    "tag": "Shopping"
   },
   "58daa1558bbb0b01f18ec206": {
     "label": "Medical Supply Stores",
-    "tag": "Other"
+    "tag": "Shopping"
   },
   "4bf58dd8d48988d1ff941735": {
     "label": "Miscellaneous Stores",
-    "tag": "Other"
+    "tag": "Shopping"
   },
   "56aa371be4b08b9a8d57354a": {
     "label": "Mobility Stores",
-    "tag": "Other"
+    "tag": "Shopping"
   },
   "4bf58dd8d48988d1fe941735": {
     "label": "Music Stores",
-    "tag": "Arts & Performances"
+    "tag": "Shopping"
   },
   "5f2c5a295b4c177b9a6ddd0e": {
     "label": "Newsagents",
@@ -4141,39 +4141,39 @@
   },
   "4bf58dd8d48988d121951735": {
     "label": "Office Supply Stores",
-    "tag": "Other"
+    "tag": "Shopping"
   },
   "52f2ab2ebcbc57f1066b8b22": {
     "label": "Outdoor Supply Stores",
-    "tag": "Other"
+    "tag": "Shopping"
   },
   "5744ccdfe4b0c0459246b4df": {
     "label": "Outlet Malls",
-    "tag": "Other"
+    "tag": "Shopping"
   },
   "52f2ab2ebcbc57f1066b8b35": {
     "label": "Outlet Stores",
-    "tag": "Other"
+    "tag": "Shopping"
   },
   "63be6904847c3692a84b9bf3": {
     "label": "Packaging Supply Stores",
-    "tag": "Other"
+    "tag": "Shopping"
   },
   "63be6904847c3692a84b9bf4": {
     "label": "Party Supply Stores",
-    "tag": "Other"
+    "tag": "Shopping"
   },
   "52f2ab2ebcbc57f1066b8b34": {
     "label": "Pawn Shops",
-    "tag": "Other"
+    "tag": "Shopping"
   },
   "52f2ab2ebcbc57f1066b8b23": {
     "label": "Perfume Stores",
-    "tag": "Other"
+    "tag": "Shopping"
   },
   "4bf58dd8d48988d100951735": {
     "label": "Pet Supplies Stores",
-    "tag": "Pet-Friendly"
+    "tag": "Shopping"
   },
   "4bf58dd8d48988d10f951735": {
     "label": "Pharmacies",
@@ -4181,19 +4181,19 @@
   },
   "52f2ab2ebcbc57f1066b8b3d": {
     "label": "Pop-Up Stores",
-    "tag": "Other"
+    "tag": "Shopping"
   },
   "52f2ab2ebcbc57f1066b8b28": {
     "label": "Print Stores",
-    "tag": "Other"
+    "tag": "Shopping"
   },
   "4bf58dd8d48988d10d951735": {
     "label": "Record Stores",
-    "tag": "Eco & Sustainable"
+    "tag": "Shopping"
   },
   "4bf58dd8d48988d1fd941735": {
     "label": "Shopping Malls",
-    "tag": "Shopipng"
+    "tag": "Shopping"
   },
   "5744ccdfe4b0c0459246b4dc": {
     "label": "Shopping Plazas",
@@ -4201,7 +4201,7 @@
   },
   "4bf58dd8d48988d123951735": {
     "label": "Smoke Shops",
-    "tag": "Other"
+    "tag": "Shopping"
   },
   "52f2ab2ebcbc57f1066b8b1b": {
     "label": "Souvenir Stores",
@@ -4213,103 +4213,103 @@
   },
   "63be6904847c3692a84b9bf5": {
     "label": "Baseball Stores",
-    "tag": "Other"
+    "tag": "Shopping"
   },
   "4bf58dd8d48988d115951735": {
     "label": "Bicycle Stores",
-    "tag": "Other"
+    "tag": "Shopping"
   },
   "52f2ab2ebcbc57f1066b8b1a": {
     "label": "Dive Stores",
-    "tag": "Other"
+    "tag": "Shopping"
   },
   "52f2ab2ebcbc57f1066b8b16": {
     "label": "Fishing Stores",
-    "tag": "Other"
+    "tag": "Shopping"
   },
   "63be6904847c3692a84b9bf6": {
     "label": "Golf Stores",
-    "tag": "Fitness & Sports"
+    "tag": "Shopping"
   },
   "52f2ab2ebcbc57f1066b8b19": {
     "label": "Gun Stores",
-    "tag": "Other"
+    "tag": "Shopping"
   },
   "50aaa5234b90af0d42d5de12": {
     "label": "Hunting Supply Stores",
-    "tag": "Other"
+    "tag": "Shopping"
   },
   "63be6904847c3692a84b9bf7": {
     "label": "Running Stores",
-    "tag": "Other"
+    "tag": "Shopping"
   },
   "5bae9231bedf3950379f89d2": {
     "label": "Skate Stores",
-    "tag": "Other"
+    "tag": "Shopping"
   },
   "56aa371be4b08b9a8d573566": {
     "label": "Ski Stores",
-    "tag": "Other"
+    "tag": "Shopping"
   },
   "63be6904847c3692a84b9bf8": {
     "label": "Soccer Stores",
-    "tag": "Other"
+    "tag": "Shopping"
   },
   "63be6904847c3692a84b9bf9": {
     "label": "Surf Stores",
-    "tag": "Other"
+    "tag": "Adventure"
   },
   "63be6904847c3692a84b9bfa": {
     "label": "Tennis Stores",
-    "tag": "Fitness & Sports"
+    "tag": "Shopping"
   },
   "52f2ab2ebcbc57f1066b8b21": {
     "label": "Stationery Stores",
-    "tag": "Transport & Getting Around"
+    "tag": "Shopping"
   },
   "5744ccdfe4b0c0459246b4cd": {
     "label": "Supplement Stores",
-    "tag": "Other"
+    "tag": "Shopping"
   },
   "63be6904847c3692a84b9bfb": {
     "label": "Swimming Pool Supply Stores",
-    "tag": "Fitness & Sports"
+    "tag": "Shopping"
   },
   "52f2ab2ebcbc57f1066b8b26": {
     "label": "Textiles Stores",
-    "tag": "Other"
+    "tag": "Shopping"
   },
   "63be6904847c3692a84b9bfc": {
     "label": "Tobacco Stores",
-    "tag": "Other"
+    "tag": "Shopping"
   },
   "4bf58dd8d48988d1f3941735": {
     "label": "Toy Stores",
-    "tag": "Other"
+    "tag": "Shopping"
   },
   "56aa371be4b08b9a8d57355c": {
     "label": "Vape Stores",
-    "tag": "Other"
+    "tag": "Shopping"
   },
   "4bf58dd8d48988d126951735": {
     "label": "Video Stores",
-    "tag": "Other"
+    "tag": "Shopping"
   },
   "4bf58dd8d48988d101951735": {
     "label": "Vintage and Thrift Stores",
-    "tag": "Other"
+    "tag": "Shopping"
   },
   "52e816a6bcbc57f1066b7a54": {
     "label": "Warehouse or Wholesale Stores",
-    "tag": "Other"
+    "tag": "Shopping"
   },
   "4f4528bc4b90abdf24c9de85": {
     "label": "Sports and Recreation",
-    "tag": "Other"
+    "tag": "Sports & Fitness"
   },
   "63be6904847c3692a84b9bfd": {
     "label": "Athletic Fields",
-    "tag": "Fitness & Sports"
+    "tag": "Other"
   },
   "63be6904847c3692a84b9bfe": {
     "label": "Baseball",
@@ -4317,11 +4317,11 @@
   },
   "63be6904847c3692a84b9bff": {
     "label": "Baseball Clubs",
-    "tag": "Nightclubs & Live Music"
+    "tag": "Other"
   },
   "4bf58dd8d48988d1e8941735": {
     "label": "Baseball Fields",
-    "tag": "Fitness & Sports"
+    "tag": "Other"
   },
   "63be6904847c3692a84b9c00": {
     "label": "Batting Cages",
@@ -4333,7 +4333,7 @@
   },
   "63be6904847c3692a84b9c02": {
     "label": "Basketball Clubs",
-    "tag": "Nightclubs & Live Music"
+    "tag": "Other"
   },
   "4bf58dd8d48988d1e1941735": {
     "label": "Basketball Courts",
@@ -4341,7 +4341,7 @@
   },
   "52e81612bcbc57f1066b7a2f": {
     "label": "Bowling Greens",
-    "tag": "Fitness & Sports"
+    "tag": "Entertainment"
   },
   "4bf58dd8d48988d18a941735": {
     "label": "Cricket Grounds",
@@ -4365,27 +4365,27 @@
   },
   "63be6904847c3692a84b9c06": {
     "label": "Football Clubs",
-    "tag": "Nightclubs & Live Music"
+    "tag": "Other"
   },
   "63be6904847c3692a84b9c07": {
     "label": "Football Fields",
-    "tag": "Fitness & Sports"
+    "tag": "Other"
   },
   "63be6904847c3692a84b9c08": {
     "label": "Golf",
-    "tag": "Fitness & Sports"
+    "tag": "Sports & Fitness"
   },
   "63be6904847c3692a84b9c09": {
     "label": "Golf Clubs",
-    "tag": "Fitness & Sports"
+    "tag": "Sports & Fitness"
   },
   "4bf58dd8d48988d1e6941735": {
     "label": "Golf Courses",
-    "tag": "Fitness & Sports"
+    "tag": "Sports & Fitness"
   },
   "58daa1558bbb0b01f18ec1b0": {
     "label": "Golf Driving Ranges",
-    "tag": "Fitness & Sports"
+    "tag": "Sports & Fitness"
   },
   "52e81612bcbc57f1066b7a11": {
     "label": "Gun Ranges",
@@ -4393,15 +4393,15 @@
   },
   "4bf58dd8d48988d175941735": {
     "label": "Gym and Studios",
-    "tag": "Fitness & Sports"
+    "tag": "Sports & Fitness"
   },
   "52f2ab2ebcbc57f1066b8b47": {
     "label": "Boxing Gyms",
-    "tag": "Fitness & Sports"
+    "tag": "Sports & Fitness"
   },
   "503289d391d4c4b30a586d6a": {
     "label": "Climbing Gyms",
-    "tag": "Fitness & Sports"
+    "tag": "Adventure"
   },
   "52f2ab2ebcbc57f1066b8b49": {
     "label": "Cycle Studios",
@@ -4409,19 +4409,19 @@
   },
   "4bf58dd8d48988d134941735": {
     "label": "Dance Studios",
-    "tag": "Arts & Performances"
+    "tag": "Other"
   },
   "4bf58dd8d48988d105941735": {
     "label": "Gym Pools",
-    "tag": "Fitness & Sports"
+    "tag": "Sports & Fitness"
   },
   "4bf58dd8d48988d176941735": {
     "label": "Gyms",
-    "tag": "Fitness & Sports"
+    "tag": "Sports & Fitness"
   },
   "58daa1558bbb0b01f18ec203": {
     "label": "Outdoor Gyms",
-    "tag": "Fitness & Sports"
+    "tag": "Sports & Fitness"
   },
   "5744ccdfe4b0c0459246b4b2": {
     "label": "Pilates Studios",
@@ -4429,15 +4429,15 @@
   },
   "4bf58dd8d48988d102941735": {
     "label": "Yoga Studios",
-    "tag": "Yoga & Retreats"
+    "tag": "Other"
   },
   "63be6904847c3692a84b9c0a": {
     "label": "Gymnastics",
-    "tag": "Fitness & Sports"
+    "tag": "Sports & Fitness"
   },
   "52f2ab2ebcbc57f1066b8b48": {
     "label": "Gymnastics Centers",
-    "tag": "Fitness & Sports"
+    "tag": "Sports & Fitness"
   },
   "63be6904847c3692a84b9c0b": {
     "label": "Hockey",
@@ -4445,11 +4445,11 @@
   },
   "63be6904847c3692a84b9c0c": {
     "label": "Hockey Clubs",
-    "tag": "Nightclubs & Live Music"
+    "tag": "Other"
   },
   "4f452cd44b9081a197eba860": {
     "label": "Hockey Fields",
-    "tag": "Fitness & Sports"
+    "tag": "Other"
   },
   "56aa371be4b08b9a8d57352c": {
     "label": "Hockey Rinks",
@@ -4469,11 +4469,11 @@
   },
   "5032829591d4c4b30a586d5e": {
     "label": "Paintball Fields",
-    "tag": "Fitness & Sports"
+    "tag": "Other"
   },
   "63be6904847c3692a84b9c0e": {
     "label": "Personal Trainers",
-    "tag": "Transport & Getting Around"
+    "tag": "Other"
   },
   "4bf58dd8d48988d1f4931735": {
     "label": "Race Tracks",
@@ -4481,11 +4481,11 @@
   },
   "56aa371be4b08b9a8d573514": {
     "label": "Racecourses",
-    "tag": "Eco & Sustainable"
+    "tag": "Eco-Friendly"
   },
   "63be6904847c3692a84b9c0f": {
     "label": "Racquet Sports",
-    "tag": "Other"
+    "tag": "Sports & Fitness"
   },
   "52e81612bcbc57f1066b7a2b": {
     "label": "Badminton Courts",
@@ -4493,11 +4493,11 @@
   },
   "63be6904847c3692a84b9c10": {
     "label": "Racquet Sport Clubs",
-    "tag": "Nightclubs & Live Music"
+    "tag": "Other"
   },
   "63be6904847c3692a84b9c11": {
     "label": "Racquetball Clubs",
-    "tag": "Nightclubs & Live Music"
+    "tag": "Other"
   },
   "52e81612bcbc57f1066b7a2d": {
     "label": "Squash Courts",
@@ -4505,15 +4505,15 @@
   },
   "63be6904847c3692a84b9c12": {
     "label": "Tennis",
-    "tag": "Fitness & Sports"
+    "tag": "Sports & Fitness"
   },
   "63be6904847c3692a84b9c13": {
     "label": "Tennis Clubs",
-    "tag": "Fitness & Sports"
+    "tag": "Sports & Fitness"
   },
   "4e39a956bd410d7aed40cbc3": {
     "label": "Tennis Courts",
-    "tag": "Fitness & Sports"
+    "tag": "Sports & Fitness"
   },
   "52e81612bcbc57f1066b7a26": {
     "label": "Recreation Centers",
@@ -4533,7 +4533,7 @@
   },
   "63be6904847c3692a84b9c16": {
     "label": "Running Clubs",
-    "tag": "Nightclubs & Live Music"
+    "tag": "Other"
   },
   "4bf58dd8d48988d106941735": {
     "label": "Tracks",
@@ -4541,7 +4541,7 @@
   },
   "58daa1558bbb0b01f18ec1ae": {
     "label": "Saunas",
-    "tag": "Spa & Wellness"
+    "tag": "Wellness"
   },
   "63be6904847c3692a84b9c17": {
     "label": "Skating",
@@ -4549,7 +4549,7 @@
   },
   "4bf58dd8d48988d167941735": {
     "label": "Skate Parks",
-    "tag": "Wildlife & Nature"
+    "tag": "Nature"
   },
   "4bf58dd8d48988d168941735": {
     "label": "Skating Rinks",
@@ -4565,7 +4565,7 @@
   },
   "63be6904847c3692a84b9c19": {
     "label": "Snow Sports",
-    "tag": "Other"
+    "tag": "Sports & Fitness"
   },
   "4bf58dd8d48988d1ec941735": {
     "label": "Ski Chalets",
@@ -4573,11 +4573,11 @@
   },
   "4bf58dd8d48988d1eb941735": {
     "label": "Ski Lodges",
-    "tag": "Accommodation"
+    "tag": "Adventure"
   },
   "4bf58dd8d48988d1e9941735": {
     "label": "Ski Resorts and Areas",
-    "tag": "Accommodation"
+    "tag": "Adventure"
   },
   "4eb1c0ed3b7b52c0e1adc2ea": {
     "label": "Ski Chairlifts",
@@ -4585,7 +4585,7 @@
   },
   "4eb1c0f63b7b52c0e1adc2eb": {
     "label": "Ski Trails",
-    "tag": "Hiking & Trails"
+    "tag": "Adventure"
   },
   "63be6904847c3692a84b9c1a": {
     "label": "Soccer",
@@ -4593,39 +4593,39 @@
   },
   "63be6904847c3692a84b9c1b": {
     "label": "Soccer Clubs",
-    "tag": "Nightclubs & Live Music"
+    "tag": "Other"
   },
   "4cce455aebf7b749d5e191f5": {
     "label": "Soccer Fields",
-    "tag": "Fitness & Sports"
+    "tag": "Other"
   },
   "52e81612bcbc57f1066b7a2e": {
     "label": "Sports Clubs",
-    "tag": "Nightclubs & Live Music"
+    "tag": "Sports & Fitness"
   },
   "4eb1bf013b7b6f98df247e07": {
     "label": "Volleyball Courts",
-    "tag": "Other"
+    "tag": "Sports & Fitness"
   },
   "63be6904847c3692a84b9c1c": {
     "label": "Water Sports",
-    "tag": "Other"
+    "tag": "Sports & Fitness"
   },
   "63be6904847c3692a84b9c1d": {
     "label": "Canoe and Kayak Rentals",
-    "tag": "Other"
+    "tag": "Adventure"
   },
   "63be6904847c3692a84b9c1e": {
     "label": "Rafting Outfitter",
-    "tag": "Other"
+    "tag": "Adventure"
   },
   "52e81612bcbc57f1066b7a29": {
     "label": "Rafting Spots",
-    "tag": "Other"
+    "tag": "Adventure"
   },
   "63be6904847c3692a84b9c1f": {
     "label": "Sailing Clubs",
-    "tag": "Nightclubs & Live Music"
+    "tag": "Other"
   },
   "63be6904847c3692a84b9c20": {
     "label": "Scuba Diving Instructors",
@@ -4633,11 +4633,11 @@
   },
   "63be6904847c3692a84b9c21": {
     "label": "Surfing",
-    "tag": "Other"
+    "tag": "Adventure"
   },
   "63be6904847c3692a84b9c22": {
     "label": "Swimming",
-    "tag": "Other"
+    "tag": "Sports & Fitness"
   },
   "52e81612bcbc57f1066b7a44": {
     "label": "Swim Schools",
@@ -4645,15 +4645,15 @@
   },
   "63be6904847c3692a84b9c23": {
     "label": "Swimming Clubs",
-    "tag": "Nightclubs & Live Music"
+    "tag": "Other"
   },
   "4bf58dd8d48988d15e941735": {
     "label": "Swimming Pools",
-    "tag": "Fitness & Sports"
+    "tag": "Sports & Fitness"
   },
   "4d4b7105d754a06379d81259": {
     "label": "Travel and Transportation",
-    "tag": "Transport & Getting Around"
+    "tag": "Other"
   },
   "5744ccdfe4b0c0459246b4e8": {
     "label": "Baggage Lockers",
@@ -4685,11 +4685,11 @@
   },
   "5032872391d4c4b30a586d64": {
     "label": "Electric Vehicle Charging Stations",
-    "tag": "Transport & Getting Around"
+    "tag": "Other"
   },
   "4bf58dd8d48988d113951735": {
     "label": "Fuel Stations",
-    "tag": "Transport & Getting Around"
+    "tag": "Other"
   },
   "63be6904847c3692a84b9c24": {
     "label": "Hot Air Balloon Tour Agencies",
@@ -4713,31 +4713,31 @@
   },
   "4bf58dd8d48988d1ee931735": {
     "label": "Hostels",
-    "tag": "Accommodation"
+    "tag": "Other"
   },
   "4bf58dd8d48988d1fa931735": {
     "label": "Hotels",
-    "tag": "Accommodation"
+    "tag": "Other"
   },
   "4bf58dd8d48988d132951735": {
     "label": "Hotel Pools",
-    "tag": "Accommodation"
+    "tag": "Other"
   },
   "5bae9231bedf3950379f89cb": {
     "label": "Inns",
-    "tag": "Accommodation"
+    "tag": "Other"
   },
   "63be6904847c3692a84b9c27": {
     "label": "Lodges",
-    "tag": "Accommodation"
+    "tag": "Other"
   },
   "4bf58dd8d48988d1fb931735": {
     "label": "Motels",
-    "tag": "Accommodation"
+    "tag": "Other"
   },
   "4bf58dd8d48988d12f951735": {
     "label": "Resorts",
-    "tag": "Accommodation"
+    "tag": "Other"
   },
   "56aa371be4b08b9a8d5734e1": {
     "label": "Vacation Rentals",
@@ -4749,7 +4749,7 @@
   },
   "4c38df4de52ce0d596b336e1": {
     "label": "Parking",
-    "tag": "Transport & Getting Around"
+    "tag": "Nature"
   },
   "4e74f6cabd41c4836eac4c31": {
     "label": "Piers",
@@ -4777,7 +4777,7 @@
   },
   "52f2ab2ebcbc57f1066b8b53": {
     "label": "RV Parks",
-    "tag": "Wildlife & Nature"
+    "tag": "Nature"
   },
   "52f2ab2ebcbc57f1066b8b4d": {
     "label": "Toll Booths",
@@ -4797,47 +4797,47 @@
   },
   "4bf58dd8d48988d12a951735": {
     "label": "Trains",
-    "tag": "Transport & Getting Around"
+    "tag": "Other"
   },
   "63be6904847c3692a84b9c28": {
     "label": "Transport Hubs",
-    "tag": "Transport & Getting Around"
+    "tag": "Other"
   },
   "4bf58dd8d48988d1ed931735": {
     "label": "Airports",
-    "tag": "Transport & Getting Around"
+    "tag": "Other"
   },
   "5f2c42335b4c177b9a6dc927": {
     "label": "Airfields",
-    "tag": "Fitness & Sports"
+    "tag": "Other"
   },
   "4bf58dd8d48988d1ef931735": {
     "label": "Airport Food Courts",
-    "tag": "Transport & Getting Around"
+    "tag": "Foodie"
   },
   "4bf58dd8d48988d1f0931735": {
     "label": "Airport Gates",
-    "tag": "Transport & Getting Around"
+    "tag": "Other"
   },
   "4eb1bc533b7b2c5b1d4306cb": {
     "label": "Airport Lounges",
-    "tag": "Transport & Getting Around"
+    "tag": "Nightlife"
   },
   "56aa371be4b08b9a8d57352f": {
     "label": "Airport Services",
-    "tag": "Transport & Getting Around"
+    "tag": "Other"
   },
   "4bf58dd8d48988d1eb931735": {
     "label": "Airport Terminals",
-    "tag": "Transport & Getting Around"
+    "tag": "Other"
   },
   "60a674555c7917283bad6839": {
     "label": "Airport Ticket Counters",
-    "tag": "Transport & Getting Around"
+    "tag": "Other"
   },
   "4bf58dd8d48988d1ec931735": {
     "label": "Airport Tram Stations",
-    "tag": "Transport & Getting Around"
+    "tag": "Other"
   },
   "5744ccdfe4b0c0459246b4e5": {
     "label": "Baggage Claims",
@@ -4845,7 +4845,7 @@
   },
   "63be6904847c3692a84b9c29": {
     "label": "International Airports",
-    "tag": "Transport & Getting Around"
+    "tag": "Other"
   },
   "4bf58dd8d48988d1f7931735": {
     "label": "Planes",
@@ -4853,15 +4853,15 @@
   },
   "63be6904847c3692a84b9c2a": {
     "label": "Private Airports",
-    "tag": "Transport & Getting Around"
+    "tag": "Other"
   },
   "4bf58dd8d48988d1fe931735": {
     "label": "Bus Stations",
-    "tag": "Transport & Getting Around"
+    "tag": "Other"
   },
   "52f2ab2ebcbc57f1066b8b4f": {
     "label": "Bus Stops",
-    "tag": "Transport & Getting Around"
+    "tag": "Other"
   },
   "56aa371ce4b08b9a8d57356e": {
     "label": "Heliports",
@@ -4869,19 +4869,19 @@
   },
   "4bf58dd8d48988d1fc931735": {
     "label": "Light Rail Stations",
-    "tag": "Transport & Getting Around"
+    "tag": "Other"
   },
   "5f2c1af1b6d05514c704319d": {
     "label": "Marine Terminals",
-    "tag": "Transport & Getting Around"
+    "tag": "Other"
   },
   "4bf58dd8d48988d1fd931735": {
     "label": "Metro Stations",
-    "tag": "Transport & Getting Around"
+    "tag": "Other"
   },
   "4bf58dd8d48988d129951735": {
     "label": "Rail Stations",
-    "tag": "Transport & Getting Around"
+    "tag": "Other"
   },
   "4bf58dd8d48988d1ef941735": {
     "label": "Rental Car Locations",
@@ -4889,19 +4889,19 @@
   },
   "53fca564498e1a175f32528b": {
     "label": "Taxi Stands",
-    "tag": "Transport & Getting Around"
+    "tag": "Other"
   },
   "52f2ab2ebcbc57f1066b8b51": {
     "label": "Tram Stations",
-    "tag": "Transport & Getting Around"
+    "tag": "Other"
   },
   "54541b70498ea6ccd0204bff": {
     "label": "Transportation Services",
-    "tag": "Transport & Getting Around"
+    "tag": "Other"
   },
   "63be6904847c3692a84b9c2b": {
     "label": "Charter Buses",
-    "tag": "Transport & Getting Around"
+    "tag": "Other"
   },
   "63be6904847c3692a84b9c2c": {
     "label": "Limo Services",
@@ -4909,15 +4909,15 @@
   },
   "63be6904847c3692a84b9c2d": {
     "label": "Public Transportation",
-    "tag": "Transport & Getting Around"
+    "tag": "Nightlife"
   },
   "4bf58dd8d48988d12b951735": {
     "label": "Bus Lines",
-    "tag": "Transport & Getting Around"
+    "tag": "Other"
   },
   "4bf58dd8d48988d130951735": {
     "label": "Taxis",
-    "tag": "Transport & Getting Around"
+    "tag": "Other"
   },
   "4f04b08c2fb6e1c99f3db0bd": {
     "label": "Travel Agencies",
@@ -4925,7 +4925,7 @@
   },
   "4f04b25d2fb6e1c99f3db0c0": {
     "label": "Travel Lounges",
-    "tag": "Bars & Pubs"
+    "tag": "Nightlife"
   },
   "57558b36e4b065ecebd306dd": {
     "label": "Truck Stops",
