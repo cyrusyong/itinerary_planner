@@ -5,7 +5,7 @@
 */
 
 * {
-  font-family: 'Fredoka', sans-serif;
+  font-family: "Oswald", 'Fredoka', sans-serif;
   box-sizing: border-box;
 }
 
@@ -21,18 +21,17 @@ html {
 }
 
 body {
-  /* background-color: #EDAFB8; */
-  display: flex;
-  justify-content: center;
-  background-image: url("/japan.jpg");
+  background-color: #000;
   background-size: cover;
-  background-position: center;
+  background-position: center top;
   height: 100%;
+  min-height: 100%;
   width: 100%;
   margin: 0;
-  color: #fff;
   padding-bottom: 3rem;
-
+  display: flex;
+  justify-content: center;
+  color: #fff;
 }
 
 /* Navbar */
@@ -41,12 +40,11 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
-  background-color: #588157;
+  background-color: #FCA311;
   position: static;
   width: 100%;
   inset-inline: 0;
   top: 0;
-  margin-bottom: 2rem;
 }
 
 .navbar .logo {
@@ -71,7 +69,7 @@ button {
 }
 
 .footer {
-  background-color: #588157;
+  background-color: #FCA311;
   position: fixed;
   color: #fff;
   width: 100%;
@@ -81,25 +79,6 @@ button {
   bottom: 0;
 }
 
-/* Container */
-.container {
-  position: relative;
-  /* default is fine, but relative helps if you add overlays */
-  z-index: 1;
-  /* ensure it's above any overlays */
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 1rem;
-  background-color: rgba(255, 255, 255, 0.7);
-  /* optional: white translucent background for readability */
-  padding: 2rem;
-  border-radius: 10px;
-  margin: 2rem auto;
-  max-width: 80%;
-  text-align: center;
-}
 
 .container h1 {
   font-size: 2.5rem;

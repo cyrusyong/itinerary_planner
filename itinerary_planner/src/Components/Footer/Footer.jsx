@@ -1,5 +1,4 @@
-import { Link } from 'react-router-dom'
-import '../Styles/index.css'
+import '../../Styles/index.css'
 
 function Footer() {
   return (

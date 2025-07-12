@@ -1,4 +1,4 @@
-import styles from '../Styles/Placecard.module.css'
+import styles from './Placecard.module.css'
 
 function PlaceCard({ place, onAdd, onRemove, isList }) {
     return (
