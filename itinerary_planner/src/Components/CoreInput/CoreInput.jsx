@@ -1,32 +1,26 @@
-import { useState } from "react"
+import { useState } from 'react'
+import DestinationInput from "./DestinationInput/DestinationInput.jsx"
+import TagSelection from "./TagSelection/TagSelection.jsx";
+
 
 function CoreInput() {
-    const [query, setQuery] = useState();
+    const [step, setStep] = useState(0)
+    const [tags, setTags] = useState()
 
-    const sendRequest = async () => {
-        console.log("sending")
-        const response = await fetch(`http://localhost:3000/places?location=${query}`, {
-            method: "GET",
-            headers: {"Content-Type": "text/plain"}
-        })
+    const incrementStep = () => {
+        setStep(step + 1)
+    }
 
-        const tags = await response.json()
-
-        Object.keys(tags).forEach(key => {
-            console.log(key + " Popularity: " + tags[key])
-        })
+    const fetchTags = (fetchedTags) => {
+        setTags(fetchedTags)
     }
 
     return (
-        <div>
-            Where are we headed to?
-            <form onSubmit={(e) => {
-                e.preventDefault()
-                sendRequest()
-            }}>
-                <input type="text" onChange={(e) => setQuery(e.target.value)} />
-            </form>
-        </div>
+        <>
+            <div>Step {step}</div>
+            {step == 0 && <DestinationInput incrementStep={incrementStep} sendTags={fetchTags}/>}
+            {step == 1 && <TagSelection incrementStep={incrementStep} tags={tags}/>}
+        </>
     )
 }
 
