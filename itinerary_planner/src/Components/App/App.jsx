@@ -285,12 +285,6 @@ function App() {
         </div>
 
       </div>
-
-      <button id="current-location-button" onClick={handleGoToLocation}>Go to my location</button>
-      <button onClick={() => {
-        console.log(query);
-        handleSearch()
-      }}>SEARCH</button>
     </>
   )
 }
