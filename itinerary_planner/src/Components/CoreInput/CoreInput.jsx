@@ -6,6 +6,7 @@ import TagSelection from "./TagSelection/TagSelection.jsx";
 function CoreInput() {
     const [step, setStep] = useState(0)
     const [tags, setTags] = useState()
+    const [selectedTags, setSelectedTags] = useState()
 
     const incrementStep = () => {
         setStep(step + 1)
@@ -15,11 +16,15 @@ function CoreInput() {
         setTags(fetchedTags)
     }
 
+    const getSelectedTags = (selectedTags) => {
+        setSelectedTags()
+    }
+
     return (
         <>
             <div>Step {step}</div>
             {step == 0 && <DestinationInput incrementStep={incrementStep} sendTags={fetchTags}/>}
-            {step == 1 && <TagSelection incrementStep={incrementStep} tags={tags}/>}
+            {step == 1 && <TagSelection incrementStep={incrementStep} tags={tags} sendSelectedTags={getSelectedTags}/>}
         </>
     )
 }

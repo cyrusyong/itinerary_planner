@@ -18,24 +18,32 @@ const getTags = async (req, res) => {
 
     const results = response.data.results
     results.forEach(result => {
+        const placeId = result.fsq_place_id
+        const categories = []
         result.categories.forEach(category => {
-            allCategories.push(category)
+            categories.push(category)
+        })
+
+        allCategories.push({ "placeId": placeId, "tags": categories })
+    })
+
+    allCategories.forEach(place => {
+        place.tags.forEach(entry => {
+            const tag = tagMap[entry.fsq_category_id].tag
+
+            if (categoryCount[tag]) {
+                categoryCount[tag]["popularity"] += 1
+                if (!categoryCount[tag]["places"].includes(place.placeId)) {
+                    categoryCount[tag]["places"].push(place.placeId)
+                }
+            } else {
+                categoryCount[tag] = { "popularity": 1, "places": [place.placeId], "tagSelected": false }
+            }
         })
     })
-    
-    allCategories.forEach(category => {
-        const tag = tagMap[category.fsq_category_id].tag
+    const sortedTags = Object.entries(categoryCount).sort(([, a], [, b]) => b.popularity - a.popularity);
 
-        console.log(tagMap[category.fsq_category_id].label + " mapping to " + tag)
-
-        if (categoryCount[tag]) {
-            categoryCount[tag] += 1
-        } else {
-            categoryCount[tag] = 1
-        }
-    })
-
-    const sortedTags = Object.fromEntries(Object.entries(categoryCount).sort(([, a], [, b]) => b - a))
+    console.log(sortedTags)
 
     res.send(sortedTags)
 }
