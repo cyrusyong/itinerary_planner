@@ -21,7 +21,7 @@ function Home() {
             />
 
             <RotatingText
-              texts={["NC", "NYC", "Japan"]}
+              texts={["Edinburgh", "New York", "Florence", "Shanghai", "London", "Venice", "Japan"]}
               rotationInterval={3500}
               staggerFrom={"first"}
               className={styles.rotatingText}
@@ -54,17 +54,34 @@ function Home() {
             pauseOnHover={false}
             width={"35vw"}
             height={"65vh"}
+            skewAmount={3}
           >
             <Card>
-              <img src="/shrine.jpg" alt="shrine" className={styles.cardImage} />
+              <img src="/japan.jpg" alt="japan" className={styles.cardImage} />
             </Card>
 
             <Card>
-              <img src="/NC.jpg" className={styles.cardImage} />
+              <img src="/edinburgh.jpg" className={styles.cardImage} />
             </Card>
 
             <Card>
-              <img src="/timesquare.jpg" alt="times Square" className={styles.cardImage} />
+              <img src="/newyork.jpg" alt="newyork" className={styles.cardImage} />
+            </Card>
+
+            <Card>
+              <img src="/florence.jpg" className={styles.cardImage} />
+            </Card>
+
+            <Card>
+              <img src="/shanghai.jpg" className={styles.cardImage} />
+            </Card>
+
+            <Card>
+              <img src="/london.jpg" className={styles.cardImage} />
+            </Card>
+
+            <Card>
+              <img src="/venice.jpg" className={styles.cardImage} />
             </Card>
 
           </CardSwap>

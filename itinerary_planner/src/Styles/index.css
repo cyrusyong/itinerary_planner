@@ -5,7 +5,7 @@
 */
 
 * {
-  font-family: "Oswald", 'Fredoka', sans-serif;
+  font-family: "Helvetica", sans-serif;
   box-sizing: border-box;
 }
 
@@ -21,7 +21,7 @@ html {
 }
 
 body {
-  background-color: #000;
+  background-color: #212529;
   background-size: cover;
   background-position: center top;
   height: 100%;
@@ -40,7 +40,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
-  background-color: #FCA311;
+  background-color: #e9ecef;
   position: static;
   width: 100%;
   inset-inline: 0;
@@ -69,9 +69,9 @@ button {
 }
 
 .footer {
-  background-color: #FCA311;
+  background-color: #e9ecef;
   position: fixed;
-  color: #fff;
+  color: #000;
   width: 100%;
   padding: 1rem 0;
   font-size: 0.7rem;
@@ -79,15 +79,14 @@ button {
   bottom: 0;
 }
 
-
 .container h1 {
   font-size: 2.5rem;
-  color: #3A5A40;
+  color: #212529;
 }
 
 /* Buttons */
 .container button {
-  background-color: #588157;
+  background-color: #fff;
   color: #fff;
   border: none;
   padding: 0.75rem 1.5rem;

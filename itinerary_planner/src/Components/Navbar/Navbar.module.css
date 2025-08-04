@@ -25,7 +25,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
-  background-color: #FCA311;
+  background-color: #e9ecef;
   position: static;
   width: 100%;
   inset-inline: 0;
@@ -36,4 +36,5 @@
   color: #B0C4B1;
   font-weight: bold;
   font-size: 1.2rem;
+  max-height: 50px;
 }
