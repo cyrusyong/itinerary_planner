@@ -6,7 +6,7 @@ function NavBar() {
   return (
     <nav className={styles.navbar}>
       <Link to={"/"} viewTransition>
-        <img src="/baby.svg" alt="Logo" className={styles.logo} />
+        <img src="/shepherd_logo.png" alt="Logo" className={styles.logo} />
       </Link>
       <div className={styles.buttonContainer}>
         <Link to={"/login"} viewTransition>

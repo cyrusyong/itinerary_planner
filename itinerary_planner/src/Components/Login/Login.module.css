@@ -46,12 +46,12 @@
 .spotlightCard {
     width: 100%;
     padding: 0.5rem;
-    background-color: #fca311;
+    background-color: #b5c99a;
 }
 
 .signinText {
     font-weight: 800;
-    font-size: 4rem;
+    font-size: 3.5rem;
     margin: 0;
 }
 
@@ -65,7 +65,7 @@
 }
 
 .highlight {
-    color: #fca311;
+    color: #b5c99a;
 }
 
 .loginText {
