@@ -1,8 +1,7 @@
 import { useEffect, useState } from "react";
 
-const TagSelection = ({ tags }) => {
+const TagSelection = ({ tags, sendSelectedTags }) => {
   const [tagArray, setTagArray] = useState([])
-  const [selectedTags, setSelectedTags] = useState([])
 
   useEffect(() => {
     if (tags) {
@@ -23,6 +22,20 @@ const TagSelection = ({ tags }) => {
       tagData.tagSelected = true
     }
     setTagArray(updatedTagArray)
+  }
+
+  function handleNextClick() {
+    const selectedTags = []
+    console.log("hello")
+    tagArray.forEach((tag) => {
+      const [tagName, tagData] = tag
+
+      if (tagData.tagSelected) {
+        selectedTags.push({ tagName: tagName, data: tagData })
+      }
+    })
+
+    console.log(selectedTags)
   }
 
   return (
@@ -51,7 +64,9 @@ const TagSelection = ({ tags }) => {
       </div>
 
 
-      <button>Next</button>
+      <button onClick={() => {
+        handleNextClick()
+      }}>Next</button>
     </>
   );
 };
