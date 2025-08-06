@@ -6,7 +6,7 @@ import Home from './components/home/Home.jsx'
 import Login from './components/login/Login.jsx'
 import Register from './components/register/Register.jsx'
 import App from './components/app/App.jsx'
-import Layout from './Layout.jsx'
+import Layout from './layout.jsx'
 
 const router = createBrowserRouter([
   {
