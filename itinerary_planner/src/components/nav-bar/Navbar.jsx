@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import SpotlightCard from '../SpotlightCard/SpotlightCard'
+import SpotlightCard from '../spotlight-card/SpotlightCard.jsx'
 import styles from "./Navbar.module.css"
 
 function NavBar() {

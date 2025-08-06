@@ -1,5 +1,21 @@
-React application designed to help you optimize travel routes for daily life or vacation.
+**Shepherd**: A Full-Stack Travel Optimization Web App
 
-Radar Labs instead of Google Maps
+A full-stack React application designed to help users efficiently plan and optimize travel routes for everyday commutes or vacation itineraries.
+<br><br>
+<br><br>
+**Features**:
 
-Authors: Cyrus Yong and Richard Xu
+• Secure user authentication with Firebase
+
+• Interactive map integration using the Google Maps API
+
+• Route optimization calculated using the Held-Karp algorithm
+
+• Project managed using a mock Agile workflow with Jira and GitHub
+<br><br>
+<br><br>
+**Developed by**:
+
+Cyrus Yong
+
+Richard Xu
