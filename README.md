@@ -17,4 +17,5 @@ A full-stack React application designed to help users efficiently plan and optim
 **Developed by**:
 
 Cyrus Yong
+
 Richard Xu
