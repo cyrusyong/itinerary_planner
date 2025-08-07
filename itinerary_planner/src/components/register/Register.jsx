@@ -1,9 +1,13 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import styles from "./Register.module.css";
+import { doCreateUserWithEmailAndPassword } from "../../firebase/auth";
+import { useAuth } from "../../contexts/authContexts";
 import SpotlightCard from "../spotlight-card/SpotlightCard";
 
 function Register() {
+  const { userLoggedIn } = useAuth(); //?
+
   const navigate = useNavigate();
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
@@ -14,43 +18,34 @@ function Register() {
   const [passwordFocus, setPasswordFocus] = useState(false)
   const [confirmPasswordFocus, setConfirmPasswordFocus] = useState(false)
 
-  const handleRegistration = async () => {
-    if (!email || !password) {
-      return;
-    } else if (!email.includes('@')) {
-      setMessage('Invalid email');
-      return;
-    } else if (password !== confirm) {
-      setMessage('Passwords do not match');
-      return;
-    } // could add special char / number reqs to password
+  useEffect(() => {
+    document.title = "Register";
+  })
 
-    try {
-      const response = await fetch('http://localhost:3000/api/register', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ email, password }),
-      });
-
-      const data = await response.json();
-      if (data.success) {
-        setMessage('Registration successful!');
-        setTimeout(() => {
-          navigate('/login');
-        }, 1500);
-      } else {
-        setMessage(data.message || "Bug");
-      }
-    } catch (error) {
-      console.error('Registration error:', error);
-      setMessage('Server error');
+  useEffect(() => {
+    if (userLoggedIn) {
+      navigate("/app");
     }
-  };
+  }, [userLoggedIn, navigate]);
+
+  const onSubmit = async (e) => {
+    e.preventDefault();
+    if (!email || !password || !confirm) {
+      return;
+    } else if (password != confirm) {
+      setMessage("Passwords do not match");
+    } else {
+      try {
+        await doCreateUserWithEmailAndPassword(email, password)
+      } catch (error) {
+        console.log(error);
+        setMessage(error.message);
+      }
+    }
+  }
 
   return (
     <>
-      <title>Register</title>
-
       <div className={styles.container}>
         <div className={styles.textContainer}>
           <h1 className={styles.mainText}>Begin Your Guided Journey</h1>
@@ -60,10 +55,7 @@ function Register() {
         <div className={styles.auth}>
           <form
             className={styles.form}
-            onSubmit={(e) => {
-              e.preventDefault();
-              handleLogin;
-            }}
+            onSubmit={onSubmit}
           >
             <label className={emailFocus ? [styles.inputContainer, styles.highlight].join(" ") : styles.inputContainer}>
               Email
@@ -107,7 +99,7 @@ function Register() {
               />
             </label>
 
-            <button onClick={handleRegistration} className={styles.registerButton}>
+            <button type="submit" className={styles.registerButton}>
               <SpotlightCard spotlightColor="rgb(229, 229, 229)" className={styles.spotlightCard}>
                 <h3 className={styles.registerText}>Register</h3>
               </SpotlightCard>
