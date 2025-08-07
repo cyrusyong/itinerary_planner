@@ -1,4 +1,4 @@
-import '../../Styles/index.css'
+import '../../styles/index.css'
 
 function Footer() {
   return (
