@@ -62,7 +62,6 @@ function Register() {
             className={styles.form}
             onSubmit={(e) => {
               e.preventDefault();
-              handleLogin;
             }}
           >
             <label className={emailFocus ? [styles.inputContainer, styles.highlight].join(" ") : styles.inputContainer}>
