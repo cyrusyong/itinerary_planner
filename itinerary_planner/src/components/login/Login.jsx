@@ -1,9 +1,13 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import styles from "./Login.module.css";
+import { doSignInWithEmailAndPassword } from "../../firebase/auth.js";
+import { useAuth } from "../../contexts/authContexts"
 import SpotlightCard from "../spotlight-card/SpotlightCard.jsx";
 
 function Login() {
+  const { userLoggedIn } = useAuth();
+
   const navigate = useNavigate();
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -12,37 +16,39 @@ function Login() {
   const [loginFocus, setLoginFocus] = useState(false);
   const [passwordFocus, setPasswordFocus] = useState(false);
 
-  const handleLogin = async () => {
+  useEffect(() => {
+    document.title = "Login";
+  }, []);
+  
+  useEffect(() => {
+    if (userLoggedIn) {
+      navigate("/app");
+    }
+  }, [userLoggedIn, navigate]);
+
+  const onSubmit = async (e) => {
+    e.preventDefault();
     if (!email || !password) {
       return;
     }
     try {
-      const response = await fetch("http://localhost:3000/api/login", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ email, password }),
-      });
-
-      const data = await response.json();
-      console.log("Response data:", data); // to be removed
-      if (data.success) {
-        setMessage("Login successful!");
-        setTimeout(() => {
-          navigate("/app");
-        }, 1500);
-      } else {
-        setMessage(data.message || "Login error"); // to be fixed
-      }
+      await doSignInWithEmailAndPassword(email, password);
     } catch (error) {
-      console.error("Login error:", error);
-      setMessage("Server error");
+      switch (error.code) {
+        case "auth/invalid-email":
+          setMessage("Invalid email!");
+          break;
+        case "auth/invalid-credential":
+          setMessage("Incorrect username or password!")
+          break;
+        default:
+          setMessage(error.message);
+      }
     }
-  };
+  }
 
   return (
     <>
-      <title>Login</title>
-
       <div className={styles.container}>
         <div className={styles.textContainer}>
           <h1 className={styles.signinText}>Your Journey,</h1>
@@ -52,10 +58,7 @@ function Login() {
         <div className={styles.auth}>
           <form
             className={styles.form}
-            onSubmit={(e) => {
-              e.preventDefault();
-              handleLogin;
-            }}
+            onSubmit={onSubmit}
           >
             <label className={loginFocus ? [styles.inputContainer, styles.highlight].join(" ") : styles.inputContainer}>
               Email
@@ -87,9 +90,20 @@ function Login() {
                   setPasswordFocus(false)
                 }}
               />
+              {message &&
+                <p style={{
+                  position: "absolute",
+                  marginTop: "70px",
+                  color: "#ff0000",
+                  fontSize: "0.9rem"
+                }}
+                >
+                  {message}
+                </p>
+              }
             </label>
 
-            <button className={styles.loginButton} onClick={handleLogin}>
+            <button type="submit" className={styles.loginButton}>
               <SpotlightCard
                 spotlightColor="rgb(229, 229, 229)"
                 className={styles.spotlightCard}
@@ -99,7 +113,6 @@ function Login() {
             </button>
           </form>
         </div>
-        {message && <p>{message}</p>}
       </div>
     </>
   );

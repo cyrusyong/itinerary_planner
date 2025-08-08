@@ -5,7 +5,7 @@ A full-stack React application designed to help users efficiently plan and optim
 <br><br>
 **Features**:
 
-• Secure user authentication with Firebase
+• Secure and personalized user experience with Firebase Authentication and DB
 
 • Interactive map integration using the Google Maps API
 

@@ -4,8 +4,12 @@ import SplitText from "../split-text/SplitText.jsx"
 import styles from './Home.module.css'
 import CardSwap, { Card } from "../card-swap/CardSwap.jsx"
 import RotatingText from "../rotating-text/RotatingText.jsx"
+import { useEffect } from 'react'
 
 function Home() {
+  useEffect(() => {
+    document.title = "Shepherd";
+  }, []);
 
   return (
     <>
