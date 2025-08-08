@@ -40,8 +40,8 @@ function Register() {
     } else {
       try {
         // create new user using Firebase authentication
-        const registered = await doCreateUserWithEmailAndPassword(email, password)
-        const user = registered.user;
+        const userCredential = await doCreateUserWithEmailAndPassword(email, password)
+        const user = userCredential.user;
         // add blank user doc to Firestore database
         await setDoc(doc(db, "users", user.uid), {
           email: email,
