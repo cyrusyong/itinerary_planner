@@ -32,25 +32,6 @@ body {
   color: #fff;
 }
 
-/* Navbar */
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1rem 2rem;
-  background-color: #e9ecef;
-  position: static;
-  width: 100%;
-  inset-inline: 0;
-  top: 0;
-}
-
-.navbar .logo {
-  color: #B0C4B1;
-  font-weight: bold;
-  font-size: 1.2rem;
-}
-
 button {
   background-color: #B0C4B1;
   color: #fff;
@@ -60,10 +41,6 @@ button {
   border-radius: 5px;
   cursor: pointer;
   transition: 0.3s;
-}
-
-.navbar button:hover {
-  background-color: #DEDBD2;
 }
 
 .footer {
@@ -82,7 +59,6 @@ button {
   color: #212529;
 }
 
-/* Buttons */
 .container button {
   background-color: #fff;
   color: #fff;

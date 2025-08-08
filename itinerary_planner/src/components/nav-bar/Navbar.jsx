@@ -28,7 +28,7 @@ function LoggedIn({ navigate }) {
   return (
     <div className={styles.dropdown}>
       <img
-        src="/user.png"
+        src="/menu.png"
         className={styles.icon}
         onClick={toggleDropdown}
       />
