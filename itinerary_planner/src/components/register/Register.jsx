@@ -45,7 +45,7 @@ function Register() {
         // add blank user doc to Firestore database
         await setDoc(doc(db, "users", user.uid), {
           email: email,
-          plans: null
+          plans: {}
         });
       } catch (error) {
         switch (error.code) {
