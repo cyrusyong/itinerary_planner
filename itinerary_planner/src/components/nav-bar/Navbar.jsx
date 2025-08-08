@@ -17,7 +17,11 @@ function NavBar() {
       { userLoggedIn
         ?
         <div className={styles.buttonContainer}>
-          <button onClick={() => { doSignOut().then(() => { navigate("/") }) }}>Log Out</button>
+          <button className={styles.spotlightButton} onClick={() => { doSignOut().then(() => { navigate("/") }) }}>
+            <SpotlightCard className={styles.spotlightCard}>
+              <h4 className={styles.spotlightText}>Log Out</h4>
+            </SpotlightCard>
+          </button>
         </div>
         :
         <div className={styles.buttonContainer}>

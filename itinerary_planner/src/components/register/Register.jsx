@@ -33,13 +33,24 @@ function Register() {
     if (!email || !password || !confirm) {
       return;
     } else if (password != confirm) {
-      setMessage("Passwords do not match");
+      setMessage("Passwords do not match!");
     } else {
       try {
         await doCreateUserWithEmailAndPassword(email, password)
       } catch (error) {
-        console.log(error);
-        setMessage(error.message);
+        switch (error.code) {
+          case "auth/invalid-email":
+            setMessage("Invalid email!");
+            break;
+          case "auth/weak-password":
+            setMessage("Password should be at least 6 characters!")
+            break;
+          case "auth/email-already-in-use":
+            setMessage("Email already in use!")
+            break;
+          default:
+            setMessage(error.message);
+        }
       }
     }
   }
@@ -97,6 +108,17 @@ function Register() {
                 onFocus={() => setConfirmPasswordFocus(true)}
                 onBlur={() => setConfirmPasswordFocus(false)}
               />
+              {message &&
+                <p style={{
+                  position: "absolute",
+                  marginTop: "70px",
+                  color: "#ff0000",
+                  fontSize: "0.9rem"
+                }}
+                >
+                  {message}
+                </p>
+              }
             </label>
 
             <button type="submit" className={styles.registerButton}>
@@ -107,7 +129,6 @@ function Register() {
           </form>
 
         </div>
-        {message && <p>{message}</p>}
       </div>
 
     </>
