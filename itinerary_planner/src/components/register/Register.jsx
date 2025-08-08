@@ -2,11 +2,13 @@ import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import styles from "./Register.module.css";
 import { doCreateUserWithEmailAndPassword } from "../../firebase/auth";
+import { doc, setDoc } from "firebase/firestore";
+import { db } from "../../firebase/firebase";
 import { useAuth } from "../../contexts/authContexts";
 import SpotlightCard from "../spotlight-card/SpotlightCard";
 
 function Register() {
-  const { userLoggedIn } = useAuth(); //?
+  const { userLoggedIn } = useAuth();
 
   const navigate = useNavigate();
   const [email, setEmail] = useState('');
@@ -28,6 +30,7 @@ function Register() {
     }
   }, [userLoggedIn, navigate]);
 
+  // handle registration
   const onSubmit = async (e) => {
     e.preventDefault();
     if (!email || !password || !confirm) {
@@ -36,7 +39,14 @@ function Register() {
       setMessage("Passwords do not match!");
     } else {
       try {
-        await doCreateUserWithEmailAndPassword(email, password)
+        // create new user using Firebase authentication
+        const registered = await doCreateUserWithEmailAndPassword(email, password)
+        const user = registered.user;
+        // add blank user doc to Firestore database
+        await setDoc(doc(db, "users", user.uid), {
+          email: email,
+          plans: {}
+        });
       } catch (error) {
         switch (error.code) {
           case "auth/invalid-email":
