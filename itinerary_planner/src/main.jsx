@@ -8,6 +8,7 @@ import Register from './components/register/Register.jsx'
 import App from './components/app/App.jsx'
 import Layout from './layout.jsx'
 import { AuthProvider } from './contexts/authContexts/index.jsx'
+import Plans from './components/plans/Plans.jsx'
 
 const router = createBrowserRouter([
   {
@@ -17,7 +18,8 @@ const router = createBrowserRouter([
       { index: true, element: <Home /> },
       { path: 'login', element: <Login /> },
       { path: 'register', element: <Register /> },
-      { path: 'app', element: <App /> }
+      { path: 'app', element: <App /> },
+      { path: 'plans', element: <Plans /> }
     ]
   }
 ])

@@ -36,7 +36,7 @@ function LoggedIn({ navigate }) {
       { isOpen && (
         <div className={styles.content} onMouseLeave={ closeDropdown }>
           <Link to="/app" onClick={closeDropdown}>App</Link>
-          <Link to="/login" onClick={closeDropdown}>Plans</Link>
+          <Link to="/plans" onClick={closeDropdown}>Plans</Link>
           <Link
             to="/register"
             onClick={(e) => {
