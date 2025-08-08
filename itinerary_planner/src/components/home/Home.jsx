@@ -6,7 +6,6 @@ import CardSwap, { Card } from "../card-swap/CardSwap.jsx"
 import RotatingText from "../rotating-text/RotatingText.jsx"
 
 function Home() {
-
   return (
     <>
       <div className={styles.container}>
