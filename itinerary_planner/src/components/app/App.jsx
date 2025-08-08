@@ -3,6 +3,7 @@ import { useRef, useEffect, useState, useCallback } from 'react'
 import PlaceCard from '../place-card/Placecard.jsx'
 import styles from './App.module.css'
 import classNames from "classnames";
+import CoreInput from "../CoreInput/CoreInput.jsx";
 
 function App() {
   const mapRef = useRef(null);
@@ -47,20 +48,6 @@ function App() {
   useEffect(() => {
     placesRef.current = places
   }, [places])
-
-  const handleGoToLocation = () => {
-    if (navigator.geolocation) {
-      navigator.geolocation.getCurrentPosition((position) => {
-        const pos = {
-          lat: position.coords.latitude,
-          lng: position.coords.longitude,
-        };
-
-        mapRef.current.setCenter(pos)
-        mapRef.current.setZoom(16)
-      })
-    }
-  }
 
   const handleSearch = async () => {
     const { Place, PlaceDetailsCompactElement } = await google.maps.importLibrary("places");
