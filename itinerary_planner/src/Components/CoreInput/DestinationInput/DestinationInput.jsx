@@ -14,6 +14,8 @@ function DestinationInput({ incrementStep, sendTags }) {
         sendTags(tags)
     }
 
+    
+
     return (
         <div>
             Where are we headed to?
