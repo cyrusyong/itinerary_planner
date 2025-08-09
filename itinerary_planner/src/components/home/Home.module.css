@@ -44,7 +44,7 @@
     height: 50%;
     background-color: #e5e5e5;
     position: relative;
-    bottom: 10rem;
+    bottom: 5rem;
     top: 0rem;
     right: 5rem;
 }
@@ -66,8 +66,8 @@
 }
 
 .spotlightCard {
-    background-color: #adc178;
-    border-color: #adc178;
+    background-color: #b5c99a;
+    border-color: white;
     padding: 1rem;
 }
 
