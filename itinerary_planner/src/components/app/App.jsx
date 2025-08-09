@@ -16,6 +16,7 @@ function App() {
   const listRef = useRef({});
   const placesRef = useRef({});
   const autocompRef = useRef();
+  const boundsRef = useRef();
 
   useEffect(() => {
     document.title = "App";
@@ -28,8 +29,9 @@ function App() {
     });
 
     loader.load().then(async () => {
-      const { ColorScheme } = await google.maps.importLibrary("core");
+      const { ColorScheme, LatLngBounds } = await google.maps.importLibrary("core");
       const { Map } = await google.maps.importLibrary("maps");
+      const bounds = new LatLngBounds();
 
       const map = new Map(mapElement.current, {
         center: { lat: 35.6764, lng: 139.65 },
@@ -43,6 +45,7 @@ function App() {
       });
 
       mapRef.current = map;
+      boundsRef.current = bounds;
     });
 
     async function setupAutocomplete() {
@@ -301,8 +304,6 @@ function App() {
     const { Place } = await google.maps.importLibrary("places");
     const { AdvancedMarkerElement, PinElement } =
       await google.maps.importLibrary("marker");
-    const { LatLngBounds } = await google.maps.importLibrary("core");
-    const bounds = new LatLngBounds();
 
     const selectedPlace = new Place({
       id: placeId,
@@ -325,10 +326,9 @@ function App() {
     });
 
     markerRef.current[placeId] = marker;
-    bounds.extend(selectedPlace.location);
+    boundsRef.current.extend(selectedPlace.location);
 
-    mapRef.current.fitBounds(bounds);
-    mapRef.current.setZoom(12);
+    mapRef.current.fitBounds(boundsRef.current);
   };
 
   return (
