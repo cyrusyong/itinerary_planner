@@ -15,6 +15,10 @@ function App() {
   const placesRef = useRef({})
 
   useEffect(() => {
+    document.title = "App";
+  }, []);
+
+  useEffect(() => {
     const loader = new Loader({
       apiKey: import.meta.env.VITE_GOOGLE_MAPS_API,
       version: "weekly"
@@ -262,7 +266,7 @@ function App() {
             </div>}
 
             <div className={conditionalHeight}>
-              {(Object.keys(places).length === 0 && Object.keys(list).length === 0) && <h2>Where are we headed off to?</h2>}
+              {(Object.keys(places).length === 0 && Object.keys(list).length === 0) && <h2 style={{color: "#000"}}>Where are we headed off to?</h2>}
               {(Object.keys(list).length !== 0 && Object.keys(places).length === 0) && <h2>Where else?</h2>}
               <form className={styles.searchForm} action="" onSubmit={(e) => {
                 e.preventDefault()

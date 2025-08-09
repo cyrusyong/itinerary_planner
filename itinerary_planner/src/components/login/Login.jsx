@@ -34,8 +34,16 @@ function Login() {
     try {
       await doSignInWithEmailAndPassword(email, password);
     } catch (error) {
-      console.log(error);
-      setMessage(error.message);
+      switch (error.code) {
+        case "auth/invalid-email":
+          setMessage("Invalid email!");
+          break;
+        case "auth/invalid-credential":
+          setMessage("Incorrect username or password!")
+          break;
+        default:
+          setMessage(error.message);
+      }
     }
   }
 
@@ -82,6 +90,17 @@ function Login() {
                   setPasswordFocus(false)
                 }}
               />
+              {message &&
+                <p style={{
+                  position: "absolute",
+                  marginTop: "70px",
+                  color: "#ff0000",
+                  fontSize: "0.9rem"
+                }}
+                >
+                  {message}
+                </p>
+              }
             </label>
 
             <button type="submit" className={styles.loginButton}>
@@ -94,7 +113,6 @@ function Login() {
             </button>
           </form>
         </div>
-        {message && <p>{message}</p>}
       </div>
     </>
   );

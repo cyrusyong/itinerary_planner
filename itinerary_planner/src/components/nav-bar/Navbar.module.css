@@ -38,3 +38,47 @@
   font-size: 1.2rem;
   max-height: 50px;
 }
+
+.navbar .dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.navbar .dropdown .icon {
+  max-height: 25px;
+  width: auto;
+}
+
+.navbar .dropdown .content {
+  position: absolute;
+  right: 0;
+  background-color: rgba(255, 255, 255, 0.7);
+  min-width: 100px;
+  z-index: 1;
+  flex-direction: column;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.navbar .dropdown .content a {
+  color: #3A5A40;
+  display: block;
+  padding: 0.75rem;
+  text-decoration: none;
+}
+
+button {
+  background-color: #B0C4B1;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  margin-left: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.navbar button:hover {
+  background-color: #DEDBD2;
+}
