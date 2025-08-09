@@ -28,6 +28,7 @@ function App() {
       version: "weekly",
     });
 
+    // Initializes new Map and Bounds Object
     loader.load().then(async () => {
       const { ColorScheme, LatLngBounds } = await google.maps.importLibrary("core");
       const { Map } = await google.maps.importLibrary("maps");
@@ -48,6 +49,7 @@ function App() {
       boundsRef.current = bounds;
     });
 
+    // Initializes Autocomplete Suggestions
     async function setupAutocomplete() {
       const { AutocompleteSuggestion } = await google.maps.importLibrary(
         "places"
@@ -91,7 +93,7 @@ function App() {
   }, [query]);
 
   const handleSearch = async () => {
-    const { Place, PlaceDetailsCompactElement } =
+    const { Place } =
       await google.maps.importLibrary("places");
     const { AdvancedMarkerElement, PinElement } =
       await google.maps.importLibrary("marker");
@@ -174,7 +176,7 @@ function App() {
 
   const handleAdd = async (placeId) => {
     const prevPlace = placesRef.current[placeId];
-    const { PinElement } = await google.maps.importLibrary("marker");
+    const { AdvancedMarkerElement, PinElement } = await google.maps.importLibrary("marker");
     setPlaces((prev) => {
       const updatedPlaces = { ...prev };
       delete updatedPlaces[placeId];
@@ -186,6 +188,25 @@ function App() {
       updatedList[placeId] = prevPlace;
       return updatedList;
     });
+
+    console.log(prevPlace)
+    // Places Marker
+    const marker = new AdvancedMarkerElement({
+      map: mapRef.current,
+      position: prevPlace.location,
+      title: prevPlace.displayName,
+      gmpClickable: true,
+      content: new PinElement({
+        background: "#FFE5B4",
+        borderColor: "#FF9800",
+        glyphColor: "#E65100",
+      }).element,
+    });
+
+    markerRef.current[placeId] = marker;
+    boundsRef.current.extend(prevPlace.location);
+
+    mapRef.current.fitBounds(boundsRef.current);
 
     markerRef.current[placeId].content = new PinElement({
       background: "#D1F5D3",
@@ -274,8 +295,10 @@ function App() {
   };
 
   const handleAutoSearch = () => {
+    // Fetch Suggestions based on query
     async function getSuggestions() {
       if (autocompRef.current && query) {
+        const { Place } = await google.maps.importLibrary("places");
         const { suggestions } =
           await autocompRef.current.fetchAutocompleteSuggestions({
             input: query,
@@ -285,26 +308,43 @@ function App() {
             //   "administrative_area_level_1",
             // ],
           });
-        console.log("new suggestions");
-        const newSuggestedPlaces = {};
-        suggestions.forEach((suggestion) => {
-          const placePrediction = suggestion.placePrediction;
-          newSuggestedPlaces[placePrediction.placeId] =
-            placePrediction.text.text;
-          setAutoPlaces(newSuggestedPlaces);
-        });
+
+        // Organizes each suggestion into
+        const entries = await Promise.all(
+          suggestions.map(async (suggestion) => {
+            const placePrediction = suggestion.placePrediction;
+            const placeSuggestion = new Place({
+              id: placePrediction.placeId,
+            })
+
+            await placeSuggestion.fetchFields({
+              fields: ["displayName", "formattedAddress", "rating", "location"],
+            });
+
+            return [
+              placeSuggestion.id, {
+                name: placeSuggestion.displayName,
+                address: placeSuggestion.formattedAddress,
+                rating: placeSuggestion.rating,
+                id: placeSuggestion.id, 
+                location: placeSuggestion.location
+              }
+            ]
+          }))
+
+        setPlaces(Object.fromEntries(entries))
+        placesRef.current = Object.fromEntries(entries)
       }
     }
     getSuggestions();
   };
 
   const handleSuggestionClick = async (placeId) => {
-    console.log(placeId);
-
     const { Place } = await google.maps.importLibrary("places");
-    const { AdvancedMarkerElement, PinElement } =
-      await google.maps.importLibrary("marker");
 
+    const currentPlacesList = places;
+
+    // Fetches fields of selected place
     const selectedPlace = new Place({
       id: placeId,
     });
@@ -313,22 +353,6 @@ function App() {
       fields: ["displayName", "formattedAddress", "rating", "location"],
     });
 
-    const marker = new AdvancedMarkerElement({
-      map: mapRef.current,
-      position: selectedPlace.location,
-      title: selectedPlace.displayName,
-      gmpClickable: true,
-      content: new PinElement({
-        background: "#FFE5B4",
-        borderColor: "#FF9800",
-        glyphColor: "#E65100",
-      }).element,
-    });
-
-    markerRef.current[placeId] = marker;
-    boundsRef.current.extend(selectedPlace.location);
-
-    mapRef.current.fitBounds(boundsRef.current);
   };
 
   return (
@@ -389,14 +413,19 @@ function App() {
 
               {Object.keys(places).length > 0 && (
                 <div className={styles.cardList}>
-                  {Object.keys(places).map((placeId, index) => (
-                    <PlaceCard
+                  {Object.keys(places).map((placeId, index) => {
+
+                    return (<PlaceCard
                       key={index}
                       place={places[placeId]}
-                      onAdd={handleAdd}
+                      onAdd={() => {
+                        // handleSuggestionClick
+                        handleAdd(placeId)
+                      }}
                       isList={false}
-                    />
-                  ))}
+                    />)
+                  }
+                  )}
                 </div>
               )}
 
