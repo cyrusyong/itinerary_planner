@@ -8,6 +8,7 @@ import Register from './components/register/Register.jsx'
 import App from './components/app/App.jsx'
 import Layout from './layout.jsx'
 import { AuthProvider } from './contexts/authContexts/index.jsx'
+import CoreInput from './components/CoreInput/CoreInput.jsx'
 
 const router = createBrowserRouter([
   {

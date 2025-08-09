@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-const TagSelection = ({ tags, sendSelectedTags }) => {
+const TagSelection = ({ incrementStep, tags, sendSelectedTags }) => {
   const [tagArray, setTagArray] = useState([])
 
   useEffect(() => {
@@ -14,7 +14,6 @@ const TagSelection = ({ tags, sendSelectedTags }) => {
     const updatedTagArray = [...tagArray]
 
     const [, tagData] = updatedTagArray[e.target.id]
-    console.log(tagData)
 
     if (tagData.tagSelected) {
       tagData.tagSelected = false
@@ -35,7 +34,8 @@ const TagSelection = ({ tags, sendSelectedTags }) => {
       }
     })
 
-    console.log(selectedTags)
+    sendSelectedTags(selectedTags)
+    incrementStep()
   }
 
   return (
