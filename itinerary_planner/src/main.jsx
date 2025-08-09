@@ -6,6 +6,8 @@ import Home from './components/home/Home.jsx'
 import Login from './components/login/Login.jsx'
 import Register from './components/register/Register.jsx'
 import App from './components/app/App.jsx'
+import Plans from './components/plans/Plans.jsx'
+import Settings from './components/settings/Settings.jsx'
 import Layout from './layout.jsx'
 import { AuthProvider } from './contexts/authContexts/index.jsx'
 import CoreInput from './components/CoreInput/CoreInput.jsx'
@@ -19,6 +21,8 @@ const router = createBrowserRouter([
       { path: 'login', element: <Login /> },
       { path: 'register', element: <Register /> },
       { path: 'app', element: <App /> },
+      { path: 'plans', element: <Plans /> },
+      { path: 'settings', element: <Settings /> },
       { path: 'init', element: <CoreInput />}
     ]
   }
