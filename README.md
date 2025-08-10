@@ -9,7 +9,7 @@ A full-stack React application designed to help users efficiently plan and optim
 
 • Interactive map integration using the Google Maps API
 
-• Route optimization calculated using a Branch and Bound algorithm
+• Route optimization calculated using a Branch and Bound approach
 
 • Project managed using a mock Agile workflow with Jira and GitHub
 <br><br>
